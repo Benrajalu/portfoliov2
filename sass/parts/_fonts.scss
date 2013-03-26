@@ -1,0 +1,47 @@
+// Default text styles
+
+	// Paragraphs
+
+		p{
+			color:$normal-font;
+			font-size:12px;
+			font-family:Arial, Helvetica, sans-serif;
+
+			a{
+				color:$strong-font;
+				text-decoration:none;
+				@include transAll;
+				
+				&:hover{
+					text-decoration:underline;
+					color:$weak-font;
+				};
+			}
+		}
+
+		.intro{
+			padding:60px 0px 40px 0px;
+
+			p{
+				line-height:2.1em;
+				font-size:15px;
+				letter-spacing:0px;
+			}
+		}
+
+		.weak{
+			color:$normal-font;
+		}
+
+	// Caracters
+
+		.title{
+			@include sans-serif(65px, 2px);
+			font-weight:normal;
+			margin:10px 0px 30px 0px;
+			line-height:32px;
+			color:$main-color;
+			&.small{
+				@include sans-serif(50px, 1px);
+			}
+		}

@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Benoit Rajalu - <?php if(isset($title)){echo $title;}else{echo "Intégrateur web à Rennes, Nantes - CSS3 / HTML5 / jQuery / Javascript / Twig / SASS";}?></title>
+	<meta name="description" content="<?php if(isset($description)){echo $description;}else{echo "Benoit Rajalu est un Intégrateur web et developpeur front-end. Vous travaillez à Nantes ou à Rennes ? Faisons connaissance !";}?>">
+	
+	<link rel="stylesheet" href="stylesheets/normalize.css" />
+	<!--[if lt IE 8]> <link rel="stylesheet" href="stylesheets/ie8-grid-foundation-4.css" /> 	<![endif]-->
+	<link rel="stylesheet" href="stylesheets/app.css" />
+	<link href='http://fonts.googleapis.com/css?family=Simonetta|Merriweather+Sans:300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheets/styles.css" />
+	<link rel="stylesheet" href="stylesheets/responsive.css" />
+ 
+	<script src="javascripts/vendor/custom.modernizr.js"></script>
+</head>
+
+<body>
+
+	<header class="contain-to-grid">
+		<div class="row">
+			<?php include("menu.html"); ?>
+		</div>
+	</header>
+
+	<?php include("quickContact.html"); ?>
+
+	<div id="content">
+
+		<?php if(isset($content)){include($content);} ?>
+
+	</div>
+
+
+	<script src="javascripts/vendor/jquery.js"></script>
+	<script src="javascripts/foundation/foundation.js"></script>
+	<script src="javascripts/foundation/foundation.alerts.js"></script>
+	<script src="javascripts/foundation/foundation.clearing.js"></script>
+	<script src="javascripts/foundation/foundation.cookie.js"></script>
+	<script src="javascripts/foundation/foundation.dropdown.js"></script>
+	<script src="javascripts/foundation/foundation.forms.js"></script>
+	<script src="javascripts/foundation/foundation.joyride.js"></script>
+	<script src="javascripts/foundation/foundation.magellan.js"></script>
+	<script src="javascripts/foundation/foundation.orbit.js"></script>
+	<script src="javascripts/foundation/foundation.placeholder.js"></script>
+	<script src="javascripts/foundation/foundation.reveal.js"></script>
+	<script src="javascripts/foundation/foundation.section.js"></script>
+	<script src="javascripts/foundation/foundation.tooltips.js"></script>
+	<script src="javascripts/foundation/foundation.topbar.js"></script>
+	<script src="javascripts/vendor/jquery.backstretch.min.js"></script>
+	<script src="javascripts/vendor/jquery-picture-min.js"></script>
+
+	<script src="javascripts/app.js"></script>
+
+</body>
+</html>

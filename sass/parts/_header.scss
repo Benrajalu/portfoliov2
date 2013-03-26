@@ -1,0 +1,196 @@
+
+// Main menu
+	.contain-to-grid{
+		background:$main-BG;
+		position:relative;
+		margin-bottom:15px
+		;
+		.dropShadow{
+			position:absolute;
+			bottom:-7px;
+			left:0px;
+			width:100%;
+			z-index:99;
+		}
+	}
+
+	.top-bar{
+		height:100px;
+		background:transparent;
+
+		.name h1 a{
+			display:block;
+			text-indent:-999px;
+			background:url("../images/logo.png") center center no-repeat;
+			width:80px;
+			@include transAll;
+			&:hover{
+				opacity:0.8;
+			}
+		}	
+
+		ul li{
+			line-height:100px;
+			background:transparent;
+
+			a{
+				line-height:100px;
+				background:transparent;
+			}
+		}
+
+		section{
+			ul{
+				background:transparent;
+				li{
+					a span{
+						@include transAll;
+					}
+					a:not(.button){
+						line-height:100px;
+						background:transparent;
+						color:$main-color;
+						@include sans-serif;
+						text-transform:uppercase;
+						@include transAll;
+						&.hover{
+							background:#cacaca !important;
+							border:1px solid red;
+						}	
+					}
+					&.active a{
+						background:transparent;
+						color:#fff;
+						span{
+							border-bottom:1px dotted $main-color;
+							color:$main-color;
+							padding-bottom:3px;
+						}
+					}
+					&:hover a{
+						background:transparent !important;
+						span{
+							border-bottom:1px dotted $main-color;
+							padding-bottom:3px;
+						}
+					}
+				}
+			}
+			> ul > .divider{
+				height:100px;
+				background-color:transparent;
+				border:none;
+			}
+		}
+
+		.menu-icon{
+			background-color:transparent;
+		}
+
+
+		&.expanded{
+			background:transparent !important;
+			.title-area{
+				background:transparent;
+			}
+		}
+	}
+
+// Quick contact
+	#quickContact{
+		display:none;
+		width:100%;
+		padding:20px 0px;
+
+		h1{
+			color:$weak-font;
+			font-size:12px;
+			@include sans-serif;
+		}
+		h2{
+			color:$main-color;
+			@include sans-serif(14px, 0px);
+		}
+
+		label{
+			color:$weak-font;
+			@include sans-serif(9px, 1px);
+			text-transform:uppercase;
+			margin:2px 0px 5px 0px;
+		}
+
+		p{
+			margin-bottom:5px;
+			line-height:1em;
+		}
+
+		textarea{
+			height:123px;
+			resize:none;
+		}
+
+		#buttonSection{
+			
+			margin:15px 0px;
+
+			.quickButtons{
+				height:44px;
+				border:1px solid #262626;
+				border-right:none;
+				&.top{
+					border-bottom:0px;
+					margin-bottom:0px;
+				}
+
+				.icon{
+					border-right:1px solid #303030;
+					height:43px;
+					margin:0px;
+					padding:0px;
+					list-style-type:none;
+					a{
+						display:block;
+						height:39px;
+						width:100%;
+						max-width:39px;
+						margin:2px auto;
+						background:url("../images/socialIcons.png") no-repeat;
+						&#iMail{
+							background-position:0px 0px;
+							&:hover{
+								background-position:0px -39px;
+							}
+						}
+						&#iPhone{
+							background-position:-39px 0px;
+							&:hover{
+								background-position:-39px -39px;
+							}
+						}
+						&#iGplus{
+							background-position:-78px 0px;
+							&:hover{
+								background-position:-78px -39px;
+							}
+						}
+						&#iTwitter{
+							background-position:-117px 0px;
+							&:hover{
+								background-position:-117px -39px;
+							}
+						}
+						&#iFlickr{
+							background-position:-156px 0px;
+							&:hover{
+								background-position:-156px -39px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		#springContact{
+			margin-top:20px;
+		}
+	}

@@ -1,0 +1,106 @@
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (max-width: 767px) {
+  /* line 9, ../sass/responsive/_small.scss */
+  .close {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+  }
+
+  /* line 16, ../sass/responsive/_small.scss */
+  .intro {
+    padding: 10px 0px;
+  }
+}
+@media only screen and (max-width: 939px) {
+  /* line 26, ../sass/responsive/_small.scss */
+  .top-bar {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0px !important;
+    background: transparent;
+  }
+  /* line 32, ../sass/responsive/_small.scss */
+  .top-bar .name h1 a {
+    background: url("../images/logo-small.png") center center no-repeat;
+    width: 60px;
+    -webkit-transition: all 0.45s;
+    -moz-transition: all 0.45s;
+    -o-transition: all 0.45s;
+    transition: all 0.45s;
+  }
+  /* line 36, ../sass/responsive/_small.scss */
+  .top-bar .name h1 a:hover {
+    opacity: 0.8;
+  }
+  /* line 41, ../sass/responsive/_small.scss */
+  .top-bar ul li {
+    line-height: 30px;
+  }
+  /* line 44, ../sass/responsive/_small.scss */
+  .top-bar ul li a {
+    line-height: 30px;
+  }
+  /* line 48, ../sass/responsive/_small.scss */
+  .top-bar section ul {
+    border-top: 1px solid #cacaca;
+  }
+  /* line 52, ../sass/responsive/_small.scss */
+  .top-bar section ul li:hover {
+    background: url("../images/bgDark.png") top left;
+    opacity: 0.9;
+  }
+  /* line 55, ../sass/responsive/_small.scss */
+  .top-bar section ul li:hover a {
+    opacity: 0.9;
+  }
+  /* line 61, ../sass/responsive/_small.scss */
+  .top-bar section ul li a:not(.button) {
+    line-height: 30px;
+    background: url("../images/bgDark.png") top left;
+  }
+  /* line 65, ../sass/responsive/_small.scss */
+  .top-bar section ul > .divider {
+    height: 1px;
+    line-height: 1px;
+  }
+  /* line 70, ../sass/responsive/_small.scss */
+  .top-bar.expanded {
+    background: transparent !important;
+  }
+  /* line 72, ../sass/responsive/_small.scss */
+  .top-bar.expanded .title-area {
+    background: transparent;
+  }
+  /* line 76, ../sass/responsive/_small.scss */
+  .top-bar .toggle-topbar.menu-icon a {
+    color: #34abdd;
+  }
+  /* line 78, ../sass/responsive/_small.scss */
+  .top-bar .toggle-topbar.menu-icon a span {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 16px;
+    height: 0;
+    -webkit-box-shadow: 0 10px 0 1px #34abdd, 0 16px 0 1px #34abdd, 0 22px 0 1px #34abdd;
+    box-shadow: 0 10px 0 1px #34abdd, 0 16px 0 1px #34abdd, 0 22px 0 1px #34abdd;
+  }
+  /* line 89, ../sass/responsive/_small.scss */
+  .top-bar.expanded .toggle-topbar.menu-icon a {
+    color: #cacaca;
+  }
+  /* line 91, ../sass/responsive/_small.scss */
+  .top-bar.expanded .toggle-topbar.menu-icon a span {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 16px;
+    height: 0;
+    -webkit-box-shadow: 0 10px 0 1px #cacaca, 0 16px 0 1px #cacaca, 0 22px 0 1px #cacaca;
+    box-shadow: 0 10px 0 1px #cacaca, 0 16px 0 1px #cacaca, 0 22px 0 1px #cacaca;
+  }
+}
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+/* Used to alter styles for screens at least 1280px wide. */
+/* Used to alter styles for screens at least 1440px wide. */

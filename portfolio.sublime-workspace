@@ -1,0 +1,1373 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"drop",
+				"dropShadow"
+			],
+			[
+				"middle",
+				"middlelay1"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"img",
+				"images"
+			],
+			[
+				"tran",
+				"transAll"
+			],
+			[
+				"al",
+				"alt-BG"
+			],
+			[
+				"trans",
+				"transAll"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"s",
+				"submit"
+			],
+			[
+				"date",
+				"dateForm1"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"lt-i",
+				"lt-ie9"
+			],
+			[
+				"main",
+				"mainForm"
+			],
+			[
+				"back",
+				"backToTop"
+			],
+			[
+				"bo",
+				"bodyClass"
+			],
+			[
+				"paddng",
+				"padding-left"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"che",
+				"checkChoice"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"comm",
+				"commentForm"
+			],
+			[
+				"comment",
+				"comment"
+			],
+			[
+				"prev",
+				"prevNav"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"span",
+				"word-spacing"
+			],
+			[
+				"colum",
+				"columns"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"table",
+				"tablet"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"zoom",
+				"zoomCard"
+			],
+			[
+				"inpu",
+				"input-bg"
+			],
+			[
+				"contact",
+				"contactZone"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"r",
+				"repeat-x"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"se",
+				"serif"
+			],
+			[
+				"sepa",
+				"separators"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"righ",
+				"rightCol"
+			],
+			[
+				"ri",
+				"rightCol"
+			],
+			[
+				"fo",
+				"footer"
+			],
+			[
+				"sub",
+				"subMenu"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"pre",
+				"pre-wrap"
+			],
+			[
+				"cle",
+				"clearfix"
+			],
+			[
+				"top",
+				"topBar"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"block",
+				"blockBuilder"
+			],
+			[
+				"Saved",
+				"SavedWidth"
+			],
+			[
+				"save",
+				"SavedCols"
+			],
+			[
+				"Save",
+				"SavedCols"
+			],
+			[
+				"max",
+				"maxWidth"
+			],
+			[
+				"columns",
+				"columnsD"
+			],
+			[
+				"change",
+				"changeGrid"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"row",
+				"rowWidth"
+			],
+			[
+				"widt",
+				"widthCol"
+			],
+			[
+				"nbCol",
+				"nbColD"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"nivo",
+				"nivoSlider"
+			],
+			[
+				"acti",
+				"activeSlide"
+			],
+			[
+				"current",
+				"currentSlide"
+			],
+			[
+				"curre",
+				"currentSlide"
+			],
+			[
+				"true",
+				"trueActive"
+			],
+			[
+				"act",
+				"activeSlide"
+			],
+			[
+				"Active",
+				"activeSlide"
+			],
+			[
+				"currn",
+				"current-slide"
+			],
+			[
+				"curr",
+				"currentSlide"
+			],
+			[
+				"to",
+				"total-slides"
+			],
+			[
+				"ima",
+				"imageSlides"
+			],
+			[
+				"gall",
+				"gallerySlider"
+			],
+			[
+				"flex",
+				"flexslider"
+			],
+			[
+				"legend",
+				"legendForm"
+			],
+			[
+				"webkit",
+				"webkit-appearance"
+			],
+			[
+				"conte",
+				"contentBlocks"
+			],
+			[
+				"cont",
+				"contentBlock"
+			],
+			[
+				"theme",
+				"theme-color3"
+			],
+			[
+				"the",
+				"theme-color3"
+			],
+			[
+				"fyout",
+				"flyout-toggle"
+			],
+			[
+				"fly",
+				"flyout"
+			],
+			[
+				"flyout",
+				"flyout-toggle"
+			],
+			[
+				"fy",
+				"flyout-toggle"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"i",
+				"include"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"las",
+				"last-child"
+			],
+			[
+				"th",
+				"third-font"
+			],
+			[
+				"thi",
+				"third-font"
+			],
+			[
+				"sec",
+				"second-font"
+			],
+			[
+				"mai",
+				"main-background"
+			],
+			[
+				"theme-colo",
+				"theme-color1"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"moz",
+				"moz-box-shadow"
+			],
+			[
+				"web",
+				"webkit-appearance"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"vertical",
+				"vertical-align"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"mail",
+				"mail-content"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"pos",
+				"post-edit-link"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"lits",
+				"list-style-image"
+			],
+			[
+				"mo",
+				"mobile-butn"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "html/index.php",
+			"settings":
+			{
+				"buffer_size": 1735,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/template.html",
+			"settings":
+			{
+				"buffer_size": 2645,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/index.html",
+			"settings":
+			{
+				"buffer_size": 3906,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "javascripts/app.js",
+			"settings":
+			{
+				"buffer_size": 1358,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/menu.html",
+			"settings":
+			{
+				"buffer_size": 876,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/quickContact.html",
+			"settings":
+			{
+				"buffer_size": 2672,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/parts/_header.scss",
+			"settings":
+			{
+				"buffer_size": 3242,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/parts/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 674,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/responsive/_small.scss",
+			"settings":
+			{
+				"buffer_size": 1930,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/responsive/_regular.scss",
+			"settings":
+			{
+				"buffer_size": 188,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/parts/_global.scss",
+			"settings":
+			{
+				"buffer_size": 2571,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/parts/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 826,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Snippet: color: hex"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/BenoitR/Downloads/CircleFlipSlideshow/index.html",
+		"/C/Users/BenoitR/Downloads/A. Christie - Nouvelles.epub",
+		"/C/users/benoitr/appdata/local/temp/sublime-sftp-browse-1363873872/Portfolio/html/contact.html",
+		"/C/wamp/www/portfolio/sass/responsive/_large.scss",
+		"/C/wamp/www/portfolio/javascripts/foundation/foundation.magellan.js",
+		"/C/wamp/www/portfolio/sass/parts/_footer.scss",
+		"/C/wamp/www/portfolio/sass/parts/_fonts.scss",
+		"/C/wamp/www/portfolio/javascripts/foundation/foundation.topbar.js",
+		"/C/wamp/www/portfolio/sass/responsive/_regular.scss",
+		"/C/wamp/www/portfolio/sass/styles.scss",
+		"/C/wamp/www/portfolio/javascripts/app.js",
+		"/C/wamp/www/portfolio/javascripts/foundation/foundation.js",
+		"/C/wamp/www/portfolio/html/header.html",
+		"/C/wamp/www/graslin2/html/template.html",
+		"/C/wamp/www/portfolio/sass/responsive.scss",
+		"/C/wamp/www/portfolio/sass/responsive/_big.scss",
+		"/C/wamp/www/portfolio/sass/app.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/css/styles.css",
+		"/C/wamp/www/portfolio/stylesheets/ie8-grid-foundation-4.css",
+		"/C/wamp/www/benrajalu/config.rb",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/css/app.css",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/footer.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/rent.html",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/js/app.js",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/js/dateChecker.jquery.js",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/public/js/app.js",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/js/jquery.fancybox.js",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/scripts/jquery.sliderswitcher.js",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/js/bootstrap-collapse.js",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/flexslider.css",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/css/flexslider.css",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/css/queries.css",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/responsive/smallScreens/headers/_twoParts.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/headers/_twoParts.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/header.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/global.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/layout.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/about.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/public/scss/queries.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/public/scss/responsive.scss",
+		"/C/Users/BenoitR/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/Portfolio",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/index.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/public/scss/footer/_twitter.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/public/scss/_footer.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/public/scss/_navBar.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/public/scss/navBars/_regular.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/views/Default/homepage.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/views/Default/base.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/app/Resources/views/base.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Services/Menu.php",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/config/routing.yml",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Controller/DefaultController.php",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/public/scss/flexslider.css",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Tests/Controller/DefaultControllerTest.php",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/build.xml",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/composer.json",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/composer.lock",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/app/config/config.yml",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/app/config/parameters.yml",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/app/config/routing.yml",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/app/config/security.yml",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/app/logs/prod.log",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/app/logs/dev.log",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/app/cache/dev/twig/2a/e8/7b77b57cc12466be2c842534a737.php",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/.travis.yml",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/nav.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/contact.html",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/index.html",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/categoryFamilly.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/categoryFamilly.html",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/fleet.html",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/rent.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/contact.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/slider.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/views/fleet.html.twig",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/Vagrantfile",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/_navBar.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/_formElements.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/responsive/_smallScreens.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/navBars/_regular.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/static_template/js/parsley.js",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/_base.scss",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/twig_template/css/_skin.scss",
+		"/C/users/benoitr/appdata/local/temp/sublime-sftp-browse-1362568358/Portfolio/html/work.html",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/site/web/styles/custom_pt.css",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/site/web/styles/custom_en.css",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/site/web/styles/custom.css",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/styles/styles.css",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/site/src/PMM/ChegueiParis/PageBundle/Resources/views/header.fr.html.twig",
+		"/C/Users/BenoitR/Dropbox/projetSass2/sass/screen.scss",
+		"/C/Users/BenoitR/Dropbox/projetSass2/css/print.css",
+		"/C/Users/BenoitR/Dropbox/projetSass2/config.rb",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/site/web/scripts/app.js",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/visites.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/Vagrantfile",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/reservation.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/concept.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/concept.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/carnet.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/produit.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/visites.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/carnet-article.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/carnet.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/reservation.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/projet.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/layout.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/header.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/footer.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/produit.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/commentaires.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/carnet-article.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/search.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/projet.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/commentaires.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/search.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/index.html",
+		"/C/Users/BenoitR/Downloads/sign.html",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/index.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/type.html.twig",
+		"/C/wamp/www/graslin2/html/contact.html",
+		"/C/wamp/www/graslin2/js/app.js",
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/js/jquery.placeholder.min.js",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/views/header.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/views/index.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/views/layout.html.twig",
+		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/styles/custom.css",
+		"/C/Users/BenoitR/Downloads/woothemes-FlexSlider-06b12f8/jquery.flexslider.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<div class=\"overlay\"><a href=\"#\"><img src=\"images/projets/cheiGuei2.png\" alt=\"\" /></a></div>",
+			"intro",
+			"30px",
+			"large-6 small-4",
+			"</li>",
+			"<li>",
+			"hide-for-small",
+			"serif",
+			"$main-color",
+			"fff",
+			"$alt-BG",
+			"30px",
+			"../",
+			"0.45s;",
+			"src=\"javascripts",
+			"datepic",
+			"datepick",
+			"cars !",
+			"cars",
+			"datepicker",
+			"<!",
+			"css/",
+			"index",
+			"fleet.html",
+			"picanto",
+			"banner-full-01.jpg",
+			"banners_full.html",
+			"http://placehold.it/300x250",
+			"type=\"email\"",
+			"data-type=\"email\"",
+			"type=\"em",
+			"data-type=\"email\"",
+			"type=\"em",
+			"type=\"e",
+			"type=",
+			"data-error-message",
+			"form",
+			"li",
+			"addthis",
+			"option",
+			"details",
+			"{% block breadcrumbs %}\n	<div class=\"row breadcrumbs\">\n		<div class=\"inner row\">\n			<div class=\"paginate\">\n				<p><a href=\"index.html\">Home</a> > <a href=\"carnet.html\">Os cadernos da BEM</a> > <a href=\"carnet-article.html\">Article du carnet</a></p>\n			</div>\n		</div>\n	</div>\n\n{% endblock %}",
+			"visi",
+			"<span class=\"searched\">Lorem ipsum</p>",
+			"footer",
+			"img/",
+			"/media/imgs",
+			"img/",
+			"carnets",
+			"<button class=\"yellowButton\">",
+			"article-carnet",
+			"<button class=\"yellowButton\">",
+			"tight",
+			"<button class=\"yellowButton\">",
+			"<a href=\"#\"><img src=\"img/products/louvre-small.jpg\"",
+			"<button class=\"yellowButton\">",
+			"tight",
+			">\n",
+			"carnets",
+			"carnet",
+			"carnets",
+			"a hr",
+			"select",
+			"</select>",
+			"<select type=\"text\"",
+			"select",
+			"ie8",
+			"checkbox",
+			"radio",
+			"checkbox",
+			"for",
+			"label",
+			"alter",
+			"yellowB",
+			"commentF",
+			"select",
+			"class=\" \"",
+			"form",
+			"isiens",
+			"-  ",
+			"comment",
+			"tight",
+			"image",
+			"tight",
+			"<!--> Input alter message here <-->",
+			"inlineAlert",
+			"tight",
+			"'../media/img/stars.png",
+			"yellowbu",
+			"#sliderNav",
+			"sliderNav",
+			"BG",
+			"tags",
+			"top -3px !important",
+			"section",
+			"sec",
+			"section",
+			"larger",
+			"lager",
+			"<article class=\"zoomCard\">",
+			"<section class=\"cards\">",
+			"line blue",
+			"line",
+			"zommCard",
+			"-->",
+			"<!--",
+			"dn",
+			"<label",
+			"/label>",
+			"<span class=\"separatorOn\"></span> <span class=\"text\">Leia o artigo</span> <span class=\"separatorOff\"></span>",
+			"row",
+			"width:100",
+			"Leia o artigo",
+			"ff0",
+			"<h3 class=\"sub\">A paris do parisiense</h3>",
+			"text-ind",
+			"line-height",
+			"line-height: 56px",
+			"56px",
+			"higherNa",
+			"www.villagraslin.com",
+			"é",
+			"ç",
+			"é",
+			".catalogue > .box",
+			"inner",
+			"map",
+			"<section class=\"animate-in\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "html/index.php",
+					"settings":
+					{
+						"buffer_size": 1735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/template.html",
+					"settings":
+					{
+						"buffer_size": 2645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2571,
+								2571
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/index.html",
+					"settings":
+					{
+						"buffer_size": 3906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2221,
+								2221
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 556.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "javascripts/app.js",
+					"settings":
+					{
+						"buffer_size": 1358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1358,
+								1358
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 366.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "html/menu.html",
+					"settings":
+					{
+						"buffer_size": 876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								875,
+								845
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "html/quickContact.html",
+					"settings":
+					{
+						"buffer_size": 2672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2386,
+								2386
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/parts/_header.scss",
+					"settings":
+					{
+						"buffer_size": 3242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2273,
+								2279
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 406.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/parts/_fonts.scss",
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								333,
+								333
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sass/responsive/_small.scss",
+					"settings":
+					{
+						"buffer_size": 1930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "sass/responsive/_regular.scss",
+					"settings":
+					{
+						"buffer_size": 188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "sass/parts/_global.scss",
+					"settings":
+					{
+						"buffer_size": 2571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "sass/parts/_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true
+}

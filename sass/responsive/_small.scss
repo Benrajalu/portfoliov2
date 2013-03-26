@@ -1,0 +1,105 @@
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (max-width: 767px) {
+	// Global elements
+		.infinity {
+			
+		}
+	// Close box
+
+		.close{
+			position:absolute;
+			top:-5px;
+			right:10px;
+		}
+
+	// Paragraph types
+		.intro{
+			padding:10px 0px;
+		}
+
+}
+
+@media only screen and (max-width: 939px) {
+
+
+	// Main menu
+		.top-bar{
+			height:40px;
+			line-height:40px;
+			margin-bottom:0px !important;
+			background:transparent;
+
+			.name h1 a{
+				background:url("../images/logo-small.png") center center no-repeat;
+				width:60px;
+				@include transAll;
+				&:hover{
+					opacity:0.8;
+				}
+			}	
+			
+			ul li{
+				line-height:30px;
+
+				a{
+					line-height:30px;
+				}
+			}
+			section ul{
+				border-top:1px solid #cacaca;
+
+				li{
+					&:hover{
+						background:$alt-BG;
+						opacity:0.9;
+						a{
+							opacity:0.9;
+						}
+					}
+				}
+
+				li a:not(.button){
+					line-height:30px;
+					background:$alt-BG;
+				}
+				> .divider{
+					height:1px;
+					line-height:1px;
+				}
+			}
+			&.expanded{
+				background:transparent !important;
+				.title-area{
+					background:transparent;
+				}
+			}
+			.toggle-topbar.menu-icon a{ 
+				color:$main-color; 
+				span {
+					position: absolute;
+					right: 0;
+					display: block;
+					width: 16px;
+					height: 0;
+					-webkit-box-shadow: 0 10px 0 1px $main-color, 0 16px 0 1px $main-color, 0 22px 0 1px $main-color;
+					box-shadow: 0 10px 0 1px $main-color, 0 16px 0 1px $main-color, 0 22px 0 1px $main-color;
+				}
+			}
+			&.expanded{
+				.toggle-topbar.menu-icon a{ 
+					color:$weak-font; 
+					span {
+						position: absolute;
+						right: 0;
+						display: block;
+						width: 16px;
+						height: 0;
+						-webkit-box-shadow: 0 10px 0 1px $weak-font, 0 16px 0 1px $weak-font, 0 22px 0 1px $weak-font;
+						box-shadow: 0 10px 0 1px $weak-font, 0 16px 0 1px $weak-font, 0 22px 0 1px $weak-font;
+					}
+				}
+			}
+		}
+
+
+}

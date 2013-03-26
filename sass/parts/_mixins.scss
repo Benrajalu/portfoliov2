@@ -1,0 +1,36 @@
+
+// MIXINS
+
+	// Colors
+		$main-color:#34abdd;
+		$normal-font:#5C5A5B;
+		$strong-font:#34abdd;
+		$weak-font:#cacaca;
+
+	// Backgrounds
+		$main-BG: url("../images/bgClair.png") top left;
+		$alt-BG: url("../images/bgDark.png") top left;
+
+	// Transitions²
+		@mixin transAll($time: 0.45s) {
+			-webkit-transition: all $time;
+			-moz-transition: all $time;
+			-o-transition: all $time;
+			transition: all $time;
+		}
+
+	// Fonts
+
+		$cursive: 'Simonetta', cursive;
+		$sans-serif: 'Merriweather Sans', sans-serif;
+		@mixin cursive($size: 11px, $spacing: 1px){
+			font-family: 'Simonetta', cursive;
+			font-size:$size;
+			letter-spacing:$spacing;
+		}
+		@mixin sans-serif($size: 11px, $spacing: 1px, $weight: 300){
+			font-family: 'Merriweather Sans', sans-serif;
+			font-size:$size;
+			letter-spacing:$spacing;
+			font-weight:$weight;
+		}

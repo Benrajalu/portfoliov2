@@ -1,0 +1,168 @@
+// Global styles
+
+	body{
+		background: $main-BG;
+	}
+	.center{
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+// Recurrent tools
+
+	// Line tools
+		.dropShadow{
+			width:100%;
+			height:7px;
+			background:url("../images/dropShadow.png") top center no-repeat;
+		}
+		.lineT{
+			height:2px;
+			background:url("../images/lineT.png") top left repeat;
+			width:100%;
+		}
+		.lineB{
+			@extend .lineT;
+			background:url("../images/lineB.png") top left repeat;
+		}
+		.clearfix{
+			height:0px;
+			visibility:hidden;
+			clear:both;
+			float:none;
+			margin:0px;
+			border:none;
+			padding:0px;
+		}
+
+	// Block tools
+		.infinity{
+			margin:0px 0px;
+			position:relative;
+			overflow:hidden;
+			height:auto;
+			> img{
+				width:100%;
+				position:absolute;
+				top:0;
+				left:0;
+				z-index:0;
+			}
+			.screen{
+				position:absolute;
+				top:0;
+				left:0;
+				height:100%;
+				width:100%;
+				min-height:400px;
+			}
+			&.dark{
+				background:$alt-BG;
+				overflow:visible;
+			}
+
+			.dropTop{
+				background:url("../images/dropTop.png") top center repeat-x transparent;
+				height:6px;
+				border:none;
+				position:absolute;
+				top:0px;
+				left:0px;
+				width:100%;
+				margin:0px;
+			}
+			.dropBottom{
+				background:url("../images/dropbottom.png") top center repeat-x transparent;
+				height:6px;
+				border:none;
+				position:absolute;
+				bottom:0px;
+				left:0px;
+				width:100%;
+				margin:0px;
+			}
+		}
+
+		.relate{
+			position:relative;
+		}
+
+		.featured{
+			border-bottom:3px solid $main-color;
+			margin:15px 0px;
+
+			&.small{
+				margin:15px 0px 15px 0px !important;
+				padding:0px 3px !important;
+
+			}
+			.overlay{
+				position:absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				z-index:4;
+				a{
+					display:block;
+					text-align:center;
+					img{
+						width:100%;
+						max-width:157px;
+						margin:0 auto;
+					}
+				}
+			}
+			.underlay{
+				width:100%;
+				margin:0 auto;
+				img{
+					position:relative;
+					top:2px;
+				}
+			}
+			.dropShadow{
+				position:absolute;
+				bottom:-10px;
+				width:100%;
+				left:0px;
+			}
+		}
+
+	// Close box
+
+		.close{
+			position:absolute;
+			top:0;
+			right:0;
+			a{
+				display:block;
+				background:url("../images/closeIcon.png") top right no-repeat;
+				height:15px;
+				line-height:15px;
+				width:15px;
+				text-indent:-999px;
+				overflow:hidden;
+				&:hover{
+					background-position:bottom right;
+				}
+			}
+		}
+
+// Main content section 
+
+	#content{
+		padding:25px 0px;
+	}
+
+	.wrap{
+		margin-top:40px;
+		margin-bottom:40px;
+		h3{
+			@include sans-serif(15px, 0px);
+			color:$normal-font;
+		}
+		p{
+
+		}
+	}
