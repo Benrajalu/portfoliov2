@@ -19,13 +19,13 @@
 	    		var pool = $(this).attr(settings.taggs).split(" ");
 	    		
 	    		if($.inArray(tag, pool) != -1){
-					$(this).fadeIn(300);
+					$(this).fadeIn(500);
 				}
 				else if(tag === "all"){
-					$(this).fadeIn(300);	
+					$(this).fadeIn(500);	
 				}
 				else{
-					$(this).fadeOut(300);
+					$(this).fadeOut(400);
 				}
 	    	});
 	    });

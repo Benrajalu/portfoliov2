@@ -138,3 +138,8 @@
 		taggs : "data-tags",
 		items : ".project",
 	});
+
+	$("#filters").find("a").click(function(){
+		$(this).parent("dd").siblings().removeClass("active");
+		$(this).parent("dd").addClass("active");
+	})

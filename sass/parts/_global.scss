@@ -107,6 +107,7 @@
 			.project{
 				position:relative;
 				margin-bottom:20px;
+				@include transAll();
 				&.web{
 					width:100%;
 					float:right;
@@ -325,8 +326,8 @@
 			@include sans-serif(0.96em, 0px);
 			color:$normal-font;
 		}
-		p{
-
+		&.less{
+			margin-top:20px;
 		}
 	}
 
@@ -342,6 +343,13 @@
 	}
 
 // Projects
+	.killPad{
+		@include transAll();
+	}
+	#projects{
+		@include transAll();
+		overflow:hidden;
+	}
 	#switch{
 		text-align:right;
 		position:relative;
@@ -351,5 +359,28 @@
 			width:120px;
 			position:absolute;
 			right:0px;
+		}
+	}
+	.sub-nav{
+		font-size: 0.85em;
+		dd{
+			&.active a {
+				-webkit-border-radius: 1000px;
+				border-radius: 1000px;
+				font-weight: bold;
+				background: $main-color;
+				padding: 0.1875em 0.5625em;
+				cursor: pointer;
+				&:hover{
+					opacity:0.8;
+					border-bottom:none;
+				}
+			}
+			&:hover a{
+				border-bottom:1px dotted $main-color;
+			}
+		}
+		dt{
+			color:$normal-font;
 		}
 	}
