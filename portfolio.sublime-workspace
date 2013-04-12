@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"left",
+				"leftShadow"
+			],
+			[
+				"co",
+				"columns"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
 				"mar",
 				"margin"
 			],
@@ -24,16 +52,8 @@
 				"images"
 			],
 			[
-				"tran",
-				"transAll"
-			],
-			[
 				"al",
 				"alt-BG"
-			],
-			[
-				"trans",
-				"transAll"
 			],
 			[
 				"bac",
@@ -116,16 +136,8 @@
 				"font-family"
 			],
 			[
-				"co",
-				"color"
-			],
-			[
 				"no",
 				"no-repeat"
-			],
-			[
-				"re",
-				"repeat"
 			],
 			[
 				"comm",
@@ -424,10 +436,6 @@
 				"relative"
 			],
 			[
-				"over",
-				"overflow"
-			],
-			[
 				"margin",
 				"margin-bottom"
 			],
@@ -506,14 +514,6 @@
 			[
 				"paddin",
 				"padding"
-			],
-			[
-				"lits",
-				"list-style-image"
-			],
-			[
-				"mo",
-				"mobile-butn"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "html/index.php",
 			"settings":
 			{
-				"buffer_size": 1735,
+				"buffer_size": 1988,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "html/template.html",
 			"settings":
 			{
-				"buffer_size": 2645,
+				"buffer_size": 3095,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,15 @@
 			"file": "html/index.html",
 			"settings":
 			{
-				"buffer_size": 3906,
+				"buffer_size": 4692,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/parts/_global.scss",
+			"settings":
+			{
+				"buffer_size": 4565,
 				"line_ending": "Windows"
 			}
 		},
@@ -547,23 +555,15 @@
 			"file": "javascripts/app.js",
 			"settings":
 			{
-				"buffer_size": 1358,
+				"buffer_size": 2874,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "html/menu.html",
+			"file": "html/sendEmail.php",
 			"settings":
 			{
-				"buffer_size": 876,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/quickContact.html",
-			"settings":
-			{
-				"buffer_size": 2672,
+				"buffer_size": 3636,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "sass/parts/_header.scss",
 			"settings":
 			{
-				"buffer_size": 3242,
+				"buffer_size": 3309,
 				"line_ending": "Windows"
 			}
 		},
@@ -579,15 +579,7 @@
 			"file": "sass/parts/_fonts.scss",
 			"settings":
 			{
-				"buffer_size": 674,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/responsive/_small.scss",
-			"settings":
-			{
-				"buffer_size": 1930,
+				"buffer_size": 882,
 				"line_ending": "Windows"
 			}
 		},
@@ -600,18 +592,18 @@
 			}
 		},
 		{
-			"file": "sass/parts/_global.scss",
+			"file": "sass/parts/_mixins.scss",
 			"settings":
 			{
-				"buffer_size": 2571,
+				"buffer_size": 2259,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/parts/_mixins.scss",
+			"file": "sass/responsive/_small.scss",
 			"settings":
 			{
-				"buffer_size": 826,
+				"buffer_size": 6601,
 				"line_ending": "Windows"
 			}
 		}
@@ -652,6 +644,20 @@
 	},
 	"file_history":
 	[
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/Vagrantfile",
+		"/C/wamp/www/portfolio/html/menu.html",
+		"/C/wamp/www/portfolio/html/quickContact.html",
+		"/C/wamp/www/graslin2/html/contact.html",
+		"/C/wamp/www/graslin2/html/sendEmail.php",
+		"/C/wamp/www/graslin2/js/app.js",
+		"/C/Users/BenoitR/Dropbox/Archive/Buroscope/kindle/index.html",
+		"/C/Users/BenoitR/Dropbox/Archive/br-portfolio/js/init.js",
+		"/C/Users/BenoitR/Dropbox/Archive/Buroscope/kindle/js/app.js",
+		"/C/Users/BenoitR/Dropbox/Archive/Buroscope/kindle/scripts/init.js",
+		"/C/Users/BenoitR/Dropbox/Archive/Buroscope/kindle/js/reflection.js",
+		"/C/Users/BenoitR/Dropbox/Archive/Buroscope/kindle/js/sylvester.js",
+		"/C/wamp/www/graslin2/html/menu.html",
+		"/C/Users/BenoitR/Dropbox/PMM/jbcarhire/jbcarhire/src/PMM/FrontBundle/Resources/translations/messages.fr.xlf",
 		"/C/Users/BenoitR/Downloads/CircleFlipSlideshow/index.html",
 		"/C/Users/BenoitR/Downloads/A. Christie - Nouvelles.epub",
 		"/C/users/benoitr/appdata/local/temp/sublime-sftp-browse-1363873872/Portfolio/html/contact.html",
@@ -765,21 +771,7 @@
 		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/commentaires.html.twig",
 		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/carnet-article.html.twig",
 		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/search.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/projet.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/commentaires.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/search.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/index.html",
-		"/C/Users/BenoitR/Downloads/sign.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/index.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/type.html.twig",
-		"/C/wamp/www/graslin2/html/contact.html",
-		"/C/wamp/www/graslin2/js/app.js",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/js/jquery.placeholder.min.js",
-		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/views/header.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/views/index.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/views/layout.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/static_template/web/styles/custom.css",
-		"/C/Users/BenoitR/Downloads/woothemes-FlexSlider-06b12f8/jquery.flexslider.js"
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/projet.html"
 	],
 	"find":
 	{
@@ -797,6 +789,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"intro",
+			"last",
+			"end",
+			" <li class=\"divider\"></li>",
+			"title-area",
+			"graslin",
+			"show-for-small",
+			"ico",
+			"<div class=\"relate\">",
+			"300",
+			"this).children",
+			"</button>",
+			"button href",
+			"media=\"(",
+			"source",
+			"picture",
+			"420px",
+			"421px",
+			"intro",
+			"large-3 small-2",
+			"large-4 small-2 columns",
+			"Accéder au site",
+			"En savoir plus",
+			"Eccéder",
+			"dropTop",
 			"<div class=\"overlay\"><a href=\"#\"><img src=\"images/projets/cheiGuei2.png\" alt=\"\" /></a></div>",
 			"intro",
 			"30px",
@@ -899,32 +916,7 @@
 			"<article class=\"zoomCard\">",
 			"<section class=\"cards\">",
 			"line blue",
-			"line",
-			"zommCard",
-			"-->",
-			"<!--",
-			"dn",
-			"<label",
-			"/label>",
-			"<span class=\"separatorOn\"></span> <span class=\"text\">Leia o artigo</span> <span class=\"separatorOff\"></span>",
-			"row",
-			"width:100",
-			"Leia o artigo",
-			"ff0",
-			"<h3 class=\"sub\">A paris do parisiense</h3>",
-			"text-ind",
-			"line-height",
-			"line-height: 56px",
-			"56px",
-			"higherNa",
-			"www.villagraslin.com",
-			"é",
-			"ç",
-			"é",
-			".catalogue > .box",
-			"inner",
-			"map",
-			"<section class=\"animate-in\">"
+			"line"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -942,7 +934,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -950,15 +942,15 @@
 					"file": "html/index.php",
 					"settings":
 					{
-						"buffer_size": 1735,
+						"buffer_size": 1988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								295
+								983,
+								988
 							]
 						],
 						"settings":
@@ -981,15 +973,15 @@
 					"file": "html/template.html",
 					"settings":
 					{
-						"buffer_size": 2645,
+						"buffer_size": 3095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2571,
-								2571
+								3086,
+								3086
 							]
 						],
 						"settings":
@@ -1001,7 +993,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1011,15 +1003,15 @@
 					"file": "html/index.html",
 					"settings":
 					{
-						"buffer_size": 3906,
+						"buffer_size": 4692,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2221,
-								2221
+								1636,
+								1636
 							]
 						],
 						"settings":
@@ -1031,25 +1023,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 556.0,
+						"translation.y": 209.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "javascripts/app.js",
+					"file": "sass/parts/_global.scss",
 					"settings":
 					{
-						"buffer_size": 1358,
+						"buffer_size": 4565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1358,
-								1358
+								2467,
+								2467
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 502.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "javascripts/app.js",
+					"settings":
+					{
+						"buffer_size": 2874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2504,
+								2504
 							]
 						],
 						"settings":
@@ -1061,55 +1083,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 366.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "html/menu.html",
-					"settings":
-					{
-						"buffer_size": 876,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								875,
-								845
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "html/quickContact.html",
+					"file": "html/sendEmail.php",
 					"settings":
 					{
-						"buffer_size": 2672,
+						"buffer_size": 3636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2386,
-								2386
+								2382,
+								2382
 							]
 						],
 						"settings":
@@ -1117,8 +1109,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1131,15 +1124,15 @@
 					"file": "sass/parts/_header.scss",
 					"settings":
 					{
-						"buffer_size": 3242,
+						"buffer_size": 3309,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2273,
-								2279
+								1224,
+								1224
 							]
 						],
 						"settings":
@@ -1151,7 +1144,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 406.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1161,15 +1154,15 @@
 					"file": "sass/parts/_fonts.scss",
 					"settings":
 					{
-						"buffer_size": 674,
+						"buffer_size": 882,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								333,
-								333
+								794,
+								794
 							]
 						],
 						"settings":
@@ -1181,43 +1174,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 232.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "sass/responsive/_small.scss",
-					"settings":
-					{
-						"buffer_size": 1930,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								173,
-								173
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "sass/responsive/_regular.scss",
 					"settings":
 					{
@@ -1246,19 +1209,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "sass/parts/_global.scss",
+					"buffer": 9,
+					"file": "sass/parts/_mixins.scss",
 					"settings":
 					{
-						"buffer_size": 2571,
+						"buffer_size": 2259,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								582,
-								582
+								1876,
+								1876
 							]
 						],
 						"settings":
@@ -1270,25 +1233,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 190.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "sass/parts/_mixins.scss",
+					"buffer": 10,
+					"file": "sass/responsive/_small.scss",
 					"settings":
 					{
-						"buffer_size": 826,
+						"buffer_size": 6601,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								409,
-								409
+								750,
+								750
 							]
 						],
 						"settings":

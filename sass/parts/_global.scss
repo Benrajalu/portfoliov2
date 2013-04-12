@@ -14,16 +14,35 @@
 		.dropShadow{
 			width:100%;
 			height:7px;
-			background:url("../images/dropShadow.png") top center no-repeat;
+			background:transparent url("../images/dropShadow.png") top center no-repeat;
+			border:none;
+			margin:0px;
+			padding:0px;
 		}
-		.lineT{
-			height:2px;
-			background:url("../images/lineT.png") top left repeat;
-			width:100%;
+		.leftShadow{
+			@extend .dropShadow;
+			background:transparent url("../images/leftShadow.png") top right repeat-y;
+			height:100%;
+			width:7px !important;
 		}
-		.lineB{
-			@extend .lineT;
-			background:url("../images/lineB.png") top left repeat;
+		.downPoint{
+			@extend .dropShadow;
+			background:transparent url("../images/downPoint.png") top center no-repeat;
+			height:15px;
+			position:absolute;
+			bottom:0px;
+			left:0px;
+		}
+		.rightPoint{
+			background:transparent url("../images/rightPoint.png") center center no-repeat;
+			width:15px;
+			height:100%;
+			position:absolute;
+			top:0px;
+			right:-15px;
+			border:none;
+			margin:0px;
+			padding:0px;
 		}
 		.clearfix{
 			height:0px;
@@ -33,9 +52,35 @@
 			margin:0px;
 			border:none;
 			padding:0px;
+			&.margins{
+				margin:10px 0px;
+			}
+		}
+		.dropTop{
+			background:url("../images/dropTop.png") top center repeat-x transparent;
+			height:6px;
+			border:none;
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			margin:0px;
+		}
+		.dropBottom{
+			background:url("../images/dropbottom.png") top center repeat-x transparent;
+			height:6px;
+			border:none;
+			position:absolute;
+			bottom:0px;
+			left:0px;
+			width:100%;
+			margin:0px;
 		}
 
 	// Block tools
+		.show-for-very-small{
+			display:none;
+		}
 		.infinity{
 			margin:0px 0px;
 			position:relative;
@@ -48,93 +93,133 @@
 				left:0;
 				z-index:0;
 			}
-			.screen{
-				position:absolute;
-				top:0;
-				left:0;
-				height:100%;
-				width:100%;
-				min-height:400px;
-			}
 			&.dark{
 				background:$alt-BG;
 				overflow:visible;
 			}
-
-			.dropTop{
-				background:url("../images/dropTop.png") top center repeat-x transparent;
-				height:6px;
-				border:none;
-				position:absolute;
-				top:0px;
-				left:0px;
-				width:100%;
-				margin:0px;
-			}
-			.dropBottom{
-				background:url("../images/dropbottom.png") top center repeat-x transparent;
-				height:6px;
-				border:none;
-				position:absolute;
-				bottom:0px;
-				left:0px;
-				width:100%;
-				margin:0px;
-			}
+		}
+		.blueLine{
+			border-bottom:10px solid $main-color;
 		}
 
-		.relate{
-			position:relative;
-		}
+		// Projects
 
-		.featured{
-			border-bottom:3px solid $main-color;
-			margin:15px 0px;
-
-			&.small{
-				margin:15px 0px 15px 0px !important;
-				padding:0px 3px !important;
-
-			}
-			.overlay{
-				position:absolute;
-				top:0;
-				left:0;
-				width:100%;
-				height:100%;
-				z-index:4;
-				a{
-					display:block;
-					text-align:center;
+			.project{
+				position:relative;
+				margin-bottom:20px;
+				&.web{
+					width:100%;
+					float:right;
+				}
+				&.second{
+					width:80%;
+				}
+				.dynamicImages{
+					width:90%;
+					float:right;
+					margin:0px;
+					padding:0px;
 					img{
 						width:100%;
-						max-width:157px;
-						margin:0 auto;
+						display:block;
+						@include transAll();
+					}
+					background:#cacaca;
+				}
+				.links{
+					position:absolute;
+					top:0px;
+					left:0;
+					width:10%;
+					height:100%;
+					background:$main-color;
+					@include transAll();
+					&:hover{
+						left:1%;
+					}
+					h2{
+						display:none;
+					}
+					.internal, .external{
+						position:absolute;
+						width:100%;
+						height:40px;
+						left:0px;
+						display:block;
+						overflow:hidden;
+						span.text{
+							display:block;
+							text-align:center;
+							color:#fff;
+							font-size:10px;
+							text-indent:-999px;
+							overflow:hidden;
+							@include transAll();
+							padding-bottom:4px;
+						}
+						span.icon{
+							display:block;
+							width:80%;
+							min-width:18px;	
+							max-width:18px;
+							height:19px;
+							margin:0 auto;
+							background:url("../images/porjectIcons.png") no-repeat;
+						}
+						&:hover{
+							span.text{
+								text-indent:0px;
+							}
+						}
+					}
+					.internal{
+						bottom:0px;
+						span.icon{
+							background-position:bottom center;
+						}
+						span.text{
+							padding:4px 0px 0px 0px;
+						}
+					}
+					.external{
+						height:40px;
+						bottom:43px;
+						left:0px;
+					}
+					.rightPoint{
+						right:-13px;
+					}
+				}
+				.dropShadow{
+					position:absolute;
+					bottom:-7px;
+					width:100%;
+					left:0px;
+				}
+				.leftShadow{
+					position:absolute;
+					left:-7px;
+					top:0px;
+					height:100%;
+				}
+				&:hover{
+					.dynamicImages{
+						img{
+							opacity:0.8;
+						}
 					}
 				}
 			}
-			.underlay{
-				width:100%;
-				margin:0 auto;
-				img{
-					position:relative;
-					top:2px;
-				}
-			}
-			.dropShadow{
-				position:absolute;
-				bottom:-10px;
-				width:100%;
-				left:0px;
-			}
+
+		.skill{
+			margin-bottom:20px;
 		}
 
 	// Close box
-
 		.close{
 			position:absolute;
 			top:0;
-			right:0;
+			right:15px;
 			a{
 				display:block;
 				background:url("../images/closeIcon.png") top right no-repeat;
@@ -149,6 +234,84 @@
 			}
 		}
 
+	// Buttons
+		a.custom{
+			display:block;
+			background:transparent;
+			border:none;
+			box-shadow:none;
+			color:$main-color;
+			padding-left:35px;
+			position:relative;
+			white-space:nowrap;
+			@include sans-serif(0.8em, 0px);
+			text-transform:uppercase;
+			span{
+				@include transAll;
+				&.icon{
+					position:absolute;
+					width:28px;
+					height:28px;
+					overflow:hidden;
+					background:url("../images/buttonIcon.png") top right no-repeat;
+					top:-6px;
+					left:0px;
+					@include transNone;
+				}
+			}
+			&:hover{
+				background:transparent;
+				border:none;
+				box-shadow:none;
+				color:$main-color;
+				text-decoration:none;
+				span.text{
+					border-bottom:1px dotted $main-color;
+					padding:2px 0px;
+				}
+				span.icon{
+					background-position:top left;
+				}
+			}
+		}
+
+	// Sticky footer
+
+		html, body {
+			height: 100%;
+		}
+
+		#alpha {
+			min-height: 100%;
+		}
+
+		#beta {
+			overflow:auto;
+			padding-bottom: 30px;
+		}  /* must be same height as the footer */
+
+		#footer{
+			position: relative;
+			margin-top: -30px; /* negative value of footer height */
+			height: 30px;
+			clear:both;
+			p{
+				font-size:11px;
+				color:$main-color;
+				text-align:center;
+			}
+		} 
+
+		/*Opera Fix*/
+		body:before {
+			content:"";
+			height:100%;
+			float:left;
+			width:0;
+			margin-top:-32767px;
+		}
+
+	
 // Main content section 
 
 	#content{
@@ -156,13 +319,37 @@
 	}
 
 	.wrap{
-		margin-top:40px;
-		margin-bottom:40px;
+		margin-top:45px;
+		margin-bottom:45px;
 		h3{
-			@include sans-serif(15px, 0px);
+			@include sans-serif(0.96em, 0px);
 			color:$normal-font;
 		}
 		p{
 
+		}
+	}
+
+// Intro
+
+	#myChart{
+		position:absolute;
+		top:0px;
+		left:50%;
+		margin-left:-150px;
+		width:300px !important;
+		height:300px !important;
+	}
+
+// Projects
+	#switch{
+		text-align:right;
+		position:relative;
+		overflow:visible;
+		a{
+			display:block;
+			width:120px;
+			position:absolute;
+			right:0px;
 		}
 	}

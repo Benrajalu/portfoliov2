@@ -1,20 +1,313 @@
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
-@media only screen and (max-width: 767px) {
-	// Global elements
-		.infinity {
-			
+@media only screen and (max-width: 420px){
+	.show-for-very-small{
+		display:block;
+	}
+	.killPad{
+		padding:0px !important;
+		.title{
+			padding-left:15px;
 		}
-	// Close box
+	}
+	.project.copy{
+		width:85% !important;
+		float:right;
+		padding:20px 30px;
+		position:relative;
+		@include gradiant();
+		*{
+			color:#fff;
+		}
+		a:hover span.text{
+			border-bottom:1px dotted #fff;
+		}
+		.dropShadow{
+			position:absolute;
+			bottom:-7px;
+			left:0px;
+		}
+		.leftShadow{
+			position:absolute;
+			top:0px;
+			left:-7px;
+		}
+		.custom{
+			display:inline-block;
+			*display:inline;
+			zoom:1;
+			margin:20px 0px 0px 2em;
+			.icon{
+				background-image:url("../images/buttonIconW.png");
+			}
+		}
+	}
+	.project.web{
+		float:left;
+		.dynamicImages{
+			float:left;
+		}
+		.links{
+			left:80%;
+			width:20%;
+			.leftShadow{
+				display:none;
+			}
+			.rightPoint{
+				right:100%;
+				background-image:url("../images/leftPoint.png");
+			}
+		}
+	}
+	.skill{
+		width:32% !important;
+		margin:0 auto 20px auto !important;
+		&.last{
+			width:80% !important;
+			float:right !important;
+			padding:20px 30px;
+			position:relative;
+			@include gradiant();
+			*{
+				color:#fff;
+			}
+			a:hover span.text{
+				border-bottom:1px dotted #fff;
+			}
+			.dropShadow{
+				position:absolute;
+				bottom:-7px;
+				left:0px;
+			}
+			.leftShadow{
+				position:absolute;
+				top:0px;
+				left:-7px;
+			}
+		}
+		.logo, .copy{
+			width:100% !important;
+		}
+		.logo{
+			margin-bottom:20px;
+		}
+		.custom{
+			display:inline-block;
+			*display:inline;
+			zoom:1;
+			margin:20px 0px 0px 2em;
+			.icon{
+				background-image:url("../images/buttonIconW.png");
+			}
+		}
+	}
+	.columns{
+		.skill{
+			&.last{
+				margin-right: -0.9375em !important
+			}
+		}
+	}
+
+	// New intro
+
+		.welcome.row{
+			.columns{
+				width:100%;
+			}
+			.intro{
+				width:90%;
+				margin:0 auto 15px auto;
+				padding:10px 15px;
+				@include gradiantRev();
+				border-radius:0px 0px 3px 3px;
+				h2{
+					font-size:40px;
+					margin-bottom:15px;
+					text-align:center;
+					color:$main-color;
+					width:80%;
+					max-width:170px;
+					margin:0 auto 15px auto;
+					background-color:#fff;
+					padding:10px 0px;
+				}
+				p{
+					font-size:12px;
+					line-height:1.8em;
+					text-align:center;
+					color:#fff;
+				}
+			}
+		}
+}
+
+
+@media only screen and (max-width: 767px) {
+	// Menu
+		#mainMenu{
+			height:60px;
+			h1{
+				height:60px;
+				a{
+					height:50px;
+					background:url("../images/logo-small.png") center center no-repeat;
+				}
+			}	
+			section{
+				height:60px;
+				padding:0px 0px 0px 0px;
+				margin-right:20px;
+				ul{
+					li{
+						a:not(.button){
+							line-height:60px;
+							padding:3px 15px;
+							text-align:center;
+							background:$main-color;
+							color:#fff;
+						}
+						&:hover{
+							a{
+								background:transparent;
+								span{
+									color:$main-color;
+								}
+							}
+						}
+						&.active{
+							a{
+								background:none;
+							}
+						}
+					}
+				}
+			}
+		}
+
+	// Closed boxes
 
 		.close{
 			position:absolute;
-			top:-5px;
-			right:10px;
+			top:0px;
+			right:25px;
+		}
+		#archives{
+			display:none;
 		}
 
-	// Paragraph types
+	// Blocks
 		.intro{
-			padding:10px 0px;
+			padding:40px 0px 0px 0px;
+			width:80%;
+		}
+		.wrap{
+			margin-top:20px;
+		}
+
+	// New intro
+		#myChart{
+			display:none;
+		}
+
+	// Projects
+		.featured{
+			&.small{
+				margin:15px 0px 15px 0px !important;
+				padding:0px 3px !important;
+				.overlay{
+					ul{
+						li{
+							font-size:10px;
+							a{
+								font-size:10px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+	// Quick contact
+		#quickContact{
+
+			#buttonSection{
+				
+				margin:15px 0px;
+
+				.quickButtons{
+					height:88px;
+					border:1px solid #262626;
+					border-right:none;
+					&.top{
+						border-bottom:0px;
+						margin-bottom:0px;
+					}
+
+					.icon{
+						border-right:1px solid #303030;
+						height:86px;
+						margin:0px;
+						padding:0px;
+						list-style-type:none;
+						a{
+							display:block;
+							height:78px;
+							width:100%;
+							max-width:78px;
+							margin:2px auto;
+							background:url("../images/socialIcons.png") no-repeat;
+							&#iMail{
+								background:url("../images/socialIconsXL.png") no-repeat;
+								background-position:0px 0px;
+								&:hover{
+									background-position:0px -78px;
+								}
+							}
+							&#iPhone{
+								background:url("../images/socialIconsXL.png") no-repeat;
+								background-position:-78px 0px;
+								&:hover{
+									background-position:-78px -78px;
+								}
+							}
+							&#iGplus{
+								background:url("../images/socialIconsM.png") no-repeat;
+								width:55px;
+								height:55px;
+								background-position:-165px 0px;
+								margin-top:15px;
+								&:hover{
+									background-position:-165px -55px;
+								}
+							}
+							&#iTwitter{
+								background:url("../images/socialIconsM.png") no-repeat;
+								width:55px;
+								height:55px;
+								background-position:-110px 0px;
+								margin-top:15px;
+								&:hover{
+									background-position:-110px -55px;
+								}
+							}
+							&#iFlickr{
+								background:url("../images/socialIconsM.png") no-repeat;
+								width:55px;
+								height:55px;
+								background-position:-220px 0px;
+								margin-top:15px;
+								&:hover{
+									background-position:-220px -55px;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			#springContact{
+				margin-top:20px;
+			}
 		}
 
 }

@@ -6,6 +6,36 @@
 		$normal-font:#5C5A5B;
 		$strong-font:#34abdd;
 		$weak-font:#cacaca;
+		@mixin gradiant(){
+			background-image: linear-gradient(bottom, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+			background-image: -o-linear-gradient(bottom, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+			background-image: -moz-linear-gradient(bottom, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+			background-image: -webkit-linear-gradient(bottom, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+			background-image: -ms-linear-gradient(bottom, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0.14, rgb(7,105,143)),
+				color-stop(0.78, rgb(52,170,221))
+			);
+		}
+		@mixin gradiantRev(){
+			background-image: linear-gradient(top, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+			background-image: -o-linear-gradient(top, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+			background-image: -moz-linear-gradient(top, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+			background-image: -webkit-linear-gradient(top, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+			background-image: -ms-linear-gradient(top, rgb(7,105,143) 14%, rgb(52,170,221) 78%);
+
+			background-image: -webkit-gradient(
+				linear,
+				left top,
+				left bottom,
+				color-stop(0.14, rgb(7,105,143)),
+				color-stop(0.78, rgb(52,170,221))
+			);
+		}
 
 	// Backgrounds
 		$main-BG: url("../images/bgClair.png") top left;
@@ -18,13 +48,19 @@
 			-o-transition: all $time;
 			transition: all $time;
 		}
+		@mixin transNone($time: 0) {
+			-webkit-transition: all $time;
+			-moz-transition: all $time;
+			-o-transition: all $time;
+			transition: all $time;
+		}
 
 	// Fonts
 
-		$cursive: 'Simonetta', cursive;
+		$cursive: 'Romanesco', cursive;
 		$sans-serif: 'Merriweather Sans', sans-serif;
 		@mixin cursive($size: 11px, $spacing: 1px){
-			font-family: 'Simonetta', cursive;
+			font-family: 'Romanesco', cursive;
 			font-size:$size;
 			letter-spacing:$spacing;
 		}

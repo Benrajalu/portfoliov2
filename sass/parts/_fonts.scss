@@ -4,7 +4,7 @@
 
 		p{
 			color:$normal-font;
-			font-size:12px;
+			font-size:0.75em;
 			font-family:Arial, Helvetica, sans-serif;
 
 			a{
@@ -24,8 +24,14 @@
 
 			p{
 				line-height:2.1em;
-				font-size:15px;
+				font-size:0.96em;
 				letter-spacing:0px;
+			}
+			&.smaller{
+				padding:30px 0px 20px 0px;
+				p{
+					font-size:0.75em;
+				}
 			}
 		}
 
@@ -36,12 +42,31 @@
 	// Caracters
 
 		.title{
-			@include sans-serif(65px, 2px);
+			@include cursive(85px, 2px);
 			font-weight:normal;
 			margin:10px 0px 30px 0px;
 			line-height:32px;
 			color:$main-color;
 			&.small{
-				@include sans-serif(50px, 1px);
+				@include sans-serif(2.5em, 1px);
+				font-family: $cursive;
+				color: #34abdd;
+				display: inline-block;
+				padding: 5px;
+			}
+		}
+		.copy{
+			.title{
+				&.small{
+					padding:0px;
+					margin:0px 0px 10px 0px;
+				}
+			}
+		}
+
+		.skill{
+			h2{
+				@include sans-serif(0.96em, 0px);
+				color:$normal-font;
 			}
 		}

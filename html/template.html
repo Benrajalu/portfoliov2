@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="stylesheets/normalize.css" />
 	<!--[if lt IE 8]> <link rel="stylesheet" href="stylesheets/ie8-grid-foundation-4.css" /> 	<![endif]-->
 	<link rel="stylesheet" href="stylesheets/app.css" />
-	<link href='http://fonts.googleapis.com/css?family=Simonetta|Merriweather+Sans:300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Romanesco|Merriweather+Sans:300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="stylesheets/styles.css" />
 	<link rel="stylesheet" href="stylesheets/responsive.css" />
  
@@ -21,19 +21,30 @@
 
 <body>
 
-	<header class="contain-to-grid">
-		<div class="row">
-			<?php include("menu.html"); ?>
+	<div id="alpha">
+		<div id="beta">
+
+			<header class="contain-to-grid">
+				<div class="row">
+					<?php include("menu.html"); ?>
+				</div>
+			</header>
+
+			<?php include("quickContact.html"); ?>
+
+			<div id="content">
+				<?php if(isset($content)){include($content);} ?>
+			</div>
 		</div>
-	</header>
-
-	<?php include("quickContact.html"); ?>
-
-	<div id="content">
-
-		<?php if(isset($content)){include($content);} ?>
-
 	</div>
+	
+	<footer id="footer">
+		<div class="row">
+			<div class="small-12">
+				<p>This stuff is all mine | <a href="sitemap.html">Sitemap</a> | <a href="#quickContact" data-target="#quickContact" class="collapse">Contact</a> | <a href="liens.html">Liens</a></p>
+			</div>
+		</div>
+	</footer>
 
 
 	<script src="javascripts/vendor/jquery.js"></script>
@@ -51,8 +62,11 @@
 	<script src="javascripts/foundation/foundation.section.js"></script>
 	<script src="javascripts/foundation/foundation.tooltips.js"></script>
 	<script src="javascripts/foundation/foundation.topbar.js"></script>
-	<script src="javascripts/vendor/jquery.backstretch.min.js"></script>
-	<script src="javascripts/vendor/jquery-picture-min.js"></script>
+	<script src="javascripts/vendor/matchmedia.js"></script>
+	<script src="javascripts/vendor/picturefill.js"></script>
+	<script src="javascripts/vendor/parsley.js"></script>
+	<script src="javascripts/vendor/Chart.min.js"></script>
+	<script src="javascripts/vendor/filterDis.jquery.js"></script>
 
 	<script src="javascripts/app.js"></script>
 

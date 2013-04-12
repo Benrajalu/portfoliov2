@@ -7,11 +7,13 @@
        // Création d'un tableau de variable pour gérer les titres de pages
        
        $tab_title=array("index"=>"Intégrateur web à Rennes, Nantes",
+                        "projets"=>"Intégrateur web et developpeur front-end",
                         "404"=>"Cette page n'existe pas !");
        $tab_description=array("index"=>"Benoit Rajalu est un Intégrateur web et developpeur front-end. Vous travaillez à Nantes ou à Rennes ? Faisons connaissance !",
+                        "projets"=>"L'intégration et le développement front-end de ces projets ont été réalisés par les mains curieuses et parsemée de sucre de Benoit Rajalu",
                         "404"=>"Oups. Cette page n'existe pas. Un lutin est sûrement en cause.");
                     
-       $setPages=array("index", "about", "contact", "carte");
+       $setPages=array("index", "projets", "bio", "carte");
        
        if(isset($_GET['p']) && !preg_match("/\//i", $_GET['p']))
        {

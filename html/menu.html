@@ -1,23 +1,10 @@
-	<nav class="top-bar">
-	  <ul class="title-area">
-	    <!-- Title Area -->
-	    <li class="name">
-	      <h1><a href="#">Benoit Rajalu - Intégration web</a></h1>
-	    </li>
-	    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-	  </ul>
-
-	  <section class="top-bar-section">
-	    <!-- Right Nav Section -->
-	    <ul class="right">
-	      <li class="divider"></li>
-	      <li class="active"><a href="#"><span>Bio</span></a></li>
-	      <li class="divider"></li>
-	      <li><a href="#"><span>Projets</span></a></li>
-	      <li class="divider"></li>
+	<nav id="mainMenu">
+	  <h1><a href="index.html">Benoit Rajalu - Intégration web</a></h1>
+	  <section>
+	    <ul>
+	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="bio"){ echo "class=\"active\"";} ?>><a href="bio.html"><span>Bio</span></a></li>
+	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="projets"){ echo "class=\"active\"";} ?>><a href="projets.html"><span>Projets</span></a></li>
 	      <li><a href="#" data-target="#quickContact" class="collapse"><span>Contact</span></a></li>
-	      <li class="divider"></li>
 	    </ul>
 	  </section>
 	</nav>

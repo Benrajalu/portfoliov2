@@ -13,10 +13,10 @@
 								<div id="buttonSection">
 									<ul class="quickButtons top show-for-small">
 										<li class="large-6 small-6 columns icon">
-											<a href="#" id="iMail"></a>
+											<a href="mailto:rajalubenoit@gmail.com" id="iMail"></a>
 										</li>
 										<li class="large-6 small-6 columns end icon">
-											<a href="#" id="iPhone"></a>
+											<a href="tel:+33649148645" id="iPhone"></a>
 										</li>
 									</ul>
 									<ul class="quickButtons">
@@ -24,10 +24,10 @@
 											<a href="https://plus.google.com/111668453741507427892?rel=author" id="iGplus" rel="author"></a>
 										</li>
 										<li class="large-4 small-4 columns icon">
-											<a href="#" id="iTwitter"></a>
+											<a href="http://www.twitter.com/scBen" target="_blank" id="iTwitter"></a>
 										</li>
 										<li class="large-4 small-4 end columns icon">
-											<a href="#" id="iFlickr"></a>
+											<a href="http://www.flickr.com/benrajalu" target="_blank" id="iFlickr"></a>
 										</li>
 									</ul>
 								</div>
@@ -37,25 +37,21 @@
 							</article>
 						</div>
 
-						<form action="#" id="springContact" class="custom large-9 columns">
+						<form action="html/sendEmail.php" method="POST" id="springContact" class="custom large-9 columns" data-validate="parsley">
 							<div class="large-5 small-12 columns">
-								<label for="cname">votre nom:</label>
-								<input type="text" name="name" id="cname" />
-								<label for="cmail">votre email:</label>
-								<input type="text" name="mail" id="cmail" />
-								<label for="csubject">Sujet</label>
-								<select type="text" name="subject" id="csubject"  class="custom">
-										<option value=""></option>
-										<option>J'ai un projet, je souhaite en parler</option>
-										<option>Je cherche un freelance...</option>
-										<option>Combien d'oeufs dans le pain d'épice?</option>
-								</select>
+								<label for="cname">votre nom: <span class="error" id="ename"></span></label>
+								<input type="text" name="name" id="cname" data-trigger="change" data-required="true" data-error-container=".error#ename" data-error-message="Merci d'entrer votre nom" />
+								<label for="cmail">votre email: <span class="error" id="email"></span></label>
+								<input type="text" name="mail" id="cmail" data-trigger="change" data-required="true" data-error-container=".error#email" data-error-message="N'oubliez pas votre email" data-type="email" />
+								<label for="csubject">Sujet: <span class="error" id="esubject"></span></label>
+								<input type="text" name="subject" id="csubject" data-trigger="change" data-required="true" data-error-container=".error#esubject" data-error-message="N'oubliez pas le sujet" />
 							</div>
 							<div class="large-7 small-12 columns">
-								<label for="cmessage">Message:</label>
-									<textarea type="text" name="message" id="cmessage"></textarea>
+								<label for="cmessage">Message: <span class="error" id="emessage"></span></label>
+									<textarea type="text" name="message" id="cmessage" data-trigger="change" data-required="true" data-error-container=".error#emessage" data-error-message="Vous oubliez votre message"></textarea>
 								
-								<input type="submit" value="Envoyer" class="tiny secondary button large-6 small-6 columns large-offset-6 small-offset-6" />
+								<input type="submit" id="csubmit" value="Envoyer" class="tiny secondary button large-6 small-6 columns large-offset-6 small-offset-6" />
+								<p class="message"></p>
 							</div>
 						</form>
 

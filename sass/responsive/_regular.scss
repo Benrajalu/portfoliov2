@@ -1,6 +1,13 @@
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
 @media only screen and (min-width: 768px) {
+	// Projects
 
+	#archives{
+		display:block;
+		&.closed{
+			display:block !important;
+		}
+	}
 }
 
 @media only screen and (max-width: 1280px) {
