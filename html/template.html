@@ -9,12 +9,12 @@
 	<title>Benoit Rajalu - <?php if(isset($title)){echo $title;}else{echo "Intégrateur web à Rennes, Nantes - CSS3 / HTML5 / jQuery / Javascript / Twig / SASS";}?></title>
 	<meta name="description" content="<?php if(isset($description)){echo $description;}else{echo "Benoit Rajalu est un Intégrateur web et developpeur front-end. Vous travaillez à Nantes ou à Rennes ? Faisons connaissance !";}?>">
 	
-	<link rel="stylesheet" href="stylesheets/normalize.css" />
+	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/normalize.css" />
 	<!--[if lt IE 8]> <link rel="stylesheet" href="stylesheets/ie8-grid-foundation-4.css" /> 	<![endif]-->
-	<link rel="stylesheet" href="stylesheets/app.css" />
+	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/app.css" />
 	<link href='http://fonts.googleapis.com/css?family=Romanesco|Merriweather+Sans:300,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="stylesheets/styles.css" />
-	<link rel="stylesheet" href="stylesheets/responsive.css" />
+	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/styles.css" />
+	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/responsive.css" />
  
 	<script src="javascripts/vendor/custom.modernizr.js"></script>
 </head>
