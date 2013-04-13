@@ -34,7 +34,7 @@
        elseif(isset($_GET['pr']))
        {
             if(in_array($_GET['pr'], $setPages)){
-                  $content=$_GET['pr'] . ".html"; 
+                  $content="projects/" . $_GET['pr'] . ".html"; 
                   $title=$tab_title[$_GET['pr']];
                   $description=$tab_description[$_GET['pr']];
                   $path="../";

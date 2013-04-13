@@ -3,7 +3,7 @@
 	  <section>
 	    <ul>
 	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="bio"){ echo "class=\"active\"";} ?>><a href="<?php if(isset($path)){echo $path;} ?>bio.html"><span>Bio</span></a></li>
-	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="projets"){ echo "class=\"active\"";} ?>><a href="<?php if(isset($path)){echo $path;} ?>projets.html"><span>Projets</span></a></li>
+	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="projets"||isset($_GET['pr'])){ echo "class=\"active\"";} ?>><a href="<?php if(isset($path)){echo $path;} ?>projets.html"><span>Projets</span></a></li>
 	      <li><a href="#" data-target="#quickContact" class="collapse"><span>Contact</span></a></li>
 	    </ul>
 	  </section>

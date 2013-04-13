@@ -120,11 +120,6 @@
 					float:right;
 					margin:0px;
 					padding:0px;
-					img{
-						width:100%;
-						display:block;
-						@include transAll();
-					}
 					background:#cacaca;
 				}
 				.links{
@@ -212,9 +207,111 @@
 				}
 			}
 
-		.skill{
-			margin-bottom:20px;
-		}
+			.skill{
+				margin-bottom:20px;
+			}
+			.dynamicImages{
+				img{
+					width:100%;
+					display:block;
+					@include transAll();
+				}
+			}
+			.project-nav{
+				height:30px;
+				ul{
+					display:block;
+					float:right;
+					height:30px;
+					li{
+						display:inline-block;
+						*display:inline;
+						zoom:1;
+						list-style-type:none;
+						height:30px;
+						a{
+							@include sans-serif(10px, 0px);
+							display:inline-block;
+							*display:inline;
+							height:30px;
+							line-height:12px;
+							@include transAll();
+							span{
+								display:inline-block;
+								zoom:1;
+								height:15px;
+								&.icon{
+									background:url("../images/navicons.png") no-repeat;
+									width:15px;
+									margin:0px;
+									position:relative;
+									top:2px;
+								}
+								&.text{
+									margin:0 10px;
+									@include transAll();
+								}
+							}
+							&.return{
+								span.icon{
+									background-position:left center;
+								}
+							}
+							&.site{
+								span.icon{
+									background-position:right center;
+								}
+							}
+							&:hover{
+								span.text{
+									border-bottom:1px dotted $main-color;
+								}
+							}
+						}
+					}
+				}
+			}
+			.ID{
+				dl{
+					margin:-10px 0px 0 0;
+					padding:0px 0px 0px 15px;
+					dt{
+						@include sans-serif(12px);
+						color:$main-color;
+						margin-top:10px;
+					}
+					dd{
+						@include sans-serif(11px);
+						color:$normal-font;
+						margin:0px;
+						a{
+							@include sans-serif(11px);
+							color:$normal-font;
+							&:hover{
+								color:$main-color;
+							}
+						}
+					}
+				}
+			}
+			.details{
+				section{
+					margin-bottom:40px;
+					margin-top:20px;
+					.dynamicImages{
+						width:90%;
+						float:right;
+					}
+					&.copy{
+						padding:0px 0.9375em;
+					}
+				}
+				h2{
+					@include sans-serif(12px, 0px);
+					color:$main-color;
+					margin-bottom:20px;
+				}
+			}
 
 	// Close box
 		.close{

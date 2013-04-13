@@ -144,16 +144,7 @@ body {
   padding: 0px;
   background: #cacaca;
 }
-/* line 123, ../sass/parts/_global.scss */
-.project .dynamicImages img {
-  width: 100%;
-  display: block;
-  -webkit-transition: all 0.45s;
-  -moz-transition: all 0.45s;
-  -o-transition: all 0.45s;
-  transition: all 0.45s;
-}
-/* line 130, ../sass/parts/_global.scss */
+/* line 125, ../sass/parts/_global.scss */
 .project .links {
   position: absolute;
   top: 0px;
@@ -166,15 +157,15 @@ body {
   -o-transition: all 0.45s;
   transition: all 0.45s;
 }
-/* line 138, ../sass/parts/_global.scss */
+/* line 133, ../sass/parts/_global.scss */
 .project .links:hover {
   left: 1%;
 }
-/* line 141, ../sass/parts/_global.scss */
+/* line 136, ../sass/parts/_global.scss */
 .project .links h2 {
   display: none;
 }
-/* line 144, ../sass/parts/_global.scss */
+/* line 139, ../sass/parts/_global.scss */
 .project .links .internal, .project .links .external {
   position: absolute;
   width: 100%;
@@ -183,7 +174,7 @@ body {
   display: block;
   overflow: hidden;
 }
-/* line 151, ../sass/parts/_global.scss */
+/* line 146, ../sass/parts/_global.scss */
 .project .links .internal span.text, .project .links .external span.text {
   display: block;
   text-align: center;
@@ -197,7 +188,7 @@ body {
   transition: all 0.45s;
   padding-bottom: 4px;
 }
-/* line 161, ../sass/parts/_global.scss */
+/* line 156, ../sass/parts/_global.scss */
 .project .links .internal span.icon, .project .links .external span.icon {
   display: block;
   width: 80%;
@@ -207,63 +198,201 @@ body {
   margin: 0 auto;
   background: url("../images/porjectIcons.png") no-repeat;
 }
-/* line 171, ../sass/parts/_global.scss */
+/* line 166, ../sass/parts/_global.scss */
 .project .links .internal:hover span.text, .project .links .external:hover span.text {
   text-indent: 0px;
 }
-/* line 176, ../sass/parts/_global.scss */
+/* line 171, ../sass/parts/_global.scss */
 .project .links .internal {
   bottom: 0px;
 }
-/* line 178, ../sass/parts/_global.scss */
+/* line 173, ../sass/parts/_global.scss */
 .project .links .internal span.icon {
   background-position: bottom center;
 }
-/* line 181, ../sass/parts/_global.scss */
+/* line 176, ../sass/parts/_global.scss */
 .project .links .internal span.text {
   padding: 4px 0px 0px 0px;
 }
-/* line 185, ../sass/parts/_global.scss */
+/* line 180, ../sass/parts/_global.scss */
 .project .links .external {
   height: 40px;
   bottom: 43px;
   left: 0px;
 }
-/* line 190, ../sass/parts/_global.scss */
+/* line 185, ../sass/parts/_global.scss */
 .project .links .rightPoint {
   right: -13px;
 }
-/* line 194, ../sass/parts/_global.scss */
+/* line 189, ../sass/parts/_global.scss */
 .project .dropShadow, .project .leftShadow, .project .downPoint {
   position: absolute;
   bottom: -7px;
   width: 100%;
   left: 0px;
 }
-/* line 200, ../sass/parts/_global.scss */
+/* line 195, ../sass/parts/_global.scss */
 .project .leftShadow {
   position: absolute;
   left: -7px;
   top: 0px;
   height: 100%;
 }
-/* line 208, ../sass/parts/_global.scss */
+/* line 203, ../sass/parts/_global.scss */
 .project:hover .dynamicImages img {
   opacity: 0.8;
 }
 
-/* line 215, ../sass/parts/_global.scss */
+/* line 210, ../sass/parts/_global.scss */
 .skill {
   margin-bottom: 20px;
 }
 
+/* line 214, ../sass/parts/_global.scss */
+.dynamicImages img {
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
 /* line 220, ../sass/parts/_global.scss */
+.project-nav {
+  height: 30px;
+}
+/* line 222, ../sass/parts/_global.scss */
+.project-nav ul {
+  display: block;
+  float: right;
+  height: 30px;
+}
+/* line 226, ../sass/parts/_global.scss */
+.project-nav ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  list-style-type: none;
+  height: 30px;
+}
+/* line 232, ../sass/parts/_global.scss */
+.project-nav ul li a {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0px;
+  font-weight: 300;
+  display: inline-block;
+  *display: inline;
+  height: 30px;
+  line-height: 12px;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+/* line 239, ../sass/parts/_global.scss */
+.project-nav ul li a span {
+  display: inline-block;
+  zoom: 1;
+  height: 15px;
+}
+/* line 243, ../sass/parts/_global.scss */
+.project-nav ul li a span.icon {
+  background: url("../images/navicons.png") no-repeat;
+  width: 15px;
+  margin: 0px;
+  position: relative;
+  top: 2px;
+}
+/* line 250, ../sass/parts/_global.scss */
+.project-nav ul li a span.text {
+  margin: 0 10px;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+/* line 256, ../sass/parts/_global.scss */
+.project-nav ul li a.return span.icon {
+  background-position: left center;
+}
+/* line 261, ../sass/parts/_global.scss */
+.project-nav ul li a.site span.icon {
+  background-position: right center;
+}
+/* line 266, ../sass/parts/_global.scss */
+.project-nav ul li a:hover span.text {
+  border-bottom: 1px dotted #34abdd;
+}
+
+/* line 275, ../sass/parts/_global.scss */
+.ID dl {
+  margin: -10px 0px 0 0;
+  padding: 0px 0px 0px 15px;
+}
+/* line 278, ../sass/parts/_global.scss */
+.ID dl dt {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #34abdd;
+  margin-top: 10px;
+}
+/* line 283, ../sass/parts/_global.scss */
+.ID dl dd {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #5c5a5b;
+  margin: 0px;
+}
+/* line 287, ../sass/parts/_global.scss */
+.ID dl dd a {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #5c5a5b;
+}
+/* line 290, ../sass/parts/_global.scss */
+.ID dl dd a:hover {
+  color: #34abdd;
+}
+
+/* line 298, ../sass/parts/_global.scss */
+.details section {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+/* line 301, ../sass/parts/_global.scss */
+.details section .dynamicImages {
+  width: 90%;
+  float: right;
+}
+/* line 305, ../sass/parts/_global.scss */
+.details section.copy {
+  padding: 0px 0.9375em;
+}
+/* line 309, ../sass/parts/_global.scss */
+.details h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0px;
+  font-weight: 300;
+  color: #34abdd;
+  margin-bottom: 20px;
+}
+
+/* line 317, ../sass/parts/_global.scss */
 .close {
   position: absolute;
   top: 0;
   right: 15px;
 }
-/* line 224, ../sass/parts/_global.scss */
+/* line 321, ../sass/parts/_global.scss */
 .close a {
   display: block;
   background: url("../images/closeIcon.png") top right no-repeat;
@@ -273,12 +402,12 @@ body {
   text-indent: -999px;
   overflow: hidden;
 }
-/* line 232, ../sass/parts/_global.scss */
+/* line 329, ../sass/parts/_global.scss */
 .close a:hover {
   background-position: bottom right;
 }
 
-/* line 239, ../sass/parts/_global.scss */
+/* line 336, ../sass/parts/_global.scss */
 a.custom {
   display: block;
   background: transparent;
@@ -294,14 +423,14 @@ a.custom {
   font-weight: 300;
   text-transform: uppercase;
 }
-/* line 250, ../sass/parts/_global.scss */
+/* line 347, ../sass/parts/_global.scss */
 a.custom span {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
   -o-transition: all 0.45s;
   transition: all 0.45s;
 }
-/* line 252, ../sass/parts/_global.scss */
+/* line 349, ../sass/parts/_global.scss */
 a.custom span.icon {
   position: absolute;
   width: 28px;
@@ -315,7 +444,7 @@ a.custom span.icon {
   -o-transition: all 0;
   transition: all 0;
 }
-/* line 263, ../sass/parts/_global.scss */
+/* line 360, ../sass/parts/_global.scss */
 a.custom:hover {
   background: transparent;
   border: none;
@@ -323,34 +452,34 @@ a.custom:hover {
   color: #34abdd;
   text-decoration: none;
 }
-/* line 269, ../sass/parts/_global.scss */
+/* line 366, ../sass/parts/_global.scss */
 a.custom:hover span.text {
   border-bottom: 1px dotted #34abdd;
   padding: 2px 0px;
 }
-/* line 273, ../sass/parts/_global.scss */
+/* line 370, ../sass/parts/_global.scss */
 a.custom:hover span.icon {
   background-position: top left;
 }
 
-/* line 281, ../sass/parts/_global.scss */
+/* line 378, ../sass/parts/_global.scss */
 html, body {
   height: 100%;
 }
 
-/* line 285, ../sass/parts/_global.scss */
+/* line 382, ../sass/parts/_global.scss */
 #alpha {
   min-height: 100%;
 }
 
-/* line 289, ../sass/parts/_global.scss */
+/* line 386, ../sass/parts/_global.scss */
 #beta {
   overflow: auto;
   padding-bottom: 30px;
 }
 
 /* must be same height as the footer */
-/* line 294, ../sass/parts/_global.scss */
+/* line 391, ../sass/parts/_global.scss */
 #footer {
   position: relative;
   margin-top: -30px;
@@ -358,7 +487,7 @@ html, body {
   height: 30px;
   clear: both;
 }
-/* line 299, ../sass/parts/_global.scss */
+/* line 396, ../sass/parts/_global.scss */
 #footer p {
   font-size: 11px;
   color: #34abdd;
@@ -366,7 +495,7 @@ html, body {
 }
 
 /*Opera Fix*/
-/* line 307, ../sass/parts/_global.scss */
+/* line 404, ../sass/parts/_global.scss */
 body:before {
   content: "";
   height: 100%;
@@ -375,17 +504,17 @@ body:before {
   margin-top: -32767px;
 }
 
-/* line 318, ../sass/parts/_global.scss */
+/* line 415, ../sass/parts/_global.scss */
 #content {
   padding: 25px 0px;
 }
 
-/* line 322, ../sass/parts/_global.scss */
+/* line 419, ../sass/parts/_global.scss */
 .wrap {
   margin-top: 45px;
   margin-bottom: 45px;
 }
-/* line 325, ../sass/parts/_global.scss */
+/* line 422, ../sass/parts/_global.scss */
 .wrap h3 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 0.96em;
@@ -393,12 +522,12 @@ body:before {
   font-weight: 300;
   color: #5c5a5b;
 }
-/* line 329, ../sass/parts/_global.scss */
+/* line 426, ../sass/parts/_global.scss */
 .wrap.less {
   margin-top: 20px;
 }
 
-/* line 336, ../sass/parts/_global.scss */
+/* line 433, ../sass/parts/_global.scss */
 #myChart {
   position: absolute;
   top: 0px;
@@ -408,7 +537,7 @@ body:before {
   height: 300px !important;
 }
 
-/* line 346, ../sass/parts/_global.scss */
+/* line 443, ../sass/parts/_global.scss */
 .killPad {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
@@ -416,7 +545,7 @@ body:before {
   transition: all 0.45s;
 }
 
-/* line 349, ../sass/parts/_global.scss */
+/* line 446, ../sass/parts/_global.scss */
 #projects {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
@@ -425,13 +554,13 @@ body:before {
   overflow: hidden;
 }
 
-/* line 353, ../sass/parts/_global.scss */
+/* line 450, ../sass/parts/_global.scss */
 #switch {
   text-align: right;
   position: relative;
   overflow: visible;
 }
-/* line 357, ../sass/parts/_global.scss */
+/* line 454, ../sass/parts/_global.scss */
 #switch a {
   display: block;
   width: 120px;
@@ -439,11 +568,11 @@ body:before {
   right: 0px;
 }
 
-/* line 364, ../sass/parts/_global.scss */
+/* line 461, ../sass/parts/_global.scss */
 .sub-nav {
   font-size: 0.85em;
 }
-/* line 367, ../sass/parts/_global.scss */
+/* line 464, ../sass/parts/_global.scss */
 .sub-nav dd.active a {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
@@ -452,16 +581,16 @@ body:before {
   padding: 0.1875em 0.5625em;
   cursor: pointer;
 }
-/* line 374, ../sass/parts/_global.scss */
+/* line 471, ../sass/parts/_global.scss */
 .sub-nav dd.active a:hover {
   opacity: 0.8;
   border-bottom: none;
 }
-/* line 379, ../sass/parts/_global.scss */
+/* line 476, ../sass/parts/_global.scss */
 .sub-nav dd:hover a {
   border-bottom: 1px dotted #34abdd;
 }
-/* line 383, ../sass/parts/_global.scss */
+/* line 480, ../sass/parts/_global.scss */
 .sub-nav dt {
   color: #5c5a5b;
 }
@@ -511,7 +640,12 @@ p a:hover {
   color: #5c5a5b;
 }
 
-/* line 44, ../sass/parts/_fonts.scss */
+/* line 41, ../sass/parts/_fonts.scss */
+.strong {
+  color: #34abdd;
+}
+
+/* line 47, ../sass/parts/_fonts.scss */
 .title {
   font-family: "Romanesco", cursive;
   font-size: 85px;
@@ -521,7 +655,7 @@ p a:hover {
   line-height: 32px;
   color: #34abdd;
 }
-/* line 50, ../sass/parts/_fonts.scss */
+/* line 53, ../sass/parts/_fonts.scss */
 .title.small {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 2.5em;
@@ -532,14 +666,19 @@ p a:hover {
   display: inline-block;
   padding: 5px;
 }
-
 /* line 60, ../sass/parts/_fonts.scss */
+.title.center {
+  text-align: center;
+  display: block;
+}
+
+/* line 67, ../sass/parts/_fonts.scss */
 .copy .title.small {
   padding: 0px;
   margin: 0px 0px 10px 0px;
 }
 
-/* line 68, ../sass/parts/_fonts.scss */
+/* line 75, ../sass/parts/_fonts.scss */
 .skill h2 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 0.96em;

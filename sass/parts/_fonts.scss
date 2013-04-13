@@ -38,6 +38,9 @@
 		.weak{
 			color:$normal-font;
 		}
+		.strong{
+			color:$main-color;
+		}
 
 	// Caracters
 
@@ -53,6 +56,10 @@
 				color: #34abdd;
 				display: inline-block;
 				padding: 5px;
+			}
+			&.center{
+				text-align:center;
+				display:block;
 			}
 		}
 		.copy{

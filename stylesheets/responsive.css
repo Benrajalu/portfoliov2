@@ -265,22 +265,36 @@
     font-size: 10px;
   }
 
+  /* line 229, ../sass/responsive/_small.scss */
+  .ID {
+    border-bottom: 1px dotted #34abdd;
+    padding-bottom: 30px;
+  }
   /* line 233, ../sass/responsive/_small.scss */
+  .ID dl dd, .ID dl dt {
+    font-size: 10px;
+  }
+  /* line 236, ../sass/responsive/_small.scss */
+  .ID dl dt {
+    margin-top: 5px;
+  }
+
+  /* line 245, ../sass/responsive/_small.scss */
   #quickContact #buttonSection {
     margin: 15px 0px;
   }
-  /* line 237, ../sass/responsive/_small.scss */
+  /* line 249, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons {
     height: 88px;
     border: 1px solid #262626;
     border-right: none;
   }
-  /* line 241, ../sass/responsive/_small.scss */
+  /* line 253, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons.top {
     border-bottom: 0px;
     margin-bottom: 0px;
   }
-  /* line 246, ../sass/responsive/_small.scss */
+  /* line 258, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon {
     border-right: 1px solid #303030;
     height: 86px;
@@ -288,7 +302,7 @@
     padding: 0px;
     list-style-type: none;
   }
-  /* line 252, ../sass/responsive/_small.scss */
+  /* line 264, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a {
     display: block;
     height: 78px;
@@ -297,25 +311,25 @@
     margin: 2px auto;
     background: url("../images/socialIcons.png") no-repeat;
   }
-  /* line 259, ../sass/responsive/_small.scss */
+  /* line 271, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iMail {
     background: url("../images/socialIconsXL.png") no-repeat;
     background-position: 0px 0px;
   }
-  /* line 262, ../sass/responsive/_small.scss */
+  /* line 274, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iMail:hover {
     background-position: 0px -78px;
   }
-  /* line 266, ../sass/responsive/_small.scss */
+  /* line 278, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iPhone {
     background: url("../images/socialIconsXL.png") no-repeat;
     background-position: -78px 0px;
   }
-  /* line 269, ../sass/responsive/_small.scss */
+  /* line 281, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iPhone:hover {
     background-position: -78px -78px;
   }
-  /* line 273, ../sass/responsive/_small.scss */
+  /* line 285, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iGplus {
     background: url("../images/socialIconsM.png") no-repeat;
     width: 55px;
@@ -323,11 +337,11 @@
     background-position: -165px 0px;
     margin-top: 15px;
   }
-  /* line 279, ../sass/responsive/_small.scss */
+  /* line 291, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iGplus:hover {
     background-position: -165px -55px;
   }
-  /* line 283, ../sass/responsive/_small.scss */
+  /* line 295, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iTwitter {
     background: url("../images/socialIconsM.png") no-repeat;
     width: 55px;
@@ -335,11 +349,11 @@
     background-position: -110px 0px;
     margin-top: 15px;
   }
-  /* line 289, ../sass/responsive/_small.scss */
+  /* line 301, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iTwitter:hover {
     background-position: -110px -55px;
   }
-  /* line 293, ../sass/responsive/_small.scss */
+  /* line 305, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iFlickr {
     background: url("../images/socialIconsM.png") no-repeat;
     width: 55px;
@@ -347,24 +361,24 @@
     background-position: -220px 0px;
     margin-top: 15px;
   }
-  /* line 299, ../sass/responsive/_small.scss */
+  /* line 311, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iFlickr:hover {
     background-position: -220px -55px;
   }
-  /* line 308, ../sass/responsive/_small.scss */
+  /* line 320, ../sass/responsive/_small.scss */
   #quickContact #springContact {
     margin-top: 20px;
   }
 }
 @media only screen and (max-width: 939px) {
-  /* line 319, ../sass/responsive/_small.scss */
+  /* line 331, ../sass/responsive/_small.scss */
   .top-bar {
     height: 40px;
     line-height: 40px;
     margin-bottom: 0px !important;
     background: transparent;
   }
-  /* line 325, ../sass/responsive/_small.scss */
+  /* line 337, ../sass/responsive/_small.scss */
   .top-bar .name h1 a {
     background: url("../images/logo-small.png") center center no-repeat;
     width: 60px;
@@ -373,54 +387,54 @@
     -o-transition: all 0.45s;
     transition: all 0.45s;
   }
-  /* line 329, ../sass/responsive/_small.scss */
+  /* line 341, ../sass/responsive/_small.scss */
   .top-bar .name h1 a:hover {
     opacity: 0.8;
   }
-  /* line 334, ../sass/responsive/_small.scss */
+  /* line 346, ../sass/responsive/_small.scss */
   .top-bar ul li {
     line-height: 30px;
   }
-  /* line 337, ../sass/responsive/_small.scss */
+  /* line 349, ../sass/responsive/_small.scss */
   .top-bar ul li a {
     line-height: 30px;
   }
-  /* line 341, ../sass/responsive/_small.scss */
+  /* line 353, ../sass/responsive/_small.scss */
   .top-bar section ul {
     border-top: 1px solid #cacaca;
   }
-  /* line 345, ../sass/responsive/_small.scss */
+  /* line 357, ../sass/responsive/_small.scss */
   .top-bar section ul li:hover {
     background: url("../images/bgDark.png") top left;
     opacity: 0.9;
   }
-  /* line 348, ../sass/responsive/_small.scss */
+  /* line 360, ../sass/responsive/_small.scss */
   .top-bar section ul li:hover a {
     opacity: 0.9;
   }
-  /* line 354, ../sass/responsive/_small.scss */
+  /* line 366, ../sass/responsive/_small.scss */
   .top-bar section ul li a:not(.button) {
     line-height: 30px;
     background: url("../images/bgDark.png") top left;
   }
-  /* line 358, ../sass/responsive/_small.scss */
+  /* line 370, ../sass/responsive/_small.scss */
   .top-bar section ul > .divider {
     height: 1px;
     line-height: 1px;
   }
-  /* line 363, ../sass/responsive/_small.scss */
+  /* line 375, ../sass/responsive/_small.scss */
   .top-bar.expanded {
     background: transparent !important;
   }
-  /* line 365, ../sass/responsive/_small.scss */
+  /* line 377, ../sass/responsive/_small.scss */
   .top-bar.expanded .title-area {
     background: transparent;
   }
-  /* line 369, ../sass/responsive/_small.scss */
+  /* line 381, ../sass/responsive/_small.scss */
   .top-bar .toggle-topbar.menu-icon a {
     color: #34abdd;
   }
-  /* line 371, ../sass/responsive/_small.scss */
+  /* line 383, ../sass/responsive/_small.scss */
   .top-bar .toggle-topbar.menu-icon a span {
     position: absolute;
     right: 0;
@@ -430,11 +444,11 @@
     -webkit-box-shadow: 0 10px 0 1px #34abdd, 0 16px 0 1px #34abdd, 0 22px 0 1px #34abdd;
     box-shadow: 0 10px 0 1px #34abdd, 0 16px 0 1px #34abdd, 0 22px 0 1px #34abdd;
   }
-  /* line 382, ../sass/responsive/_small.scss */
+  /* line 394, ../sass/responsive/_small.scss */
   .top-bar.expanded .toggle-topbar.menu-icon a {
     color: #cacaca;
   }
-  /* line 384, ../sass/responsive/_small.scss */
+  /* line 396, ../sass/responsive/_small.scss */
   .top-bar.expanded .toggle-topbar.menu-icon a span {
     position: absolute;
     right: 0;

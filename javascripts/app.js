@@ -88,14 +88,14 @@
 			var myNewChart = new Chart(ctx);
 			// Feeding it data
 			var data = {
-				labels : ["CSS3","HTML5","Sucreries","jQuery","Rédaction","Derrick"],
+				labels : ["HTML5","Sucreries","jQuery","Rédaction","Derrick", "CSS3"],
 				datasets : [
 					{
 						fillColor : "rgba(52,171,221,0.5)",
 						strokeColor : "rgba(52,171,221,1)",
 						pointColor : "rgba(52,171,221,1)",
 						pointStrokeColor : "#fff",
-						data : [90,85,100,70,80,5]
+						data : [85,100,70,80,5, 90]
 					}
 				]
 			}

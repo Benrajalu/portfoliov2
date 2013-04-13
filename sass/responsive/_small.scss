@@ -226,6 +226,18 @@
 				}
 			}
 		}
+		.ID{
+			border-bottom:1px dotted $main-color;
+			padding-bottom:30px;
+			dl{
+				dd, dt{
+					font-size:10px;
+				}
+				dt{
+					margin-top:5px;
+				}
+			}
+		}
 
 	// Quick contact
 		#quickContact{
