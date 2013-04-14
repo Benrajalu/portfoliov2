@@ -272,6 +272,9 @@
 				}
 			}
 			.ID{
+				h1{
+					display:block;
+				}
 				dl{
 					margin:-10px 0px 0 0;
 					padding:0px 0px 0px 15px;
@@ -445,7 +448,6 @@
 	}
 	#projects{
 		@include transAll();
-		overflow:hidden;
 	}
 	#switch{
 		text-align:right;

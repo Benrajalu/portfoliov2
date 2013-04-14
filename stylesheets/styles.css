@@ -327,11 +327,15 @@ body {
 }
 
 /* line 275, ../sass/parts/_global.scss */
+.ID h1 {
+  display: block;
+}
+/* line 278, ../sass/parts/_global.scss */
 .ID dl {
   margin: -10px 0px 0 0;
   padding: 0px 0px 0px 15px;
 }
-/* line 278, ../sass/parts/_global.scss */
+/* line 281, ../sass/parts/_global.scss */
 .ID dl dt {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 12px;
@@ -340,7 +344,7 @@ body {
   color: #34abdd;
   margin-top: 10px;
 }
-/* line 283, ../sass/parts/_global.scss */
+/* line 286, ../sass/parts/_global.scss */
 .ID dl dd {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 11px;
@@ -349,7 +353,7 @@ body {
   color: #5c5a5b;
   margin: 0px;
 }
-/* line 287, ../sass/parts/_global.scss */
+/* line 290, ../sass/parts/_global.scss */
 .ID dl dd a {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 11px;
@@ -357,26 +361,26 @@ body {
   font-weight: 300;
   color: #5c5a5b;
 }
-/* line 290, ../sass/parts/_global.scss */
+/* line 293, ../sass/parts/_global.scss */
 .ID dl dd a:hover {
   color: #34abdd;
 }
 
-/* line 298, ../sass/parts/_global.scss */
+/* line 301, ../sass/parts/_global.scss */
 .details section {
   margin-bottom: 40px;
   margin-top: 20px;
 }
-/* line 301, ../sass/parts/_global.scss */
+/* line 304, ../sass/parts/_global.scss */
 .details section .dynamicImages {
   width: 90%;
   float: right;
 }
-/* line 305, ../sass/parts/_global.scss */
+/* line 308, ../sass/parts/_global.scss */
 .details section.copy {
   padding: 0px 0.9375em;
 }
-/* line 309, ../sass/parts/_global.scss */
+/* line 312, ../sass/parts/_global.scss */
 .details h2 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 12px;
@@ -386,13 +390,13 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 317, ../sass/parts/_global.scss */
+/* line 320, ../sass/parts/_global.scss */
 .close {
   position: absolute;
   top: 0;
   right: 15px;
 }
-/* line 321, ../sass/parts/_global.scss */
+/* line 324, ../sass/parts/_global.scss */
 .close a {
   display: block;
   background: url("../images/closeIcon.png") top right no-repeat;
@@ -402,12 +406,12 @@ body {
   text-indent: -999px;
   overflow: hidden;
 }
-/* line 329, ../sass/parts/_global.scss */
+/* line 332, ../sass/parts/_global.scss */
 .close a:hover {
   background-position: bottom right;
 }
 
-/* line 336, ../sass/parts/_global.scss */
+/* line 339, ../sass/parts/_global.scss */
 a.custom {
   display: block;
   background: transparent;
@@ -423,14 +427,14 @@ a.custom {
   font-weight: 300;
   text-transform: uppercase;
 }
-/* line 347, ../sass/parts/_global.scss */
+/* line 350, ../sass/parts/_global.scss */
 a.custom span {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
   -o-transition: all 0.45s;
   transition: all 0.45s;
 }
-/* line 349, ../sass/parts/_global.scss */
+/* line 352, ../sass/parts/_global.scss */
 a.custom span.icon {
   position: absolute;
   width: 28px;
@@ -444,7 +448,7 @@ a.custom span.icon {
   -o-transition: all 0;
   transition: all 0;
 }
-/* line 360, ../sass/parts/_global.scss */
+/* line 363, ../sass/parts/_global.scss */
 a.custom:hover {
   background: transparent;
   border: none;
@@ -452,34 +456,34 @@ a.custom:hover {
   color: #34abdd;
   text-decoration: none;
 }
-/* line 366, ../sass/parts/_global.scss */
+/* line 369, ../sass/parts/_global.scss */
 a.custom:hover span.text {
   border-bottom: 1px dotted #34abdd;
   padding: 2px 0px;
 }
-/* line 370, ../sass/parts/_global.scss */
+/* line 373, ../sass/parts/_global.scss */
 a.custom:hover span.icon {
   background-position: top left;
 }
 
-/* line 378, ../sass/parts/_global.scss */
+/* line 381, ../sass/parts/_global.scss */
 html, body {
   height: 100%;
 }
 
-/* line 382, ../sass/parts/_global.scss */
+/* line 385, ../sass/parts/_global.scss */
 #alpha {
   min-height: 100%;
 }
 
-/* line 386, ../sass/parts/_global.scss */
+/* line 389, ../sass/parts/_global.scss */
 #beta {
   overflow: auto;
   padding-bottom: 30px;
 }
 
 /* must be same height as the footer */
-/* line 391, ../sass/parts/_global.scss */
+/* line 394, ../sass/parts/_global.scss */
 #footer {
   position: relative;
   margin-top: -30px;
@@ -487,7 +491,7 @@ html, body {
   height: 30px;
   clear: both;
 }
-/* line 396, ../sass/parts/_global.scss */
+/* line 399, ../sass/parts/_global.scss */
 #footer p {
   font-size: 11px;
   color: #34abdd;
@@ -495,7 +499,7 @@ html, body {
 }
 
 /*Opera Fix*/
-/* line 404, ../sass/parts/_global.scss */
+/* line 407, ../sass/parts/_global.scss */
 body:before {
   content: "";
   height: 100%;
@@ -504,17 +508,17 @@ body:before {
   margin-top: -32767px;
 }
 
-/* line 415, ../sass/parts/_global.scss */
+/* line 418, ../sass/parts/_global.scss */
 #content {
   padding: 25px 0px;
 }
 
-/* line 419, ../sass/parts/_global.scss */
+/* line 422, ../sass/parts/_global.scss */
 .wrap {
   margin-top: 45px;
   margin-bottom: 45px;
 }
-/* line 422, ../sass/parts/_global.scss */
+/* line 425, ../sass/parts/_global.scss */
 .wrap h3 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 0.96em;
@@ -522,12 +526,12 @@ body:before {
   font-weight: 300;
   color: #5c5a5b;
 }
-/* line 426, ../sass/parts/_global.scss */
+/* line 429, ../sass/parts/_global.scss */
 .wrap.less {
   margin-top: 20px;
 }
 
-/* line 433, ../sass/parts/_global.scss */
+/* line 436, ../sass/parts/_global.scss */
 #myChart {
   position: absolute;
   top: 0px;
@@ -537,7 +541,7 @@ body:before {
   height: 300px !important;
 }
 
-/* line 443, ../sass/parts/_global.scss */
+/* line 446, ../sass/parts/_global.scss */
 .killPad {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
@@ -545,22 +549,21 @@ body:before {
   transition: all 0.45s;
 }
 
-/* line 446, ../sass/parts/_global.scss */
+/* line 449, ../sass/parts/_global.scss */
 #projects {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
   -o-transition: all 0.45s;
   transition: all 0.45s;
-  overflow: hidden;
 }
 
-/* line 450, ../sass/parts/_global.scss */
+/* line 452, ../sass/parts/_global.scss */
 #switch {
   text-align: right;
   position: relative;
   overflow: visible;
 }
-/* line 454, ../sass/parts/_global.scss */
+/* line 456, ../sass/parts/_global.scss */
 #switch a {
   display: block;
   width: 120px;
@@ -568,11 +571,11 @@ body:before {
   right: 0px;
 }
 
-/* line 461, ../sass/parts/_global.scss */
+/* line 463, ../sass/parts/_global.scss */
 .sub-nav {
   font-size: 0.85em;
 }
-/* line 464, ../sass/parts/_global.scss */
+/* line 466, ../sass/parts/_global.scss */
 .sub-nav dd.active a {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
@@ -581,16 +584,16 @@ body:before {
   padding: 0.1875em 0.5625em;
   cursor: pointer;
 }
-/* line 471, ../sass/parts/_global.scss */
+/* line 473, ../sass/parts/_global.scss */
 .sub-nav dd.active a:hover {
   opacity: 0.8;
   border-bottom: none;
 }
-/* line 476, ../sass/parts/_global.scss */
+/* line 478, ../sass/parts/_global.scss */
 .sub-nav dd:hover a {
   border-bottom: 1px dotted #34abdd;
 }
-/* line 480, ../sass/parts/_global.scss */
+/* line 482, ../sass/parts/_global.scss */
 .sub-nav dt {
   color: #5c5a5b;
 }
