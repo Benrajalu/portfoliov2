@@ -1,0 +1,214 @@
+*{
+   padding:0;
+   margin:0;
+   font-size:100%;
+   font-family:Arial, helvetica, Sans Serif;
+}
+
+a img{
+	border:none;
+}
+
+/* bleu amazon: #146eb4 (décli # a3d5fc) orange amazon: #ff9700*/
+
+#landing{
+	position:absolute;
+	  top:0;
+	  left:0;
+	  z-index:1;
+	height:100%;
+	width:90%;
+	margin:0 5% 0 5%;
+        overflow:hidden;
+        padding:1%;
+        hr{
+        	border:3px solid #ff9700;
+        }
+        #menutop{
+        	float:right;
+        	width:23%;
+        	min-width:270px;
+        	height:20px;
+        	li{
+        		list-style-type:none;
+        		float:left;
+        		color:#146eb4;
+        		width:33.3%;
+        		height:inherit;
+        		a{
+        			text-align:center;
+        			display:block;
+        			text-decoration:none;
+        			color:#146eb4;
+        			font-size:70%;
+        			line-height:20px;
+        			&:hover{
+        				text-decoration:underline;
+        				background:#a3d5fc;
+        			}
+        		}
+        	}
+        }
+        h1{
+        	font-family:'Terminal Dosis', Arial, sans serif;
+        	font-weight:300;
+        	width:40%;
+        	min-width:300px;
+        	clear:both;
+        	font-size:300%;
+        	color:#146eb4;
+        	line-height:85%;
+        	padding:5% 0 0 5%;
+        }
+        p{
+        	font-size:80%;
+        	text-align:left;
+        	width:30%;
+        	min-width:250px;
+        	padding:15px 0 0 5%;
+        	margin:0;
+        }
+        #sellingpoints{
+                font-size:80%;
+        	text-align:left;
+        	width:30%;
+        	min-width:250px;
+        	padding:15px 0 0 5%;
+        	margin:0;
+        	li{
+        		margin-left:25px;
+        		font-weight:semi-bold;
+        	}	
+        }
+        .emph{
+        	color:#146eb4;
+        }
+}
+
+#selection{
+	position:absolute;
+	  top:100%;
+	  left:0;
+	  z-index:1;
+	height:100%;
+	width:100%;
+	padding:2% 0 0 0;
+        overflow:hidden;
+        .menusprites{
+
+        }
+}
+
+#transform{
+        position:absolute;
+	  top:200%;
+	  left:0;
+	  z-index:1;
+	height:100%;
+	width:90%;
+	margin:0 5% 0 5%;
+        overflow:hidden;	
+}
+
+.landinghidden{
+        overflow: hidden;
+}
+
+.hidden{
+	visibility:hidden;
+	clip:rect(0px 0px 0px 0px);
+	clip:rect(0px,0px,0px,0px);
+}
+#transform.hidden{
+	display:none;
+}
+.show{
+	visibility: visible;
+	display:block;
+}
+
+.boxgrid{
+	width:500px;
+	height:550px;
+	margin:2% 25% 0 25%;
+	position:relative;
+	overflow:hidden;
+	.backlayer{
+		width:90%;
+		height:90%;
+		margin:5%;
+		background:url("../images/swannkindle.jpg") no-repeat top center;
+		position: absolute;
+	}
+	.boxcaption{
+		width:90%;
+		height:90%;
+		margin:5%;
+		background:url("../images/proust.jpg") no-repeat top center #FFF;
+		position: absolute;		
+	}
+}
+
+.captionfull .boxcaption{
+	top:0%;
+	left:0;
+	z-index:3;	
+}
+
+.captionfull .backlayer{
+	top:100%;
+	left:0;
+	z-index:2;
+}
+
+p{
+	width:500px;
+	margin:2% 25% 0 25%;
+	text-align:center;
+}
+.launch{
+	cursor: pointer;
+}
+
+.menusprites{
+	li{
+		width:50px;
+		height:50px;
+		background: url("../images/123sprites.png") no-repeat;
+		margin:15px;
+		list-style-type:none;
+		a{
+			text-decoration:none;
+			display:block;
+			width:50px;
+			height:50px;
+		}
+	}
+	.li1{
+		background-position:0 0;
+		&:hover{
+			background-position:-50px 0;
+		}
+		&:active{
+			background-position:-100px 0;
+		}
+	}
+	.li2{
+		background-position: 0 -50px;
+		&:hover{
+			background-position:-50px -50px;
+		}
+		&:active{
+			background-position:-100px -50px;
+		}
+	}
+	.li3{
+		background-position: 0 -100px;
+		&:hover{
+			background-position:-50px -100px;
+		}
+		&:active{
+			background-position:-100px -100px;
+		}
+	}	
+}

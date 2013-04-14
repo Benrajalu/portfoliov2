@@ -1,0 +1,712 @@
+*{
+   padding:0;
+   margin:0;
+   font-size:100%;
+   font-family:Arial, helvetica, Sans Serif;
+}
+
+a img{
+	border:none;
+}
+
+body{
+
+}
+
+/* bleu amazon: #(décli # a3d5fc) orange amazon: #ff9700*/
+
+.hidden{
+	visibility:hidden;
+	height:0px;
+}
+
+.show{
+	visibility: visible;
+	display:block;
+	height:100%;
+}
+
+#transform.hidden{
+	display:none;
+}
+
+/* ############################################################################# */
+/* ########################### Gestion des sprites ############################# */
+/* ############################################################################# */
+
+
+.menusprites li{
+	width:50px;
+	height:130px;
+	background-image:url("../images/123sprites2.png");
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+	.menusprites li a{
+		text-decoration:none;
+		display:block;
+		width:50px;
+		height:130px;
+	}
+
+	.li1{
+		background-position:0 0;
+	}
+		.li1:hover{
+			background-position:-50px 0;
+		}
+		.li1:active{
+			background-position:-100px 0;
+		}
+
+	.li2{
+		background-position:0px -130px;
+		clear:both;
+	}
+		.li2:hover{
+			background-position:-50px -130px;
+		}
+		.li2:active{
+			background-position:-100px -130px;
+		}
+
+	.li3{
+		background-position: 0 -260px;
+	}
+		.li3:hover{
+			background-position:-50px -260px;
+		}
+		.li3:active{
+			background-position:-100px -260px;
+		}
+
+/* ############################################################################# */
+/* ########################### Gestion du Landing ############################## */
+/* ############################################################################# */
+
+#bcklanding{
+	position: fixed;
+	 bottom:0px;
+	 right:0;
+	 width:100%;
+	 min-width:800px;
+	 height:100%;
+	 z-index:1;
+	overflow:hidden;
+}
+	#bcklanding img{
+		position:relative;
+		 bottom:50px;
+		 right:0;
+		 z-index:1;
+		width:100%;
+		min-width:1053px;
+		min-height:629px
+	}
+
+	@media all and (max-width:900px){
+		#bcklanding img{
+			width:1053px;
+			height:629px;
+			float:right;
+			text-align:right;
+		}
+	}
+
+	@media all and (max-height:600px){
+	         #bcklanding img{
+			width:1053px;
+			height:629px;
+			float:right;
+			text-align:right;
+		}	
+	}
+
+
+#landing{
+	position:absolute;
+	  top:0;
+	  right:0;
+	  z-index:2;
+	height:100%;
+	width:90%;
+	margin:0 5% 0 5%;
+
+}
+	#topmenu{
+		position: absolute;
+		 top:1%;
+		 left:0;
+		 width:90%;
+		 margin:0 5% 0 5%;
+		 z-index:10;
+	}
+		#graphichr{
+			border:3px solid #ff9700;
+			clear:both;
+		}
+	
+		#menutop{
+			float:left;
+			width:30%;
+			min-width:270px;
+			height:20px;
+			margin-left:20px;
+		}
+			#menutop li{
+				list-style-type:none;
+				float:left;
+				color:#146eb4;
+				width:33.3%;
+				height:inherit;
+			}
+			#menutop li a{
+				text-align:center;
+				display:block;
+				text-decoration:none;
+				color:#146eb4;
+				font-size:70%;
+				line-height:20px;
+				opacity:0.6;
+			}
+				#menutop li a:hover{
+					text-decoration:underline;
+					background:#a3d5fc;
+					opacity:1;
+				}
+	
+	#landingleft{
+		float:left;
+		padding:0px 2% 0 2%;
+		margin:0 0 0 20px;
+		width:35%;
+		min-width:315px;
+		height:100%;
+		background-color:white;
+		opacity:0.8;
+		box-shadow: 4px 0px 6px #aaa;
+		overflow:auto;
+	}
+	
+		h1{
+			font-family:'Terminal Dosis', Arial, sans-serif;
+			font-weight:300;
+			width:90%;
+			min-width:300px;
+			clear:both;
+			font-size:300%;
+			color:#146eb4;
+			line-height:85%;
+			padding:15% 0 0 0;
+		}
+		
+		#landing p{
+			font-size:80%;
+			text-align:left;
+			width:95%;
+			min-width:250px;
+			padding:15px 0 0 0;
+			margin:0;
+		}
+		#landingleft h2{
+			float:left;
+			margin:30px 0 0 0;
+		}
+		#landingleft ul{
+			position: relative;
+			top:25px;
+			left:150px;
+			width:50px;
+		}
+
+			@media all and (max-width:982px){
+				h1{
+					padding:7% 0 0 0;
+					font-size:200%;
+				}
+				#landingleft{
+					padding:0px 2% 0 2%;
+					margin:0 0 0 10px;
+					width:70%;
+					min-width:315px;
+					height:100%;
+					background-color:white;
+					opacity:0.8;
+					box-shadow:3px 3px 2px #aaa;
+				}
+				#landingleft ul{
+					top:5px;
+				}
+				#landingleft h2{
+					margin:10px 0 0 0;
+				}
+			}
+			@media all and (max-height:560px){
+				h1{
+					padding:7% 0 0 0;
+					font-size:200%;
+				}
+				#landingleft{
+					padding:0px 2% 0 2%;
+					margin:0 0 0 10px;
+					width:70%;
+					min-width:315px;
+					height:100%;
+					background-color:white;
+					opacity:0.8;
+					box-shadow:3px 3px 2px #aaa;
+				}
+				#landingleft ul{
+					top:5px;
+				}
+				#landingleft h2{
+					margin:10px 0 0 0;
+				}
+			}		
+
+/* ############################################################################# */
+/* ######################### Gestion de la selection ########################### */
+/* ############################################################################# */
+
+#selection{
+	position:absolute;
+	  top:100%;
+	  left:0;
+	  z-index:2;
+	width:100%;
+	padding:0% 0 0 0;
+        overflow:hidden;
+        background-color:#fff;
+}
+
+	#right{
+	        float:left;
+		padding:15px 5% 0 2%;
+		width:40%;	
+	}
+
+	.placeholder{
+		width:100%;
+		height:25%;
+	}
+
+	h2, h3, h4{
+		font-family:'Terminal Dosis', Arial, sans-serif;
+		font-weight:300;
+		color:#146eb4;
+		line-height:85%;
+		margin:0 0 10px 0;
+	}
+	h2{
+		font-size:150%;
+		font-weight:400;
+		width:100%;
+	}
+	h3{
+		font-size:110%;
+		width:100%;
+		font-weight:400;
+		margin-top:15px;
+	}
+	h4{
+		color:#ff9700;
+		font-size:300%;
+		margin-top:30px;
+		padding-left:10px;
+	}
+	h5{
+		font-size:120%;
+		font-weight:400;
+		font-family:'Terminal Dosis', Arial, sans-serif;
+		color:#ff9700;
+		padding-left:10px;
+	}
+	.blue{
+		color:#146eb4;
+		font-family:'Terminal Dosis', Arial, sans-serif;
+	}
+	#left p, #right p{
+		text-align:left;
+		font-size:80%;
+		padding:0 0 5px 0;
+		margin-right:5px;
+		min-width:300px;
+	}
+	#left{
+		padding:5% 2% 0 2%;
+		margin:0 0 0 10px;
+		width:32%;
+		min-width:315px;
+		height:100%;
+		background-color:#FFF;
+		opacity:0.8;
+		box-shadow:3px 3px 2px #aaa;
+		position:absolute;
+		top:0;
+		left:5%;
+		z-index:80;
+		overflow:auto;
+	}
+	#selectleft{
+		float:left;
+	}
+	#selectright{
+		float:left;
+		margin-left:75px;
+	}
+	@media all and (max-width:982px){
+				#left{
+					padding:2% 2% 0 2%;
+					margin:0 0 0 10px;
+					width:95%;
+					min-width:315px;
+					height:100%;
+					background-color:white;
+					opacity:0.8;
+					box-shadow:3px 3px 2px #aaa;
+					position:absolute;
+					top:300px;
+					left:0%;
+					z-index:80;
+				}	
+				.placeholder, .luxe{
+					display:none;
+				}
+				h4{
+					margin-top:5px;
+					font-size:200%;
+				}
+				#selectright{
+					position:relative;
+					top:-55px;
+					left:120px;
+
+				}
+			}
+	@media all and (max-height:590px){
+                                #left{
+					padding:2% 2% 0 2%;
+					margin:0 0 0 10px;
+					width:95%;
+					min-width:315px;
+					height:100%;
+					background-color:white;
+					opacity:0.8;
+					box-shadow:3px 3px 2px #aaa;
+					position:absolute;
+					top:300px;
+					left:0%;
+					z-index:80;
+				}	
+				.placeholder, .luxe{
+					display:none;
+				}
+				h4{
+					margin-top:5px;
+					font-size:200%;
+				}
+				#selectright{
+					position:relative;
+					top:-55px;
+					left:120px;
+
+				}	
+	}		
+
+/* ############################################################################# */
+/* ########################### Gestion du transform ############################ */
+/* ############################################################################# */
+
+#transform{
+        position:absolute;
+	  top:200%;
+	  left:0;
+	  z-index:2;
+	height:100%;
+	width:100%;
+	padding:0 0 0 0;
+        overflow:hidden;
+}
+#transform #sellingpoints{
+        font-size:80%;
+	text-align:left;
+	width:90%;
+	min-width:250px;
+	padding:15px 0 0 5%;
+	margin:0;
+        }
+		#transform #sellingpoints li{
+			margin-left:25px;
+		}	        
+
+		#transform .emph{
+			color:#146eb4;
+		}
+        /* Gestion du cadre d'action */
+	.boxgrid{
+		width:600px;
+		height:550px;
+		position:absolute;
+		 top:10%;
+		 left:45%;
+		 z-index:100;
+		overflow:hidden;
+	}
+	        #printer{
+        	background: url("../images/printer.png") no-repeat center bottom;
+        	width:600px;
+        	height:550px;
+        	position:absolute;
+        	top:150px;
+        	left:0px;
+        	z-index:90;
+	        }
+	        /* Gestion du calque caché */
+		.boxgrid .backlayer{ 
+			width:90%;
+			height:90%;
+			margin:5%;
+			background:url("../images/swannkindle.png") no-repeat top center;
+			position: absolute;
+		}
+
+		/* Gestion du calque apparent */
+		.boxgrid .boxcaption{
+			width:90%;
+			height:90%;
+			margin:5%;
+			background:url("../images/proust.png") no-repeat top center;
+			position: absolute;		
+		}
+
+	.captionfull .boxcaption{
+		top:0%;
+		left:0;
+		z-index:4;	
+	}
+
+	.captionfull .backlayer{
+		top:100%;
+		left:0;
+		z-index:3;
+	}
+	.launchers{
+		width:100%;
+		height:30px;
+		padding:20px 0 0 0;
+		position:relative;
+		vertical-align: middle;
+		text-align:center;
+		margin:0 0 20% 0;
+	}
+	.launch{
+		cursor: pointer;
+		margin:0px 0 0 0;
+	}
+	.reset{
+		cursor: pointer;
+		margin:0px 0 0 0;
+		display:none;
+	}
+	#lefttrans{
+		padding:5% 2% 0 2%;
+		margin:0 0 0 10px;
+		width:32%;
+		min-width:315px;
+		height:100%;
+		background-color:#FFF;
+		opacity:0.8;
+		box-shadow:3px 3px 2px #aaa;
+		position:absolute;
+		top:0;
+		left:5%;
+		z-index:99;
+	}
+	#lefttrans p{
+		clear:both;
+		font-size:80%;
+		text-align:left;
+		width:100%;
+		min-width:250px;
+		padding:5px 0 15px 0;
+		margin:0;
+	}
+	#lefttrans h1, #lefttrans h2, #lefttrans h3, #lefttrans h4, #lefttrans h5, #lefttrans h6{
+		margin:0;
+		padding:0;
+	}
+	#lefttrans h4{
+		margin:15px 0 15px 0;
+	}
+	#lefttrans ul{
+		position:relative;
+		right:-80%;
+		top:0;
+	}
+	#buyit{
+		float:left;
+		margin:10% 0 15px 0;
+	}
+	#bcktransfo{
+		position: absolute;
+		 top:200%;
+		 right:0;
+		 width:100%;
+		 z-index:1;
+		overflow:hidden;
+        }
+	#bcktransfo img{
+		position:relative;
+		 bottom:20px;
+		 right:0;
+		 z-index:1;
+		width:100%;
+		min-width:1053px;
+		min-height:629px
+	}
+
+	@media all and (max-width:900px){
+		#bcktransfo img{
+			width:1053px;
+			height:629px;
+			float:right;
+			text-align:right;
+		}
+	}
+
+	@media all and (max-height:600px){
+	         #bcktransfo img{
+			width:1053px;
+			height:629px;
+			float:right;
+			text-align:right;
+		}	
+	}
+	@media all and (max-width:982px){
+				#lefttrans{
+					padding:1% 2% 0 2%;
+					margin:0 0 0 10px;
+					min-width:315px;
+					height:100%;
+					background-color:white;
+					opacity:0.8;
+					box-shadow:3px 3px 2px #aaa;
+				}	
+				.launchers{
+					margin:0 0 0 0%;
+				}
+				.boxgrid{
+					width:350px;
+					left:55%;
+					top:0%;
+
+				}
+				#printer{
+					width:350px;
+			        	background: url("../images/printer350.png") no-repeat center bottom;
+
+				}
+			}
+	@media all and (max-height:590px){
+				#lefttrans{
+					padding:1% 2% 0 2%;
+					margin:0 0 0 10px;
+					min-width:315px;
+					height:100%;
+					background-color:white;
+					opacity:0.8;
+					box-shadow:3px 3px 2px #aaa;
+				}	
+				.launchers{
+					margin:0 0 0 0%;
+				}
+				.boxgrid{
+					width:350px;
+					left:55%;
+					top:0%;
+				}
+				#printer{
+					width:350px;
+			        	background: url("../images/printer350.png") no-repeat center bottom;
+				}	
+	}			
+
+/* ############################################################################# */
+/* ############################# Gestion du Sell ############################### */
+/* ############################################################################# */
+
+#sell{
+        position:absolute;
+	  top:300%;
+	  left:0;
+	  z-index:2;
+	width:100%;
+	padding:0 0 0 0;
+        overflow:hidden;
+}
+	#price{
+		margin:10% 0 0 6%;
+		opacity:0.8;
+	}
+	.selling{
+	        margin:10px 0 0 5%;
+	        color:#ff9700;
+	        font-size:80%;	
+	}
+	#button{
+                margin:20px 0 0 10%;
+ 	}
+ 	a:hover #button{
+ 		opacity:0.9;
+ 	}
+
+/* ############################################################################# */
+/* ########################## Gestion du Back to top ########################### */
+/* ############################################################################# */
+
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	right:30px;
+	z-index:99;
+	opacity:0.7;
+}
+
+	#back-top a {
+		width: 50px;
+		display: block;
+		text-align: center;
+		font: 11px/100% Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #bbb;
+		/* background color transition */
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s;
+	}
+	#back-top a:hover {
+		color: black;
+	}
+
+	/* arrow icon (span tag) */
+	#back-top span {
+		width: 50px;
+		height: 50px;
+		display: block;
+		margin-bottom: 7px;
+		background: #aaa url("../images/up-arrow.png") no-repeat center center;
+		/* rounded corners */
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		/* background color transition */
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s;
+	}
+
+	#back-top a:hover span {
+		background-color: #777;
+		opacity:1;
+	}
