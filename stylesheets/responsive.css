@@ -473,6 +473,11 @@
   #archives.closed {
     display: block !important;
   }
+
+  /* line 12, ../sass/responsive/_regular.scss */
+  .details .dynamicImages {
+    max-width: 492px;
+  }
 }
 /* Used to alter styles for screens at least 1280px wide. */
 /* Used to alter styles for screens at least 1440px wide. */

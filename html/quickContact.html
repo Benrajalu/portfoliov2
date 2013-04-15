@@ -37,7 +37,7 @@
 							</article>
 						</div>
 
-						<form action="html/sendEmail.php" method="POST" id="springContact" class="custom large-9 columns" data-validate="parsley">
+						<form action="<?php if(isset($path)){echo $path;} ?>html/sendEmail.php" method="POST" id="springContact" class="custom large-9 columns" data-validate="parsley">
 							<div class="large-5 small-12 columns">
 								<label for="cname">votre nom: <span class="error" id="ename"></span></label>
 								<input type="text" name="name" id="cname" data-trigger="change" data-required="true" data-error-container=".error#ename" data-error-message="Merci d'entrer votre nom" />

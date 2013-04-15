@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ta",
+				"tamgvoz"
+			],
+			[
 				"left",
 				"leftShadow"
 			],
@@ -510,10 +514,6 @@
 			[
 				"im",
 				"important"
-			],
-			[
-				"paddin",
-				"padding"
 			]
 		]
 	},
@@ -523,15 +523,15 @@
 			"file": "html/index.php",
 			"settings":
 			{
-				"buffer_size": 1988,
+				"buffer_size": 6701,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "html/template.html",
+			"file": "html/projets.html",
 			"settings":
 			{
-				"buffer_size": 3095,
+				"buffer_size": 19745,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,15 @@
 			"file": "html/index.html",
 			"settings":
 			{
-				"buffer_size": 4692,
+				"buffer_size": 5020,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/projects/tamgvoz.html",
+			"settings":
+			{
+				"buffer_size": 2596,
 				"line_ending": "Windows"
 			}
 		},
@@ -547,7 +555,7 @@
 			"file": "sass/parts/_global.scss",
 			"settings":
 			{
-				"buffer_size": 4565,
+				"buffer_size": 8199,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,23 +563,15 @@
 			"file": "javascripts/app.js",
 			"settings":
 			{
-				"buffer_size": 2874,
+				"buffer_size": 3552,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "html/sendEmail.php",
+			"file": "javascripts/vendor/filterDis.jquery.js",
 			"settings":
 			{
-				"buffer_size": 3636,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/parts/_header.scss",
-			"settings":
-			{
-				"buffer_size": 3309,
+				"buffer_size": 652,
 				"line_ending": "Windows"
 			}
 		},
@@ -579,15 +579,7 @@
 			"file": "sass/parts/_fonts.scss",
 			"settings":
 			{
-				"buffer_size": 882,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/responsive/_regular.scss",
-			"settings":
-			{
-				"buffer_size": 188,
+				"buffer_size": 1136,
 				"line_ending": "Windows"
 			}
 		},
@@ -603,7 +595,7 @@
 			"file": "sass/responsive/_small.scss",
 			"settings":
 			{
-				"buffer_size": 6601,
+				"buffer_size": 7168,
 				"line_ending": "Windows"
 			}
 		}
@@ -644,6 +636,25 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/portfoliov2/javascripts/app.js",
+		"/C/wamp/www/portfoliov2/html/projects/optimiis.html",
+		"/C/wamp/www/portfoliov2/html/projects/kindle.html",
+		"/C/wamp/www/portfoliov2/html/projects/jenfu.html",
+		"/C/wamp/www/portfoliov2/html/projects/mywebbox.html",
+		"/C/wamp/www/portfoliov2/html/projects/lightscream.html",
+		"/C/wamp/www/portfoliov2/html/projects/foley.html",
+		"/C/wamp/www/portfoliov2/html/projects/villagraslin.html",
+		"/C/wamp/www/portfoliov2/html/projects/protectas.html",
+		"/C/wamp/www/portfoliov2/html/projects/graslin.html",
+		"/C/wamp/www/portfoliov2/html/menu.html",
+		"/C/wamp/www/portfoliov2/html/template.html",
+		"/C/wamp/www/portfoliov2/sass/responsive/_regular.scss",
+		"/C/wamp/www/portfoliov2/sass/parts/_header.scss",
+		"/C/wamp/www/portfoliov2/html/sendEmail.php",
+		"/C/wamp/www/portfoliov2/javascripts/vendor/filterDis.jquery.js",
+		"/C/wamp/www/portfoliov2/html/index.html",
+		"/C/wamp/www/portfoliov2/.htaccess",
+		"/C/Users/BenoitR/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/Vagrantfile",
 		"/C/wamp/www/portfolio/html/menu.html",
 		"/C/wamp/www/portfolio/html/quickContact.html",
@@ -752,26 +763,7 @@
 		"/C/Users/BenoitR/Dropbox/projetSass2/css/print.css",
 		"/C/Users/BenoitR/Dropbox/projetSass2/config.rb",
 		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/site/web/scripts/app.js",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/visites.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/tq-cgp/Vagrantfile",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/reservation.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/concept.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/concept.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/carnet.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/produit.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/visites.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/carnet-article.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/carnet.html",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/reservation.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/projet.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/layout.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/header.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/footer.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/produit.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/commentaires.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/carnet-article.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/search.html.twig",
-		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/static_template/projet.html"
+		"/C/Users/BenoitR/Dropbox/PMM/lligat-bem/site/views/visites.html.twig"
 	],
 	"find":
 	{
@@ -789,6 +781,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Demo Kindle",
+			"http://www.benrajalu.net/kindle/index.html",
+			"henrimichel-full",
+			"Henri Michel",
+			"henrimichel.fr",
+			"mkt-full",
+			"MKT News",
+			"http://www.benrajalu.net/MKTNews/index.html",
+			"kindle-showcase",
+			"jenfu",
+			"Jen Fu",
+			"jenfu.co.uk/",
+			"mywebbox",
+			"My Web Box",
+			"projets/jenfu.html",
+			"jenfu-full",
+			"Jen Fu",
+			"MKT News",
+			"Speederlan SIII",
+			"mywebbow",
+			"src=\"j",
+			"$_GET['pr']",
+			"<div class=\"large-6 small-12 columns killPad\">",
+			"www.chegueiparis.com",
+			"welcome",
 			"intro",
 			"last",
 			"end",
@@ -891,32 +908,7 @@
 			"commentF",
 			"select",
 			"class=\" \"",
-			"form",
-			"isiens",
-			"-  ",
-			"comment",
-			"tight",
-			"image",
-			"tight",
-			"<!--> Input alter message here <-->",
-			"inlineAlert",
-			"tight",
-			"'../media/img/stars.png",
-			"yellowbu",
-			"#sliderNav",
-			"sliderNav",
-			"BG",
-			"tags",
-			"top -3px !important",
-			"section",
-			"sec",
-			"section",
-			"larger",
-			"lager",
-			"<article class=\"zoomCard\">",
-			"<section class=\"cards\">",
-			"line blue",
-			"line"
+			"form"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -934,7 +926,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -942,15 +934,15 @@
 					"file": "html/index.php",
 					"settings":
 					{
-						"buffer_size": 1988,
+						"buffer_size": 6701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								983,
-								988
+								4804,
+								4804
 							]
 						],
 						"settings":
@@ -962,26 +954,26 @@
 							"tab_size": 6,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 16.0,
+						"translation.y": 121.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "html/template.html",
+					"file": "html/projets.html",
 					"settings":
 					{
-						"buffer_size": 3095,
+						"buffer_size": 19745,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3086,
-								3086
+								9604,
+								9604
 							]
 						],
 						"settings":
@@ -993,7 +985,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 228.0,
+						"translation.y": 2830.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1003,15 +995,15 @@
 					"file": "html/index.html",
 					"settings":
 					{
-						"buffer_size": 4692,
+						"buffer_size": 5020,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1636,
-								1636
+								1617,
+								1617
 							]
 						],
 						"settings":
@@ -1023,25 +1015,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 209.0,
+						"translation.y": 18.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "sass/parts/_global.scss",
+					"file": "html/projects/tamgvoz.html",
 					"settings":
 					{
-						"buffer_size": 4565,
+						"buffer_size": 2596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2467,
-								2467
+								2471,
+								2471
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/parts/_global.scss",
+					"settings":
+					{
+						"buffer_size": 8199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4803,
+								4803
 							]
 						],
 						"settings":
@@ -1053,25 +1075,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 502.0,
+						"translation.y": 1236.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "javascripts/app.js",
 					"settings":
 					{
-						"buffer_size": 2874,
+						"buffer_size": 3552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2504,
-								2504
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1083,37 +1105,6 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "html/sendEmail.php",
-					"settings":
-					{
-						"buffer_size": 3636,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2382,
-								2382
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1121,18 +1112,26 @@
 				},
 				{
 					"buffer": 6,
-					"file": "sass/parts/_header.scss",
+					"file": "javascripts/vendor/filterDis.jquery.js",
 					"settings":
 					{
-						"buffer_size": 3309,
+						"buffer_size": 652,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1224,
-								1224
+								490,
+								490
+							],
+							[
+								550,
+								550
+							],
+							[
+								593,
+								593
 							]
 						],
 						"settings":
@@ -1140,11 +1139,10 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1154,15 +1152,15 @@
 					"file": "sass/parts/_fonts.scss",
 					"settings":
 					{
-						"buffer_size": 882,
+						"buffer_size": 1136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								794,
-								794
+								941,
+								941
 							]
 						],
 						"settings":
@@ -1174,42 +1172,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 232.0,
+						"translation.y": 448.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "sass/responsive/_regular.scss",
-					"settings":
-					{
-						"buffer_size": 188,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								186,
-								186
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "sass/parts/_mixins.scss",
 					"settings":
 					{
@@ -1220,38 +1189,8 @@
 						"selection":
 						[
 							[
-								1876,
-								1876
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 190.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "sass/responsive/_small.scss",
-					"settings":
-					{
-						"buffer_size": 6601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								750,
-								750
+								760,
+								760
 							]
 						],
 						"settings":
@@ -1264,6 +1203,36 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "sass/responsive/_small.scss",
+					"settings":
+					{
+						"buffer_size": 7168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2244,
+								2244
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/kuroir-SCSS.tmbundle-5138de4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1449.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

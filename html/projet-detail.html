@@ -1,0 +1,96 @@
+	<div class="row">
+		<nav class="project-nav small-12 columns">
+			<ul>
+				<li><a href="<?php if(isset($path)){echo $path;} ?>projets.html" class="return"><span class="text">Retour</span><span class="icon"></span></a></li>
+				<li><a href="http://<?php echo $proj_array[$project]["url"] ?>" target="_blank" class="site"><span class="text">Voir le site</span><span class="icon"></span></a></li>
+			</ul>
+		</nav>
+
+		<div class="large-4 small-12 columns">
+			<article class="ID" itemscope itemtype="http://schema.org/WebPage">
+				<h1 class="title small" itemprop="name"><?php echo $proj_array[$project]["name"] ?></h1>
+				<dl>
+					<dt>Type</dt>
+					<?php for($i = 0; $i < count($proj_array[$project]["type"]); ++$i){
+						echo "<dd>" . $proj_array[$project]["type"][$i] . "</dd>";
+					} ?>
+					
+					<?php if(isset($proj_array[$project]["author"])){
+						echo
+							"<dt>Auteur</dt>\n
+							 <dd itemprop=\"accountablePerson\"><a href=\"" . $proj_array[$project]["author"]["link"] . "\" target=\"_blank\">" . $proj_array[$project]["author"]["name"] . "</a></dd>";
+						}
+					?>
+
+					<?php if(isset($proj_array[$project]["gestion"])){
+						echo
+							"<dt>Gestion de projet</dt>\n
+							<dd itemprop=\"accountablePerson\"><a href=\"" . $proj_array[$project]["gestion"]["url"] . "\" target=\"_blank\">" . $proj_array[$project]["gestion"]["name"] . "</a></dd>";
+						}
+					?>
+
+					<?php if(isset($proj_array[$project]["design"])){
+						echo
+							"<dt>Design</dt>\n
+							<dd itemprop=\"contributor\"><a href=\"" . $proj_array[$project]["design"]["url"] . "\" target=\"_blank\">" . $proj_array[$project]["design"]["name"] . "</a></dd>";
+						}
+					?>
+					<dt>Livraison</dt>
+					<dd itemprop="datePublished"><?php echo $proj_array[$project]["date"] ?></dd>
+					<dt>Adresse actuelle</dt>
+					<dd itemprop="url"><a href="http://<?php echo $proj_array[$project]["url"] ?>" target="_blank"><?php echo $proj_array[$project]["url_safe"] ?></a></dd>
+				</dl>
+			</article>
+		</div>
+		<div class="large-8 small-12 columns killPad">
+			<article class="details">
+				<section class="copy">
+					<h2>A propos</h2>
+					<?php echo $proj_array[$project]["copy1"] ?>
+				</section>
+			<?php if(isset($proj_array[$project]["image1"])){
+				echo
+					"<section>
+						<div class=\"dynamicImages\" data-picture data-alt=\"" . $proj_array[$project]["name"] . "\">\n
+							<div data-src=\"" .  $path . "images/projets/" . $proj_array[$project]["image1"]["large"] . "\"></div>\n
+							<div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image1"]["small"] . "\" data-media=\"(min-width:0px)\"></div>\n
+							<div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image1"]["large"] . "\" data-media=\"(min-width:421px)\"></div>\n
+						    <div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image1"]["medium"] . "\" data-media=\"(min-width:767px)\"></div>\n
+						    <noscript>\n
+						        <a href=\"projets/" . $_GET["pr"] . ".html\"" . $path . "images/projets/" . $proj_array[$project]["image1"]["large"] . "\" alt=\"" . $proj_array[$project]["name"] . "\"></a>\n
+						    </noscript>\n
+						</div>\n
+						<hr class=\"clearfix\" />\n
+					</section>";
+			}?>
+			
+			<?php if(isset($proj_array[$project]["copy2"])){
+				echo
+					"<section class=\"copy\">\n
+					<h2>" . $proj_array[$project]["copy2"]["title"] . "</h2>\n" 
+					. $proj_array[$project]["copy2"]["text"] . "</section>";
+			}?>
+
+			<?php if(isset($proj_array[$project]["image2"])){
+				for($i = 0; $i < count($proj_array[$project]["image2"]); ++$i){
+				echo
+					"<section>
+						<div class=\"dynamicImages\" data-picture data-alt=\"" . $proj_array[$project]["name"] . "\">\n
+							<div data-src=\"" .  $path . "images/projets/" . $proj_array[$project]["image2"][$i + 1]["large"] . "\"></div>\n
+							<div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image2"][$i + 1]["small"] . "\" data-media=\"(min-width:0px)\"></div>\n
+							<div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image2"][$i + 1]["large"] . "\" data-media=\"(min-width:421px)\"></div>\n
+						    <div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image2"][$i + 1]["medium"] . "\" data-media=\"(min-width:767px)\"></div>\n
+						    <noscript>\n
+						        <a href=\"projets/" . $_GET["pr"] . ".html\"" . $path . "images/projets/" . $proj_array[$project]["image2"][$i +1]["large"] . "\" alt=\"" . $proj_array[$project]["name"] . "\"></a>\n
+						    </noscript>\n
+						</div>\n
+						<hr class=\"clearfix\" />\n
+					</section>";
+				}
+			}?>
+			</article>
+			
+		</div>
+
+
+	</div>
