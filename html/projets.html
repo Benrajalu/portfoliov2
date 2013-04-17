@@ -29,24 +29,26 @@
 		</nav>
 		<div class="large-12 small-12 columns killPad" id="projects">
 			<div id="spotlight">
-				<?php foreach ($proj_array as $key => $value){ echo 
+				<?php 
+				$spotLight = array_slice($proj_array, 0, 6);;
+				foreach ($spotLight as $key => $value){ echo 
 					"<div class=\"large-6 small-12 columns killPad\">\n
-						<article class=\"project web\" data-tags=\"" . $proj_array[$key]["tags"] . "\">\n
-							<a href=\"projets/" . $proj_array[$key]["route"] . ".html\">\n
-								<div class=\"dynamicImages\" data-picture data-alt=\"" . $proj_array[$key]["name"] . "\">\n
-									<div data-src=\"images/projets/" . $proj_array[$key]["cover"]["large"] . "\"></div>\n
-									<div data-src=\"images/projets/" . $proj_array[$key]["cover"]["small"] . "\" data-media=\"(min-width:0px)\"></div>\n
-									<div data-src=\"images/projets/" . $proj_array[$key]["cover"]["medium"] . "\" data-media=\"(min-width:421px)\"></div>\n
-								    <div data-src=\"images/projets/" . $proj_array[$key]["cover"]["large"] . "\" data-media=\"(min-width:767px)\"></div>\n
+						<article class=\"project web\" data-tags=\"" . $spotLight[$key]["tags"] . "\">\n
+							<a href=\"projets/" . $spotLight[$key]["route"] . ".html\">\n
+								<div class=\"dynamicImages\" data-picture data-alt=\"" . $spotLight[$key]["name"] . "\">\n
+									<div data-src=\"images/projets/" . $spotLight[$key]["cover"]["large"] . "\"></div>\n
+									<div data-src=\"images/projets/" . $spotLight[$key]["cover"]["small"] . "\" data-media=\"(min-width:0px)\"></div>\n
+									<div data-src=\"images/projets/" . $spotLight[$key]["cover"]["medium"] . "\" data-media=\"(min-width:421px)\"></div>\n
+								    <div data-src=\"images/projets/" . $spotLight[$key]["cover"]["large"] . "\" data-media=\"(min-width:767px)\"></div>\n
 								    <noscript>\n
-								        <a href=\"projets/" . $proj_array[$key]["route"] . ".html\"><img src=\"images/projets/" . $proj_array[$key]["cover"]["large"] . "\" alt=\"" . $proj_array[$key]["name"] . "\"></a>\n
+								        <a href=\"projets/" . $spotLight[$key]["route"] . ".html\"><img src=\"images/projets/" . $spotLight[$key]["cover"]["large"] . "\" alt=\"" . $spotLight[$key]["name"] . "\"></a>\n
 								    </noscript>\n
 								</div>\n
 							</a>\n
 							<section class=\"links\">\n
-								<h2>" . $proj_array[$key]["name"] . "</h2>\n
-								<a href=\"projets/" . $proj_array[$key]["route"] . ".html\" class=\"internal\"><span class=\"icon\"></span><span class=\"text\">Infos</span></a>\n
-								<a href=\"http://" . $proj_array[$key]["url"]. "\" class=\"external\" target=\"_blank\"><span class=\"text\">Site</span><span class=\"icon\"></span></a>\n
+								<h2>" . $spotLight[$key]["name"] . "</h2>\n
+								<a href=\"projets/" . $spotLight[$key]["route"] . ".html\" class=\"internal\"><span class=\"icon\"></span><span class=\"text\">Infos</span></a>\n
+								<a href=\"http://" . $spotLight[$key]["url"]. "\" class=\"external\" target=\"_blank\"><span class=\"text\">Site</span><span class=\"icon\"></span></a>\n
 								<hr class=\"rightPoint\"/>\n
 								<hr class=\"leftShadow\"/>\n
 							</section>\n
@@ -54,364 +56,37 @@
 						</article>\n
 					</div>\n"
 				 ;} ?>
-				<div class="large-6 small-12 columns killPad">
-					<article class="project web" data-tags="web responsive integration">
-						<a href="projets/cheiguei.html">
-							<div class="dynamicImages" data-picture data-alt="Chei Guei Paris">
-								<div data-src="images/projets/cheiguei1.jpg"></div>
-								<div data-src="images/projets/cheiguei3.jpg" data-media="(min-width:0px)"></div>
-								<div data-src="images/projets/cheiguei2.jpg" data-media="(min-width:421px)"></div>
-							    <div data-src="images/projets/cheiguei1.jpg" data-media="(min-width:767px)"></div>
-							    <noscript>
-							        <a href="projets/cheiguei.html"><img src="images/projets/cheiguei1.jpg" alt="CheiGuei Paris"></a>
-							    </noscript>
-							</div>
-						</a>
-						<section class="links">
-							<h2>CheGuei Paris</h2>
-							<a href="projets/cheiguei.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-							<a href="http://www.chegueiparis.com" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-							<hr class="rightPoint"/>
-							<hr class="leftShadow"/>
-						</section>
-						<div class="dropShadow"></div>
-					</article>
-				</div>
-
-				<div class="large-6 small-12 columns killPad">
-					<article class="project web" data-tags="web responsive integration">
-						<a href="projets/foley.html">
-							<div class="dynamicImages" data-picture data-alt="Morning by Foley">
-								<div data-src="images/projets/foley1.jpg"></div>
-								<div data-src="images/projets/foley3.jpg" data-media="(min-width:0px)"></div>
-								<div data-src="images/projets/foley2.jpg" data-media="(min-width:421px)"></div>
-							    <div data-src="images/projets/foley1.jpg" data-media="(min-width:767px)"></div>
-							    <noscript>
-							        <a href="projets/cheiguei.html"><img src="images/projets/foley1.jpg" alt="Morning by Foley"></a>
-							    </noscript>
-							</div>
-						</a>
-						<section class="links">
-							<h2>CheGuei Paris</h2>
-							<a href="projets/foley.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-							<a href="http://morning-by-foley.com/" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-							<hr class="rightPoint"/>
-							<hr class="leftShadow"/>
-						</section>
-						<div class="dropShadow"></div>
-					</article>
-				</div>
-
-				<div class="large-6 small-12 columns killPad">
-					<article class="project web" data-tags="web responsive integration webdesign redaction">
-						<a href="projets/villagraslin.html">
-							<div class="dynamicImages" data-picture data-alt="Villa Graslin">
-								<div data-src="images/projets/graslin1.jpg"></div>
-								<div data-src="images/projets/graslin3.jpg" data-media="(min-width:0px)"></div>
-								<div data-src="images/projets/graslin2.jpg" data-media="(min-width:421px)"></div>
-							    <div data-src="images/projets/graslin1.jpg" data-media="(min-width:767px)"></div>
-							    <noscript>
-							        <a href="projets/villagraslin.html"><img src="images/projets/graslin1.jpg" alt="Villa Graslin"></a>
-							    </noscript>
-							</div>
-						</a>
-						<section class="links">
-							<h2>Villa graslin</h2>
-							<a href="projets/villagraslin.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-							<a href="http://www.villa-graslin.fr" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-							<hr class="rightPoint"/>
-							<hr class="leftShadow"/>
-						</section>
-						<div class="dropShadow"></div>
-					</article>
-				</div>
-
-				<div class="large-6 small-12 columns killPad">
-					<article class="project web" data-tags="web responsive integration webdesign redaction">
-						<a href="projets/protectas.html">
-							<div class="dynamicImages" data-picture data-alt="Protectas">
-								<div data-src="images/projets/protectas1.jpg"></div>
-								<div data-src="images/projets/protectas3.jpg" data-media="(min-width:0px)"></div>
-								<div data-src="images/projets/protectas2.jpg" data-media="(min-width:421px)"></div>
-							    <div data-src="images/projets/protectas1.jpg" data-media="(min-width:767px)"></div>
-							    <noscript>
-							        <a href="projets/protectas.html"><img src="images/projets/protectas1.jpg" alt="Protectas"></a>
-							    </noscript>
-							</div>
-						</a>
-						<section class="links">
-							<h2>Protectas</h2>
-							<a href="projets/protectas.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-							<a href="http://protectas.fr/" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-							<hr class="rightPoint"/>
-							<hr class="leftShadow"/>
-						</section>
-						<div class="dropShadow"></div>
-					</article>
-				</div>
-
-				<div class="large-6 small-12 columns killPad">
-					<article class="project web" data-tags="web responsive integration">
-						<a href="projets/mywebbox.html">
-							<div class="dynamicImages" data-picture data-alt="My Web Box">
-								<div data-src="images/projets/webbox1.jpg"></div>
-								<div data-src="images/projets/webbox3.jpg" data-media="(min-width:0px)"></div>
-								<div data-src="images/projets/webbox2.jpg" data-media="(min-width:421px)"></div>
-							    <div data-src="images/projets/webbox1.jpg" data-media="(min-width:767px)"></div>
-							    <noscript>
-							        <a href="projets/mywebbox.html"><img src="images/projets/webbox1.jpg" alt="My Web Box"></a>
-							    </noscript>
-							</div>
-						</a>
-						<section class="links">
-							<h2>My Web Box</h2>
-							<a href="projets/mywebbox.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-							<a href="http://www.mywebbox.fr/" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-							<hr class="rightPoint"/>
-							<hr class="leftShadow"/>
-						</section>
-						<div class="dropShadow"></div>
-					</article>
-				</div>
-
-				<div class="large-6 small-12 columns killPad">
-					<article class="project web" data-tags="web responsive integration redaction">
-						<a href="projets/speederlan.html">
-							<div class="dynamicImages" data-picture data-alt="Speederlan">
-								<div data-src="images/projets/speederlan1.jpg"></div>
-								<div data-src="images/projets/speederlan3.jpg" data-media="(min-width:0px)"></div>
-								<div data-src="images/projets/speederlan2.jpg" data-media="(min-width:421px)"></div>
-							    <div data-src="images/projets/speederlan1.jpg" data-media="(min-width:767px)"></div>
-							    <noscript>
-							        <a href="projets/speederlan.html"><img src="images/projets/speederlan1.jpg" alt="Speederlan"></a>
-							    </noscript>
-							</div>
-						</a>
-						<section class="links">
-							<h2>Speederlan</h2>
-							<a href="projets/speederlan.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-							<a href="http://www.speederlan.eu" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-							<hr class="rightPoint"/>
-							<hr class="leftShadow"/>
-						</section>
-						<div class="dropShadow"></div>
-					</article>
 				</div>
 
 				<div id="archives" data-collapse="closed">
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="web responsive integration webdesign démo">
-							<a href="projets/mktnews.html">
-								<div class="dynamicImages" data-picture data-alt="MKT News">
-									<div data-src="images/projets/mkt1.jpg"></div>
-									<div data-src="images/projets/mkt3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/mkt2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/mkt1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/mktnews.html"><img src="images/projets/mkt1.jpg" alt="MKT News"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>MKT News</h2>
-								<a href="projets/mktnews.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<a href="http://www.benrajalu.net/MKTNews/index.html" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
-
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="web integration developpement">
-							<a href="projets/jenfu.html">
-								<div class="dynamicImages" data-picture data-alt="Jen FU">
-									<div data-src="images/projets/jenfu1.jpg"></div>
-									<div data-src="images/projets/jenfu3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/jenfu2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/jenfu1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/jenfu.html"><img src="images/projets/jenfu1.jpg" alt="Jen FU"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>Jen FU</h2>
-								<a href="projets/jenfu.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<a href="http://wwwjenfu.co.uk" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
-
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="web integration webdesign redaction developpement">
-							<a href="projets/lightscream.html">
-								<div class="dynamicImages" data-picture data-alt="Light Scream">
-									<div data-src="images/projets/lightscream1.jpg"></div>
-									<div data-src="images/projets/lightscream3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/lightscream2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/lightscream1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/lightscream.html"><img src="images/projets/lightscream1.jpg" alt="Light Scream"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>Light Scream</h2>
-								<a href="projets/lightscream.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<a href="http://www.lightscream.com" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
-
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="web integration">
-							<a href="projets/pmm.html">
-								<div class="dynamicImages" data-picture data-alt="Perpetual Motion Machine">
-									<div data-src="images/projets/pmm1.jpg"></div>
-									<div data-src="images/projets/pmm3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/pmm2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/pmm1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/pmm.html"><img src="images/projets/pmm1.jpg" alt="Perpetual Motion Machine"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>Perpetual Motion Machine</h2>
-								<a href="projets/pmm.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<a href="http://www.perpetualmotionmachine.fr" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
-
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="web integration webdesign redaction démo">
-							<a href="projets/kindle.html">
-								<div class="dynamicImages" data-picture data-alt="Demo Kindle">
-									<div data-src="images/projets/kindle1.jpg"></div>
-									<div data-src="images/projets/kindle3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/kindle2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/kindle1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/kindle.html"><img src="images/projets/kindle1.jpg" alt="Demo Kindle"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>Demo Kindle</h2>
-								<a href="projets/kindle.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<a href="/kindle/" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
-
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="web integration">
-							<a href="projets/henrimichel.html">
-								<div class="dynamicImages" data-picture data-alt="Henri Michel">
-									<div data-src="images/projets/henrimichel1.jpg"></div>
-									<div data-src="images/projets/henrimichel3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/henrimichel2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/henrimichel1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/henrimichel.html"><img src="images/projets/henrimichel1.jpg" alt="Henri Michel"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>Henri Michel</h2>
-								<a href="projets/henrimichel.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<a href="http://www.henrimichel.fr" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
-
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="web integration">
-							<a href="projets/optimiis.html">
-								<div class="dynamicImages" data-picture data-alt="Optimiss">
-									<div data-src="images/projets/optimiis1.jpg"></div>
-									<div data-src="images/projets/optimiis3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/optimiis2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/optimiis1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/optimiis.html"><img src="images/projets/optimiis1.jpg" alt="CheiGuei Paris"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>Optimiss</h2>
-								<a href="projets/optimiis.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<a href="http://www.optimiis.fr" class="external" target="_blank"><span class="text">Site</span><span class="icon"></span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
-
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="print redaction édition">
-							<a href="projets/aln.html">
-								<div class="dynamicImages" data-picture data-alt="Arts London News">
-									<div data-src="images/projets/aln1.jpg"></div>
-									<div data-src="images/projets/aln3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/aln2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/aln1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/aln.html"><img src="images/projets/aln1.jpg" alt="Arts London News"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>Arts London News</h2>
-								<a href="projets/aln.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
-
-					<div class="large-6 small-12 columns killPad">
-						<article class="project web" data-tags="print redaction édition">
-							<a href="projets/tamgvoz.html">
-								<div class="dynamicImages" data-picture data-alt="Tamara Gvozdenovic">
-									<div data-src="images/projets/tamgvoz1.jpg"></div>
-									<div data-src="images/projets/tamgvoz3.jpg" data-media="(min-width:0px)"></div>
-									<div data-src="images/projets/tamgvoz2.jpg" data-media="(min-width:421px)"></div>
-								    <div data-src="images/projets/tamgvoz1.jpg" data-media="(min-width:767px)"></div>
-								    <noscript>
-								        <a href="projets/tamgvoz.html"><img src="images/projets/tamGvoz1.jpg" alt="Tamara Gvozdenovic"></a>
-								    </noscript>
-								</div>
-							</a>
-							<section class="links">
-								<h2>Tamara Gvozdenovic</h2>
-								<a href="projets/tamgvoz.html" class="internal"><span class="icon"></span><span class="text">Infos</span></a>
-								<hr class="rightPoint"/>
-								<hr class="leftShadow"/>
-							</section>
-							<div class="dropShadow"></div>
-						</article>
-					</div>
+					<?php 
+					$archive = array_slice($proj_array, 6);;
+					foreach ($archive as $key => $value){ echo 
+						"<div class=\"large-6 small-12 columns killPad\">\n
+							<article class=\"project web\" data-tags=\"" . $archive[$key]["tags"] . "\">\n
+								<a href=\"projets/" . $archive[$key]["route"] . ".html\">\n
+									<div class=\"dynamicImages\" data-picture data-alt=\"" . $archive[$key]["name"] . "\">\n
+										<div data-src=\"images/projets/" . $archive[$key]["cover"]["large"] . "\"></div>\n
+										<div data-src=\"images/projets/" . $archive[$key]["cover"]["small"] . "\" data-media=\"(min-width:0px)\"></div>\n
+										<div data-src=\"images/projets/" . $archive[$key]["cover"]["medium"] . "\" data-media=\"(min-width:421px)\"></div>\n
+									    <div data-src=\"images/projets/" . $archive[$key]["cover"]["large"] . "\" data-media=\"(min-width:767px)\"></div>\n
+									    <noscript>\n
+									        <a href=\"projets/" . $archive[$key]["route"] . ".html\"><img src=\"images/projets/" . $archive[$key]["cover"]["large"] . "\" alt=\"" . $archive[$key]["name"] . "\"></a>\n
+									    </noscript>\n
+									</div>\n
+								</a>\n
+								<section class=\"links\">\n
+									<h2>" . $archive[$key]["name"] . "</h2>\n
+									<a href=\"projets/" . $archive[$key]["route"] . ".html\" class=\"internal\"><span class=\"icon\"></span><span class=\"text\">Infos</span></a>\n
+									<a href=\"http://" . $archive[$key]["url"]. "\" class=\"external\" target=\"_blank\"><span class=\"text\">Site</span><span class=\"icon\"></span></a>\n
+									<hr class=\"rightPoint\"/>\n
+									<hr class=\"leftShadow\"/>\n
+								</section>\n
+								<div class=\"dropShadow\"></div>\n
+							</article>\n
+						</div>\n"
+					 ;} ?>
+					
 					<div class="large-6 small-12 columns killPad">
 					</div>
 				</div>
