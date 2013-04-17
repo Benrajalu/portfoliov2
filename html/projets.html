@@ -30,7 +30,7 @@
 		<div class="large-12 small-12 columns killPad" id="projects">
 			<div id="spotlight">
 				<?php 
-				$spotLight = array_slice($proj_array, 0, 6);;
+				$spotLight = array_slice($proj_array, 0, 6);
 				foreach ($spotLight as $key => $value){ echo 
 					"<div class=\"large-6 small-12 columns killPad\">\n
 						<article class=\"project web\" data-tags=\"" . $spotLight[$key]["tags"] . "\">\n
@@ -60,7 +60,7 @@
 
 				<div id="archives" data-collapse="closed">
 					<?php 
-					$archive = array_slice($proj_array, 6);;
+					$archive = array_slice($proj_array, 6);
 					foreach ($archive as $key => $value){ echo 
 						"<div class=\"large-6 small-12 columns killPad\">\n
 							<article class=\"project web\" data-tags=\"" . $archive[$key]["tags"] . "\">\n
