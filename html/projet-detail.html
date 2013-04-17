@@ -28,6 +28,11 @@
 							<dd itemprop=\"accountablePerson\"><a href=\"" . $proj_array[$project]["gestion"]["url"] . "\" target=\"_blank\">" . $proj_array[$project]["gestion"]["name"] . "</a></dd>";
 						}
 					?>
+					<?php if(isset($proj_array[$project]["gestion2"])){
+						echo
+							"<dd itemprop=\"copyrightHolder\"><a href=\"" . $proj_array[$project]["gestion2"]["url"] . "\" target=\"_blank\">" . $proj_array[$project]["gestion2"]["name"] . "</a></dd>";
+						}
+					?>
 
 					<?php if(isset($proj_array[$project]["design"])){
 						echo
@@ -35,9 +40,14 @@
 							<dd itemprop=\"contributor\"><a href=\"" . $proj_array[$project]["design"]["url"] . "\" target=\"_blank\">" . $proj_array[$project]["design"]["name"] . "</a></dd>";
 						}
 					?>
+					<?php if(isset($proj_array[$project]["design2"])){
+						echo
+							"<dd itemprop=\"contributor\"><a href=\"" . $proj_array[$project]["design2"]["url"] . "\" target=\"_blank\">" . $proj_array[$project]["design2"]["name"] . "</a></dd>";
+						}
+					?>
 					<dt>Livraison</dt>
 					<dd itemprop="datePublished"><?php echo $proj_array[$project]["date"] ?></dd>
-					<dt>Adresse actuelle</dt>
+					<dt>Adresse</dt>
 					<dd itemprop="url"><a href="http://<?php echo $proj_array[$project]["url"] ?>" target="_blank"><?php echo $proj_array[$project]["url_safe"] ?></a></dd>
 				</dl>
 			</article>
@@ -87,6 +97,12 @@
 						<hr class=\"clearfix\" />\n
 					</section>";
 				}
+			}?>
+
+			<?php if(isset($proj_array[$project]["copy3"])){
+				echo
+					"<section class=\"copy\">\n" 
+					. $proj_array[$project]["copy3"] . "</section>";
 			}?>
 			</article>
 			

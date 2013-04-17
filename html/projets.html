@@ -29,6 +29,31 @@
 		</nav>
 		<div class="large-12 small-12 columns killPad" id="projects">
 			<div id="spotlight">
+				<?php foreach ($proj_array as $key => $value){ echo 
+					"<div class=\"large-6 small-12 columns killPad\">\n
+						<article class=\"project web\" data-tags=\"" . $proj_array[$key]["tags"] . "\">\n
+							<a href=\"projets/" . $proj_array[$key]["route"] . ".html\">\n
+								<div class=\"dynamicImages\" data-picture data-alt=\"" . $proj_array[$key]["name"] . "\">\n
+									<div data-src=\"images/projets/" . $proj_array[$key]["cover"]["large"] . "\"></div>\n
+									<div data-src=\"images/projets/" . $proj_array[$key]["cover"]["small"] . "\" data-media=\"(min-width:0px)\"></div>\n
+									<div data-src=\"images/projets/" . $proj_array[$key]["cover"]["medium"] . "\" data-media=\"(min-width:421px)\"></div>\n
+								    <div data-src=\"images/projets/" . $proj_array[$key]["cover"]["large"] . "\" data-media=\"(min-width:767px)\"></div>\n
+								    <noscript>\n
+								        <a href=\"projets/" . $proj_array[$key]["route"] . ".html\"><img src=\"images/projets/" . $proj_array[$key]["cover"]["large"] . "\" alt=\"" . $proj_array[$key]["name"] . "\"></a>\n
+								    </noscript>\n
+								</div>\n
+							</a>\n
+							<section class=\"links\">\n
+								<h2>" . $proj_array[$key]["name"] . "</h2>\n
+								<a href=\"projets/" . $proj_array[$key]["route"] . ".html\" class=\"internal\"><span class=\"icon\"></span><span class=\"text\">Infos</span></a>\n
+								<a href=\"http://" . $proj_array[$key]["url"]. "\" class=\"external\" target=\"_blank\"><span class=\"text\">Site</span><span class=\"icon\"></span></a>\n
+								<hr class=\"rightPoint\"/>\n
+								<hr class=\"leftShadow\"/>\n
+							</section>\n
+							<div class=\"dropShadow\"></div>\n
+						</article>\n
+					</div>\n"
+				 ;} ?>
 				<div class="large-6 small-12 columns killPad">
 					<article class="project web" data-tags="web responsive integration">
 						<a href="projets/cheiguei.html">
