@@ -6,15 +6,32 @@
   }
 
   /* line 6, ../sass/responsive/_small.scss */
+  .hide-for-very-small {
+    display: none;
+  }
+
+  /* line 9, ../sass/responsive/_small.scss */
   .killPad {
     padding: 0px !important;
   }
-  /* line 8, ../sass/responsive/_small.scss */
+  /* line 11, ../sass/responsive/_small.scss */
   .killPad .title {
     padding-left: 15px;
   }
+  /* line 14, ../sass/responsive/_small.scss */
+  .killPad.xp {
+    padding: 10px 0px !important;
+  }
+  /* line 16, ../sass/responsive/_small.scss */
+  .killPad.xp.lvl {
+    padding: 10px 0.9375em !important;
+  }
+  /* line 20, ../sass/responsive/_small.scss */
+  .killPad.xp-lists {
+    margin: 20px 0px;
+  }
 
-  /* line 12, ../sass/responsive/_small.scss */
+  /* line 24, ../sass/responsive/_small.scss */
   .project.copy {
     width: 85% !important;
     float: right;
@@ -27,67 +44,69 @@
     background-image: -ms-linear-gradient(bottom, #07698f 14%, #34aadd 78%);
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, #07698f), color-stop(0.78, #34aadd));
   }
-  /* line 18, ../sass/responsive/_small.scss */
+  /* line 30, ../sass/responsive/_small.scss */
   .project.copy * {
     color: #fff;
   }
-  /* line 21, ../sass/responsive/_small.scss */
+  /* line 33, ../sass/responsive/_small.scss */
   .project.copy a:hover span.text {
     border-bottom: 1px dotted white;
   }
-  /* line 24, ../sass/responsive/_small.scss */
+  /* line 36, ../sass/responsive/_small.scss */
   .project.copy .dropShadow {
     position: absolute;
     bottom: -7px;
     left: 0px;
   }
-  /* line 29, ../sass/responsive/_small.scss */
+  /* line 41, ../sass/responsive/_small.scss */
   .project.copy .leftShadow {
     position: absolute;
     top: 0px;
     left: -7px;
   }
-  /* line 34, ../sass/responsive/_small.scss */
+  /* line 46, ../sass/responsive/_small.scss */
   .project.copy .custom {
     display: inline-block;
     *display: inline;
     zoom: 1;
     margin: 20px 0px 0px 2em;
   }
-  /* line 39, ../sass/responsive/_small.scss */
+  /* line 51, ../sass/responsive/_small.scss */
   .project.copy .custom .icon {
     background-image: url("../images/buttonIconW.png");
   }
 
-  /* line 44, ../sass/responsive/_small.scss */
+  /* line 56, ../sass/responsive/_small.scss */
   .project.web {
     float: left;
   }
-  /* line 46, ../sass/responsive/_small.scss */
+  /* line 58, ../sass/responsive/_small.scss */
   .project.web .dynamicImages {
     float: left;
   }
-  /* line 49, ../sass/responsive/_small.scss */
+  /* line 61, ../sass/responsive/_small.scss */
   .project.web .links {
     left: 80%;
     width: 20%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
   }
-  /* line 52, ../sass/responsive/_small.scss */
+  /* line 66, ../sass/responsive/_small.scss */
   .project.web .links .leftShadow {
     display: none;
   }
-  /* line 55, ../sass/responsive/_small.scss */
+  /* line 69, ../sass/responsive/_small.scss */
   .project.web .links .rightPoint {
     right: 100%;
     background-image: url("../images/leftPoint.png");
   }
 
-  /* line 61, ../sass/responsive/_small.scss */
+  /* line 75, ../sass/responsive/_small.scss */
   .skill {
     width: 32% !important;
     margin: 0 auto 20px auto !important;
   }
-  /* line 64, ../sass/responsive/_small.scss */
+  /* line 78, ../sass/responsive/_small.scss */
   .skill.last {
     width: 80% !important;
     float: right !important;
@@ -100,56 +119,56 @@
     background-image: -ms-linear-gradient(bottom, #07698f 14%, #34aadd 78%);
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, #07698f), color-stop(0.78, #34aadd));
   }
-  /* line 70, ../sass/responsive/_small.scss */
+  /* line 84, ../sass/responsive/_small.scss */
   .skill.last * {
     color: #fff;
   }
-  /* line 73, ../sass/responsive/_small.scss */
+  /* line 87, ../sass/responsive/_small.scss */
   .skill.last a:hover span.text {
     border-bottom: 1px dotted white;
   }
-  /* line 76, ../sass/responsive/_small.scss */
+  /* line 90, ../sass/responsive/_small.scss */
   .skill.last .dropShadow {
     position: absolute;
     bottom: -7px;
     left: 0px;
   }
-  /* line 81, ../sass/responsive/_small.scss */
+  /* line 95, ../sass/responsive/_small.scss */
   .skill.last .leftShadow {
     position: absolute;
     top: 0px;
     left: -7px;
   }
-  /* line 87, ../sass/responsive/_small.scss */
+  /* line 101, ../sass/responsive/_small.scss */
   .skill .logo, .skill .copy {
     width: 100% !important;
   }
-  /* line 90, ../sass/responsive/_small.scss */
+  /* line 104, ../sass/responsive/_small.scss */
   .skill .logo {
     margin-bottom: 20px;
   }
-  /* line 93, ../sass/responsive/_small.scss */
+  /* line 107, ../sass/responsive/_small.scss */
   .skill .custom {
     display: inline-block;
     *display: inline;
     zoom: 1;
     margin: 20px 0px 0px 2em;
   }
-  /* line 98, ../sass/responsive/_small.scss */
+  /* line 112, ../sass/responsive/_small.scss */
   .skill .custom .icon {
     background-image: url("../images/buttonIconW.png");
   }
 
-  /* line 105, ../sass/responsive/_small.scss */
+  /* line 119, ../sass/responsive/_small.scss */
   .columns .skill.last {
     margin-right: -0.9375em !important;
   }
 
-  /* line 114, ../sass/responsive/_small.scss */
+  /* line 128, ../sass/responsive/_small.scss */
   .welcome.row .columns {
     width: 100%;
   }
-  /* line 117, ../sass/responsive/_small.scss */
+  /* line 131, ../sass/responsive/_small.scss */
   .welcome.row .intro {
     width: 90%;
     margin: 0 auto 15px auto;
@@ -162,7 +181,7 @@
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.14, #07698f), color-stop(0.78, #34aadd));
     border-radius: 0px 0px 3px 3px;
   }
-  /* line 123, ../sass/responsive/_small.scss */
+  /* line 137, ../sass/responsive/_small.scss */
   .welcome.row .intro h2 {
     font-size: 40px;
     margin-bottom: 15px;
@@ -174,39 +193,59 @@
     background-color: #fff;
     padding: 10px 0px;
   }
-  /* line 134, ../sass/responsive/_small.scss */
+  /* line 148, ../sass/responsive/_small.scss */
   .welcome.row .intro p {
     font-size: 12px;
     line-height: 1.8em;
     text-align: center;
     color: #fff;
   }
-  /* line 139, ../sass/responsive/_small.scss */
+  /* line 153, ../sass/responsive/_small.scss */
   .welcome.row .intro p .strong {
     color: #fff;
   }
+
+  /* line 161, ../sass/responsive/_small.scss */
+  .xp-lists {
+    border-right: 0px !important;
+    border-left: 0px !important;
+  }
+  /* line 167, ../sass/responsive/_small.scss */
+  .xp-lists .xp dl dd.role {
+    display: none;
+  }
+
+  /* line 174, ../sass/responsive/_small.scss */
+  .hello {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 0px auto 20px auto;
+  }
 }
 @media only screen and (max-width: 767px) {
-  /* line 150, ../sass/responsive/_small.scss */
+  /* line 184, ../sass/responsive/_small.scss */
   #mainMenu {
     height: 60px;
   }
-  /* line 152, ../sass/responsive/_small.scss */
+  /* line 186, ../sass/responsive/_small.scss */
   #mainMenu h1 {
     height: 60px;
   }
-  /* line 154, ../sass/responsive/_small.scss */
+  /* line 188, ../sass/responsive/_small.scss */
   #mainMenu h1 a {
     height: 50px;
     background: url("../images/logo-small.png") center center no-repeat;
   }
-  /* line 159, ../sass/responsive/_small.scss */
+  /* line 193, ../sass/responsive/_small.scss */
   #mainMenu section {
     height: 60px;
     padding: 0px 0px 0px 0px;
     margin-right: 20px;
   }
-  /* line 165, ../sass/responsive/_small.scss */
+  /* line 199, ../sass/responsive/_small.scss */
   #mainMenu section ul li a:not(.button) {
     line-height: 60px;
     padding: 3px 15px;
@@ -214,91 +253,91 @@
     background: #34abdd;
     color: #fff;
   }
-  /* line 173, ../sass/responsive/_small.scss */
+  /* line 207, ../sass/responsive/_small.scss */
   #mainMenu section ul li:hover a {
     background: transparent;
   }
-  /* line 175, ../sass/responsive/_small.scss */
+  /* line 209, ../sass/responsive/_small.scss */
   #mainMenu section ul li:hover a span {
     color: #34abdd;
   }
-  /* line 181, ../sass/responsive/_small.scss */
+  /* line 215, ../sass/responsive/_small.scss */
   #mainMenu section ul li.active a {
     background: none;
   }
 
-  /* line 192, ../sass/responsive/_small.scss */
+  /* line 226, ../sass/responsive/_small.scss */
   .close {
     position: absolute;
     top: 0px;
     right: 25px;
   }
 
-  /* line 197, ../sass/responsive/_small.scss */
+  /* line 231, ../sass/responsive/_small.scss */
   #archives {
     display: none;
   }
 
-  /* line 202, ../sass/responsive/_small.scss */
+  /* line 236, ../sass/responsive/_small.scss */
   .intro {
     padding: 40px 0px 0px 0px;
     width: 80%;
   }
 
-  /* line 206, ../sass/responsive/_small.scss */
+  /* line 240, ../sass/responsive/_small.scss */
   .wrap {
     margin-top: 20px;
   }
 
-  /* line 211, ../sass/responsive/_small.scss */
+  /* line 245, ../sass/responsive/_small.scss */
   #myChart {
     display: none;
   }
 
-  /* line 217, ../sass/responsive/_small.scss */
+  /* line 251, ../sass/responsive/_small.scss */
   .featured.small {
     margin: 15px 0px 15px 0px !important;
     padding: 0px 3px !important;
   }
-  /* line 222, ../sass/responsive/_small.scss */
+  /* line 256, ../sass/responsive/_small.scss */
   .featured.small .overlay ul li {
     font-size: 10px;
   }
-  /* line 224, ../sass/responsive/_small.scss */
+  /* line 258, ../sass/responsive/_small.scss */
   .featured.small .overlay ul li a {
     font-size: 10px;
   }
 
-  /* line 232, ../sass/responsive/_small.scss */
+  /* line 266, ../sass/responsive/_small.scss */
   .ID {
     border-bottom: 1px dotted #34abdd;
     padding-bottom: 30px;
   }
-  /* line 236, ../sass/responsive/_small.scss */
+  /* line 270, ../sass/responsive/_small.scss */
   .ID dl dd, .ID dl dt {
     font-size: 10px;
   }
-  /* line 239, ../sass/responsive/_small.scss */
+  /* line 273, ../sass/responsive/_small.scss */
   .ID dl dt {
     margin-top: 5px;
   }
 
-  /* line 248, ../sass/responsive/_small.scss */
+  /* line 282, ../sass/responsive/_small.scss */
   #quickContact #buttonSection {
     margin: 15px 0px;
   }
-  /* line 252, ../sass/responsive/_small.scss */
+  /* line 286, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons {
     height: 88px;
     border: 1px solid #262626;
     border-right: none;
   }
-  /* line 256, ../sass/responsive/_small.scss */
+  /* line 290, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons.top {
     border-bottom: 0px;
     margin-bottom: 0px;
   }
-  /* line 261, ../sass/responsive/_small.scss */
+  /* line 295, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon {
     border-right: 1px solid #303030;
     height: 86px;
@@ -306,7 +345,7 @@
     padding: 0px;
     list-style-type: none;
   }
-  /* line 267, ../sass/responsive/_small.scss */
+  /* line 301, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a {
     display: block;
     height: 78px;
@@ -315,25 +354,25 @@
     margin: 2px auto;
     background: url("../images/socialIcons.png") no-repeat;
   }
-  /* line 274, ../sass/responsive/_small.scss */
+  /* line 308, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iMail {
     background: url("../images/socialIconsXL.png") no-repeat;
     background-position: 0px 0px;
   }
-  /* line 277, ../sass/responsive/_small.scss */
+  /* line 311, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iMail:hover {
     background-position: 0px -78px;
   }
-  /* line 281, ../sass/responsive/_small.scss */
+  /* line 315, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iPhone {
     background: url("../images/socialIconsXL.png") no-repeat;
     background-position: -78px 0px;
   }
-  /* line 284, ../sass/responsive/_small.scss */
+  /* line 318, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iPhone:hover {
     background-position: -78px -78px;
   }
-  /* line 288, ../sass/responsive/_small.scss */
+  /* line 322, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iGplus {
     background: url("../images/socialIconsM.png") no-repeat;
     width: 55px;
@@ -341,11 +380,11 @@
     background-position: -165px 0px;
     margin-top: 15px;
   }
-  /* line 294, ../sass/responsive/_small.scss */
+  /* line 328, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iGplus:hover {
     background-position: -165px -55px;
   }
-  /* line 298, ../sass/responsive/_small.scss */
+  /* line 332, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iTwitter {
     background: url("../images/socialIconsM.png") no-repeat;
     width: 55px;
@@ -353,11 +392,11 @@
     background-position: -110px 0px;
     margin-top: 15px;
   }
-  /* line 304, ../sass/responsive/_small.scss */
+  /* line 338, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iTwitter:hover {
     background-position: -110px -55px;
   }
-  /* line 308, ../sass/responsive/_small.scss */
+  /* line 342, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iFlickr {
     background: url("../images/socialIconsM.png") no-repeat;
     width: 55px;
@@ -365,24 +404,84 @@
     background-position: -220px 0px;
     margin-top: 15px;
   }
-  /* line 314, ../sass/responsive/_small.scss */
+  /* line 348, ../sass/responsive/_small.scss */
   #quickContact #buttonSection .quickButtons .icon a#iFlickr:hover {
     background-position: -220px -55px;
   }
-  /* line 323, ../sass/responsive/_small.scss */
+  /* line 357, ../sass/responsive/_small.scss */
   #quickContact #springContact {
     margin-top: 20px;
   }
+
+  /* line 363, ../sass/responsive/_small.scss */
+  .xp-lists {
+    position: relative;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    background-color: #fff;
+  }
+  /* line 368, ../sass/responsive/_small.scss */
+  .xp-lists .dropShadow.top {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 100%;
+    z-index: 9;
+  }
+  /* line 375, ../sass/responsive/_small.scss */
+  .xp-lists .upShadow {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    z-index: 9;
+    bottom: -0px;
+  }
+  /* line 382, ../sass/responsive/_small.scss */
+  .xp-lists .xp {
+    margin-bottom: 0px;
+    padding: 10px 0.9375em 10px 0px;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  /* line 386, ../sass/responsive/_small.scss */
+  .xp-lists .xp.last {
+    border-bottom: none;
+  }
+  /* line 389, ../sass/responsive/_small.scss */
+  .xp-lists .xp .visual {
+    width: 14%;
+  }
+  /* line 392, ../sass/responsive/_small.scss */
+  .xp-lists .xp.lvl {
+    margin-bottom: 0px;
+  }
+  /* line 395, ../sass/responsive/_small.scss */
+  .xp-lists .xp dl {
+    width: 86%;
+  }
+  /* line 397, ../sass/responsive/_small.scss */
+  .xp-lists .xp dl dd, .xp-lists .xp dl dt {
+    margin: 6px 0px;
+    line-height: 1;
+  }
+  /* line 401, ../sass/responsive/_small.scss */
+  .xp-lists .xp dl dt {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1em;
+    letter-spacing: 0px;
+    font-weight: 300;
+    color: #34abdd;
+    margin: 0;
+  }
 }
 @media only screen and (max-width: 939px) {
-  /* line 334, ../sass/responsive/_small.scss */
+  /* line 415, ../sass/responsive/_small.scss */
   .top-bar {
     height: 40px;
     line-height: 40px;
     margin-bottom: 0px !important;
     background: transparent;
   }
-  /* line 340, ../sass/responsive/_small.scss */
+  /* line 421, ../sass/responsive/_small.scss */
   .top-bar .name h1 a {
     background: url("../images/logo-small.png") center center no-repeat;
     width: 60px;
@@ -391,54 +490,54 @@
     -o-transition: all 0.45s;
     transition: all 0.45s;
   }
-  /* line 344, ../sass/responsive/_small.scss */
+  /* line 425, ../sass/responsive/_small.scss */
   .top-bar .name h1 a:hover {
     opacity: 0.8;
   }
-  /* line 349, ../sass/responsive/_small.scss */
+  /* line 430, ../sass/responsive/_small.scss */
   .top-bar ul li {
     line-height: 30px;
   }
-  /* line 352, ../sass/responsive/_small.scss */
+  /* line 433, ../sass/responsive/_small.scss */
   .top-bar ul li a {
     line-height: 30px;
   }
-  /* line 356, ../sass/responsive/_small.scss */
+  /* line 437, ../sass/responsive/_small.scss */
   .top-bar section ul {
     border-top: 1px solid #cacaca;
   }
-  /* line 360, ../sass/responsive/_small.scss */
+  /* line 441, ../sass/responsive/_small.scss */
   .top-bar section ul li:hover {
     background: url("../images/bgDark.png") top left;
     opacity: 0.9;
   }
-  /* line 363, ../sass/responsive/_small.scss */
+  /* line 444, ../sass/responsive/_small.scss */
   .top-bar section ul li:hover a {
     opacity: 0.9;
   }
-  /* line 369, ../sass/responsive/_small.scss */
+  /* line 450, ../sass/responsive/_small.scss */
   .top-bar section ul li a:not(.button) {
     line-height: 30px;
     background: url("../images/bgDark.png") top left;
   }
-  /* line 373, ../sass/responsive/_small.scss */
+  /* line 454, ../sass/responsive/_small.scss */
   .top-bar section ul > .divider {
     height: 1px;
     line-height: 1px;
   }
-  /* line 378, ../sass/responsive/_small.scss */
+  /* line 459, ../sass/responsive/_small.scss */
   .top-bar.expanded {
     background: transparent !important;
   }
-  /* line 380, ../sass/responsive/_small.scss */
+  /* line 461, ../sass/responsive/_small.scss */
   .top-bar.expanded .title-area {
     background: transparent;
   }
-  /* line 384, ../sass/responsive/_small.scss */
+  /* line 465, ../sass/responsive/_small.scss */
   .top-bar .toggle-topbar.menu-icon a {
     color: #34abdd;
   }
-  /* line 386, ../sass/responsive/_small.scss */
+  /* line 467, ../sass/responsive/_small.scss */
   .top-bar .toggle-topbar.menu-icon a span {
     position: absolute;
     right: 0;
@@ -448,11 +547,11 @@
     -webkit-box-shadow: 0 10px 0 1px #34abdd, 0 16px 0 1px #34abdd, 0 22px 0 1px #34abdd;
     box-shadow: 0 10px 0 1px #34abdd, 0 16px 0 1px #34abdd, 0 22px 0 1px #34abdd;
   }
-  /* line 397, ../sass/responsive/_small.scss */
+  /* line 478, ../sass/responsive/_small.scss */
   .top-bar.expanded .toggle-topbar.menu-icon a {
     color: #cacaca;
   }
-  /* line 399, ../sass/responsive/_small.scss */
+  /* line 480, ../sass/responsive/_small.scss */
   .top-bar.expanded .toggle-topbar.menu-icon a span {
     position: absolute;
     right: 0;
@@ -477,6 +576,11 @@
   /* line 12, ../sass/responsive/_regular.scss */
   .details .dynamicImages {
     max-width: 492px;
+  }
+
+  /* line 16, ../sass/responsive/_regular.scss */
+  .xp-lists {
+    padding-top: 15px;
   }
 }
 /* Used to alter styles for screens at least 1280px wide. */

@@ -24,6 +24,7 @@
                         "optimiis"=>"Optmiis - Intégration web pour MKT Lines",
                         "aln"=>"Arts London News - Rédaction, journalisme et édition web pour l'Université des Arts de Londres",
                         "tamgvoz"=>"Compagnie Tamara Gvozdenovic - Rédaction, édition et stratégie de communication",
+                        "sitemap"=>"Retrouvez votre chemin.",
                         "404"=>"Cette page n'existe pas !");
        $tab_description=array("index"=>"Benoit Rajalu est un Intégrateur web et developpeur front-end. Vous travaillez à Nantes ou à Rennes ? Faisons connaissance !",
                         "projets"=>"L'intégration et le développement front-end de ces projets ont été réalisés par les mains curieuses et parsemée de sucre de Benoit Rajalu",
@@ -43,9 +44,10 @@
                         "optimiis"=>"L'intégration et un petit peu de développement javascript pour MKT Lines, lors d'un stage à leurs cotés",
                         "aln"=>"La joie des études de journalisme à Londres, et deux ans d'écrits, de mises en pages et d'éditions réalisés pour le journal de l'université",
                         "tamgvoz"=>"Mes travaux de communication et de relation presse, pour le compte d'une jeune compagnie de danse contemporaine",
+                        "sitemap"=>"Retrouvez votre chemin. Cette sitemap ne peut être tenue responsable d'un quelconque trésor découvert, ou non, sur ce site.",
                         "404"=>"Oups. Cette page n'existe pas. Un lutin est sûrement en cause.");
                     
-       $setPages=array("index", "projets", "bio");
+       $setPages=array("index", "projets", "bio", "sitemap", "links");
        $setProjects=array("cheiguei", "foley", "villagraslin", "protectas", "mywebbox", "speederlan", "mktnews", "jenfu", "lightscream", "pmm", "kindle", "henrimichel", "optimiis", "aln", "tamgvoz");
        
        $proj_array=array(
@@ -450,7 +452,7 @@
             } 
             else{
                    header('HTTP/1.0 404 Not Found');
-                   header("Location: 404.html");
+                   header("Location: sitemap.html");
             }                                  
        }
        elseif(isset($_GET['pr']))
@@ -464,7 +466,7 @@
             } 
             else{
                    header('HTTP/1.0 404 Not Found');
-                   header("Location: 404.html");
+                   header("Location: sitemap.html");
             }  
        }
        else{

@@ -1,0 +1,23 @@
+	<div class="row welcome">
+		<div class="large-7 push-5 small-12 columns">
+			<article class="intro smaller">
+				<h2 class="title">Vous êtes ici !</h2>
+				<p>Seriez-vous perdu ? Retrouvez ici l'ensemble des pages disponibles sur ce modeste portfolio. Je vous donnerais bien une bousole, mais j'ai peur que vous le preniez mal.</p>
+				<hr class="downPoint show-for-very-small" />
+			</article>
+		</div>
+
+		<article class="large-7 small-12 columns">
+			<ul class="sitemap">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projets.html">Projets</a>
+					<ul>
+						<?php foreach ($proj_array as $key => $value){ echo 
+							"<li><a href=\"projets/" . $proj_array[$key]["route"] . ".html\">" . $proj_array[$key]["name"] . "</a></li>\n"	
+						 ;} ?>
+					</ul>
+				</li>
+				<li><a href="sitemap.html">Sitemap</a></li>
+				<li><a href="links">Liens</a></li>
+			</ul>
+	</div>

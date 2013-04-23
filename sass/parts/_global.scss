@@ -19,6 +19,14 @@
 			margin:0px;
 			padding:0px;
 		}
+		.upShadow{
+			width:100%;
+			height:7px;
+			background:transparent url("../images/upShadow.png") top center no-repeat;
+			border:none;
+			margin:0px;
+			padding:0px;
+		}
 		.leftShadow{
 			@extend .dropShadow;
 			background:transparent url("../images/leftShadow.png") top right repeat-y;
@@ -107,6 +115,8 @@
 			.project{
 				position:relative;
 				margin-bottom:20px;
+				-webkit-border-radius: 3px;
+  				border-radius: 3px;
 				@include transAll();
 				&.web{
 					width:100%;
@@ -121,6 +131,9 @@
 					margin:0px;
 					padding:0px;
 					background:#cacaca;
+					-webkit-border-radius: 0px 3px 3px 0px;
+  					border-radius: 0px 3px 3px 0px;
+  					overflow:hidden;
 				}
 				.links{
 					position:absolute;
@@ -129,6 +142,8 @@
 					width:10%;
 					height:100%;
 					background:$main-color;
+					-webkit-border-radius: 3px 0px 0px 3px;
+  					border-radius: 3px 0px 0px 3px;
 					@include transAll();
 					&:hover{
 						left:1%;
@@ -411,7 +426,6 @@
 			width:0;
 			margin-top:-32767px;
 		}
-
 	
 // Main content section 
 
@@ -481,5 +495,130 @@
 		}
 		dt{
 			color:$normal-font;
+		}
+	}
+
+// Experience
+	.copy{
+		.sub-nav{
+			margin:10px 0px;
+		}
+	}
+	.xp-lists{
+		margin-bottom:30px;
+		position:relative !important;
+		.xp{
+			position:relative;
+			overflow:auto;
+			margin-bottom:20px;
+			.visual{
+				width:12%;
+				float:left;
+				margin:0px;
+				text-align:center;
+				img{
+					width:80%;
+					max-width:50px;
+					margin: 6px auto 0px auto;
+				}
+				h3{
+					display:none !important;
+				}
+			}
+			&.lvl{
+				margin-bottom:10px;
+				dl{
+					float:none;
+					width:100%;
+					dd{
+						&.role{
+							padding-top:0px;
+						}
+					}
+				}
+			}
+			dl{
+				float:right;
+				margin:0px;
+				width:88%;
+				dd, dt{
+					margin:6px 0px;
+					line-height:1;
+				}
+				dt{
+					@include sans-serif(1em, 0px);
+					color:$main-color;
+					margin:0;
+				}
+				dd{
+					&.when{
+						text-transform:uppercase;
+						font-size:0.6em;
+						font-weight:bold;
+						color:$normal-font;
+					}
+					&.for{
+						margin:8px 4px 2px 0px;
+						font-size:0.8em;
+						color:$weak-font;
+						float:left;
+						text-transform:uppercase;
+						@include sans-serif(0.6em, 0px);
+						a{
+							color:$weak-font;
+							text-decoration:none;
+							&:hover{
+								color:$main-color;
+							}
+						}
+					}
+					&.role{
+						clear:both;
+						display:block;
+						font-size:0.75em;
+						padding-top:5px;
+						line-height:1.5;
+						color:$normal-font;
+					}
+				}
+			}
+		}
+	}
+
+	#skills{
+		margin:20px auto 20px auto;
+		.ask{
+			margin-bottom:20px;
+		}
+		.entry{
+			text-align:center;
+			margin:5px 0px 10px 0px;
+			img{
+				width:80%;
+				max-width:70px;
+				margin:0 auto;
+			}
+			h3{
+				@include sans-serif(0.7em, 0px);
+				color:$normal-font;
+			}
+		}
+	}
+
+// Type pages
+	
+	.sitemap{
+		padding-left:20px;
+		li{
+			padding:0px 0px 0px 10px;
+			list-style-image:url("../images/skills/dot.png");
+			a{
+				font-size:0.8em;
+				@include transAll();
+				&:hover{
+					color:$weak-font;
+					text-decoration:underline;
+				}
+			}
 		}
 	}

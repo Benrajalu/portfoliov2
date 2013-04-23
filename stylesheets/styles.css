@@ -20,13 +20,23 @@ body {
 }
 
 /* line 22, ../sass/parts/_global.scss */
+.upShadow {
+  width: 100%;
+  height: 7px;
+  background: transparent url("../images/upShadow.png") top center no-repeat;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 30, ../sass/parts/_global.scss */
 .leftShadow {
   background: transparent url("../images/leftShadow.png") top right repeat-y;
   height: 100%;
   width: 7px !important;
 }
 
-/* line 28, ../sass/parts/_global.scss */
+/* line 36, ../sass/parts/_global.scss */
 .downPoint {
   background: transparent url("../images/downPoint.png") top center no-repeat;
   height: 15px;
@@ -35,7 +45,7 @@ body {
   left: 0px;
 }
 
-/* line 36, ../sass/parts/_global.scss */
+/* line 44, ../sass/parts/_global.scss */
 .rightPoint {
   background: transparent url("../images/rightPoint.png") center center no-repeat;
   width: 15px;
@@ -48,7 +58,7 @@ body {
   padding: 0px;
 }
 
-/* line 47, ../sass/parts/_global.scss */
+/* line 55, ../sass/parts/_global.scss */
 .clearfix {
   height: 0px;
   visibility: hidden;
@@ -58,12 +68,12 @@ body {
   border: none;
   padding: 0px;
 }
-/* line 55, ../sass/parts/_global.scss */
+/* line 63, ../sass/parts/_global.scss */
 .clearfix.margins {
   margin: 10px 0px;
 }
 
-/* line 59, ../sass/parts/_global.scss */
+/* line 67, ../sass/parts/_global.scss */
 .dropTop {
   background: url("../images/dropTop.png") top center repeat-x transparent;
   height: 6px;
@@ -75,7 +85,7 @@ body {
   margin: 0px;
 }
 
-/* line 69, ../sass/parts/_global.scss */
+/* line 77, ../sass/parts/_global.scss */
 .dropBottom {
   background: url("../images/dropbottom.png") top center repeat-x transparent;
   height: 6px;
@@ -87,19 +97,19 @@ body {
   margin: 0px;
 }
 
-/* line 81, ../sass/parts/_global.scss */
+/* line 89, ../sass/parts/_global.scss */
 .show-for-very-small {
   display: none;
 }
 
-/* line 84, ../sass/parts/_global.scss */
+/* line 92, ../sass/parts/_global.scss */
 .infinity {
   margin: 0px 0px;
   position: relative;
   overflow: hidden;
   height: auto;
 }
-/* line 89, ../sass/parts/_global.scss */
+/* line 97, ../sass/parts/_global.scss */
 .infinity > img {
   width: 100%;
   position: absolute;
@@ -107,44 +117,49 @@ body {
   left: 0;
   z-index: 0;
 }
-/* line 96, ../sass/parts/_global.scss */
+/* line 104, ../sass/parts/_global.scss */
 .infinity.dark {
   background: url("../images/bgDark.png") top left;
   overflow: visible;
 }
 
-/* line 101, ../sass/parts/_global.scss */
+/* line 109, ../sass/parts/_global.scss */
 .blueLine {
   border-bottom: 10px solid #34abdd;
 }
 
-/* line 107, ../sass/parts/_global.scss */
+/* line 115, ../sass/parts/_global.scss */
 .project {
   position: relative;
   margin-bottom: 20px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
   -o-transition: all 0.45s;
   transition: all 0.45s;
 }
-/* line 111, ../sass/parts/_global.scss */
+/* line 121, ../sass/parts/_global.scss */
 .project.web {
   width: 100%;
   float: right;
 }
-/* line 115, ../sass/parts/_global.scss */
+/* line 125, ../sass/parts/_global.scss */
 .project.second {
   width: 80%;
 }
-/* line 118, ../sass/parts/_global.scss */
+/* line 128, ../sass/parts/_global.scss */
 .project .dynamicImages {
   width: 90%;
   float: right;
   margin: 0px;
   padding: 0px;
   background: #cacaca;
+  -webkit-border-radius: 0px 3px 3px 0px;
+  border-radius: 0px 3px 3px 0px;
+  overflow: hidden;
 }
-/* line 125, ../sass/parts/_global.scss */
+/* line 138, ../sass/parts/_global.scss */
 .project .links {
   position: absolute;
   top: 0px;
@@ -152,20 +167,22 @@ body {
   width: 10%;
   height: 100%;
   background: #34abdd;
+  -webkit-border-radius: 3px 0px 0px 3px;
+  border-radius: 3px 0px 0px 3px;
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
   -o-transition: all 0.45s;
   transition: all 0.45s;
 }
-/* line 133, ../sass/parts/_global.scss */
+/* line 148, ../sass/parts/_global.scss */
 .project .links:hover {
   left: 1%;
 }
-/* line 136, ../sass/parts/_global.scss */
+/* line 151, ../sass/parts/_global.scss */
 .project .links h2 {
   display: none;
 }
-/* line 139, ../sass/parts/_global.scss */
+/* line 154, ../sass/parts/_global.scss */
 .project .links .internal, .project .links .external {
   position: absolute;
   width: 100%;
@@ -174,7 +191,7 @@ body {
   display: block;
   overflow: hidden;
 }
-/* line 146, ../sass/parts/_global.scss */
+/* line 161, ../sass/parts/_global.scss */
 .project .links .internal span.text, .project .links .external span.text {
   display: block;
   text-align: center;
@@ -188,7 +205,7 @@ body {
   transition: all 0.45s;
   padding-bottom: 4px;
 }
-/* line 156, ../sass/parts/_global.scss */
+/* line 171, ../sass/parts/_global.scss */
 .project .links .internal span.icon, .project .links .external span.icon {
   display: block;
   width: 80%;
@@ -198,57 +215,57 @@ body {
   margin: 0 auto;
   background: url("../images/porjectIcons.png") no-repeat;
 }
-/* line 166, ../sass/parts/_global.scss */
+/* line 181, ../sass/parts/_global.scss */
 .project .links .internal:hover span.text, .project .links .external:hover span.text {
   text-indent: 0px;
 }
-/* line 171, ../sass/parts/_global.scss */
+/* line 186, ../sass/parts/_global.scss */
 .project .links .internal {
   bottom: 0px;
 }
-/* line 173, ../sass/parts/_global.scss */
+/* line 188, ../sass/parts/_global.scss */
 .project .links .internal span.icon {
   background-position: bottom center;
 }
-/* line 176, ../sass/parts/_global.scss */
+/* line 191, ../sass/parts/_global.scss */
 .project .links .internal span.text {
   padding: 4px 0px 0px 0px;
 }
-/* line 180, ../sass/parts/_global.scss */
+/* line 195, ../sass/parts/_global.scss */
 .project .links .external {
   height: 40px;
   bottom: 43px;
   left: 0px;
 }
-/* line 185, ../sass/parts/_global.scss */
+/* line 200, ../sass/parts/_global.scss */
 .project .links .rightPoint {
   right: -13px;
 }
-/* line 189, ../sass/parts/_global.scss */
+/* line 204, ../sass/parts/_global.scss */
 .project .dropShadow, .project .leftShadow, .project .downPoint {
   position: absolute;
   bottom: -7px;
   width: 100%;
   left: 0px;
 }
-/* line 195, ../sass/parts/_global.scss */
+/* line 210, ../sass/parts/_global.scss */
 .project .leftShadow {
   position: absolute;
   left: -7px;
   top: 0px;
   height: 100%;
 }
-/* line 203, ../sass/parts/_global.scss */
+/* line 218, ../sass/parts/_global.scss */
 .project:hover .dynamicImages img {
   opacity: 0.8;
 }
 
-/* line 210, ../sass/parts/_global.scss */
+/* line 225, ../sass/parts/_global.scss */
 .skill {
   margin-bottom: 20px;
 }
 
-/* line 214, ../sass/parts/_global.scss */
+/* line 229, ../sass/parts/_global.scss */
 .dynamicImages img {
   width: 100%;
   display: block;
@@ -258,17 +275,17 @@ body {
   transition: all 0.45s;
 }
 
-/* line 220, ../sass/parts/_global.scss */
+/* line 235, ../sass/parts/_global.scss */
 .project-nav {
   height: 30px;
 }
-/* line 222, ../sass/parts/_global.scss */
+/* line 237, ../sass/parts/_global.scss */
 .project-nav ul {
   display: block;
   float: right;
   height: 30px;
 }
-/* line 226, ../sass/parts/_global.scss */
+/* line 241, ../sass/parts/_global.scss */
 .project-nav ul li {
   display: inline-block;
   *display: inline;
@@ -276,7 +293,7 @@ body {
   list-style-type: none;
   height: 30px;
 }
-/* line 232, ../sass/parts/_global.scss */
+/* line 247, ../sass/parts/_global.scss */
 .project-nav ul li a {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 10px;
@@ -291,13 +308,13 @@ body {
   -o-transition: all 0.45s;
   transition: all 0.45s;
 }
-/* line 239, ../sass/parts/_global.scss */
+/* line 254, ../sass/parts/_global.scss */
 .project-nav ul li a span {
   display: inline-block;
   zoom: 1;
   height: 15px;
 }
-/* line 243, ../sass/parts/_global.scss */
+/* line 258, ../sass/parts/_global.scss */
 .project-nav ul li a span.icon {
   background: url("../images/navicons.png") no-repeat;
   width: 15px;
@@ -305,7 +322,7 @@ body {
   position: relative;
   top: 2px;
 }
-/* line 250, ../sass/parts/_global.scss */
+/* line 265, ../sass/parts/_global.scss */
 .project-nav ul li a span.text {
   margin: 0 10px;
   -webkit-transition: all 0.45s;
@@ -313,29 +330,29 @@ body {
   -o-transition: all 0.45s;
   transition: all 0.45s;
 }
-/* line 256, ../sass/parts/_global.scss */
+/* line 271, ../sass/parts/_global.scss */
 .project-nav ul li a.return span.icon {
   background-position: left center;
 }
-/* line 261, ../sass/parts/_global.scss */
+/* line 276, ../sass/parts/_global.scss */
 .project-nav ul li a.site span.icon {
   background-position: right center;
 }
-/* line 266, ../sass/parts/_global.scss */
+/* line 281, ../sass/parts/_global.scss */
 .project-nav ul li a:hover span.text {
   border-bottom: 1px dotted #34abdd;
 }
 
-/* line 275, ../sass/parts/_global.scss */
+/* line 290, ../sass/parts/_global.scss */
 .ID h1 {
   display: block;
 }
-/* line 278, ../sass/parts/_global.scss */
+/* line 293, ../sass/parts/_global.scss */
 .ID dl {
   margin: -10px 0px 0 0;
   padding: 0px 0px 0px 15px;
 }
-/* line 281, ../sass/parts/_global.scss */
+/* line 296, ../sass/parts/_global.scss */
 .ID dl dt {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 12px;
@@ -344,7 +361,7 @@ body {
   color: #34abdd;
   margin-top: 10px;
 }
-/* line 286, ../sass/parts/_global.scss */
+/* line 301, ../sass/parts/_global.scss */
 .ID dl dd {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 11px;
@@ -353,7 +370,7 @@ body {
   color: #5c5a5b;
   margin: 0px;
 }
-/* line 290, ../sass/parts/_global.scss */
+/* line 305, ../sass/parts/_global.scss */
 .ID dl dd a {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 11px;
@@ -361,26 +378,26 @@ body {
   font-weight: 300;
   color: #5c5a5b;
 }
-/* line 293, ../sass/parts/_global.scss */
+/* line 308, ../sass/parts/_global.scss */
 .ID dl dd a:hover {
   color: #34abdd;
 }
 
-/* line 301, ../sass/parts/_global.scss */
+/* line 316, ../sass/parts/_global.scss */
 .details section {
   margin-bottom: 40px;
   margin-top: 20px;
 }
-/* line 304, ../sass/parts/_global.scss */
+/* line 319, ../sass/parts/_global.scss */
 .details section .dynamicImages {
   width: 90%;
   float: right;
 }
-/* line 308, ../sass/parts/_global.scss */
+/* line 323, ../sass/parts/_global.scss */
 .details section.copy {
   padding: 0px 0.9375em;
 }
-/* line 312, ../sass/parts/_global.scss */
+/* line 327, ../sass/parts/_global.scss */
 .details h2 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 12px;
@@ -390,13 +407,13 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 320, ../sass/parts/_global.scss */
+/* line 335, ../sass/parts/_global.scss */
 .close {
   position: absolute;
   top: 0;
   right: 15px;
 }
-/* line 324, ../sass/parts/_global.scss */
+/* line 339, ../sass/parts/_global.scss */
 .close a {
   display: block;
   background: url("../images/closeIcon.png") top right no-repeat;
@@ -406,12 +423,12 @@ body {
   text-indent: -999px;
   overflow: hidden;
 }
-/* line 332, ../sass/parts/_global.scss */
+/* line 347, ../sass/parts/_global.scss */
 .close a:hover {
   background-position: bottom right;
 }
 
-/* line 339, ../sass/parts/_global.scss */
+/* line 354, ../sass/parts/_global.scss */
 a.custom {
   display: block;
   background: transparent;
@@ -427,14 +444,14 @@ a.custom {
   font-weight: 300;
   text-transform: uppercase;
 }
-/* line 350, ../sass/parts/_global.scss */
+/* line 365, ../sass/parts/_global.scss */
 a.custom span {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
   -o-transition: all 0.45s;
   transition: all 0.45s;
 }
-/* line 352, ../sass/parts/_global.scss */
+/* line 367, ../sass/parts/_global.scss */
 a.custom span.icon {
   position: absolute;
   width: 28px;
@@ -448,7 +465,7 @@ a.custom span.icon {
   -o-transition: all 0;
   transition: all 0;
 }
-/* line 363, ../sass/parts/_global.scss */
+/* line 378, ../sass/parts/_global.scss */
 a.custom:hover {
   background: transparent;
   border: none;
@@ -456,34 +473,34 @@ a.custom:hover {
   color: #34abdd;
   text-decoration: none;
 }
-/* line 369, ../sass/parts/_global.scss */
+/* line 384, ../sass/parts/_global.scss */
 a.custom:hover span.text {
   border-bottom: 1px dotted #34abdd;
   padding: 2px 0px;
 }
-/* line 373, ../sass/parts/_global.scss */
+/* line 388, ../sass/parts/_global.scss */
 a.custom:hover span.icon {
   background-position: top left;
 }
 
-/* line 381, ../sass/parts/_global.scss */
+/* line 396, ../sass/parts/_global.scss */
 html, body {
   height: 100%;
 }
 
-/* line 385, ../sass/parts/_global.scss */
+/* line 400, ../sass/parts/_global.scss */
 #alpha {
   min-height: 100%;
 }
 
-/* line 389, ../sass/parts/_global.scss */
+/* line 404, ../sass/parts/_global.scss */
 #beta {
   overflow: auto;
   padding-bottom: 30px;
 }
 
 /* must be same height as the footer */
-/* line 394, ../sass/parts/_global.scss */
+/* line 409, ../sass/parts/_global.scss */
 #footer {
   position: relative;
   margin-top: -30px;
@@ -491,7 +508,7 @@ html, body {
   height: 30px;
   clear: both;
 }
-/* line 399, ../sass/parts/_global.scss */
+/* line 414, ../sass/parts/_global.scss */
 #footer p {
   font-size: 11px;
   color: #34abdd;
@@ -499,7 +516,7 @@ html, body {
 }
 
 /*Opera Fix*/
-/* line 407, ../sass/parts/_global.scss */
+/* line 422, ../sass/parts/_global.scss */
 body:before {
   content: "";
   height: 100%;
@@ -508,17 +525,17 @@ body:before {
   margin-top: -32767px;
 }
 
-/* line 418, ../sass/parts/_global.scss */
+/* line 432, ../sass/parts/_global.scss */
 #content {
   padding: 25px 0px;
 }
 
-/* line 422, ../sass/parts/_global.scss */
+/* line 436, ../sass/parts/_global.scss */
 .wrap {
   margin-top: 45px;
   margin-bottom: 45px;
 }
-/* line 425, ../sass/parts/_global.scss */
+/* line 439, ../sass/parts/_global.scss */
 .wrap h3 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 0.96em;
@@ -526,12 +543,12 @@ body:before {
   font-weight: 300;
   color: #5c5a5b;
 }
-/* line 429, ../sass/parts/_global.scss */
+/* line 443, ../sass/parts/_global.scss */
 .wrap.less {
   margin-top: 20px;
 }
 
-/* line 436, ../sass/parts/_global.scss */
+/* line 450, ../sass/parts/_global.scss */
 #myChart {
   position: absolute;
   top: 0px;
@@ -541,7 +558,7 @@ body:before {
   height: 300px !important;
 }
 
-/* line 446, ../sass/parts/_global.scss */
+/* line 460, ../sass/parts/_global.scss */
 .killPad {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
@@ -549,7 +566,7 @@ body:before {
   transition: all 0.45s;
 }
 
-/* line 449, ../sass/parts/_global.scss */
+/* line 463, ../sass/parts/_global.scss */
 #projects {
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
@@ -557,13 +574,13 @@ body:before {
   transition: all 0.45s;
 }
 
-/* line 452, ../sass/parts/_global.scss */
+/* line 466, ../sass/parts/_global.scss */
 #switch {
   text-align: right;
   position: relative;
   overflow: visible;
 }
-/* line 456, ../sass/parts/_global.scss */
+/* line 470, ../sass/parts/_global.scss */
 #switch a {
   display: block;
   width: 120px;
@@ -571,11 +588,11 @@ body:before {
   right: 0px;
 }
 
-/* line 463, ../sass/parts/_global.scss */
+/* line 477, ../sass/parts/_global.scss */
 .sub-nav {
   font-size: 0.85em;
 }
-/* line 466, ../sass/parts/_global.scss */
+/* line 480, ../sass/parts/_global.scss */
 .sub-nav dd.active a {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
@@ -584,18 +601,173 @@ body:before {
   padding: 0.1875em 0.5625em;
   cursor: pointer;
 }
-/* line 473, ../sass/parts/_global.scss */
+/* line 487, ../sass/parts/_global.scss */
 .sub-nav dd.active a:hover {
   opacity: 0.8;
   border-bottom: none;
 }
-/* line 478, ../sass/parts/_global.scss */
+/* line 492, ../sass/parts/_global.scss */
 .sub-nav dd:hover a {
   border-bottom: 1px dotted #34abdd;
 }
-/* line 482, ../sass/parts/_global.scss */
+/* line 496, ../sass/parts/_global.scss */
 .sub-nav dt {
   color: #5c5a5b;
+}
+
+/* line 503, ../sass/parts/_global.scss */
+.copy .sub-nav {
+  margin: 10px 0px;
+}
+
+/* line 507, ../sass/parts/_global.scss */
+.xp-lists {
+  margin-bottom: 30px;
+  position: relative !important;
+}
+/* line 510, ../sass/parts/_global.scss */
+.xp-lists .xp {
+  position: relative;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+/* line 514, ../sass/parts/_global.scss */
+.xp-lists .xp .visual {
+  width: 12%;
+  float: left;
+  margin: 0px;
+  text-align: center;
+}
+/* line 519, ../sass/parts/_global.scss */
+.xp-lists .xp .visual img {
+  width: 80%;
+  max-width: 50px;
+  margin: 6px auto 0px auto;
+}
+/* line 524, ../sass/parts/_global.scss */
+.xp-lists .xp .visual h3 {
+  display: none !important;
+}
+/* line 528, ../sass/parts/_global.scss */
+.xp-lists .xp.lvl {
+  margin-bottom: 10px;
+}
+/* line 530, ../sass/parts/_global.scss */
+.xp-lists .xp.lvl dl {
+  float: none;
+  width: 100%;
+}
+/* line 534, ../sass/parts/_global.scss */
+.xp-lists .xp.lvl dl dd.role {
+  padding-top: 0px;
+}
+/* line 540, ../sass/parts/_global.scss */
+.xp-lists .xp dl {
+  float: right;
+  margin: 0px;
+  width: 88%;
+}
+/* line 544, ../sass/parts/_global.scss */
+.xp-lists .xp dl dd, .xp-lists .xp dl dt {
+  margin: 6px 0px;
+  line-height: 1;
+}
+/* line 548, ../sass/parts/_global.scss */
+.xp-lists .xp dl dt {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0px;
+  font-weight: 300;
+  color: #34abdd;
+  margin: 0;
+}
+/* line 554, ../sass/parts/_global.scss */
+.xp-lists .xp dl dd.when {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: #5c5a5b;
+}
+/* line 560, ../sass/parts/_global.scss */
+.xp-lists .xp dl dd.for {
+  margin: 8px 4px 2px 0px;
+  font-size: 0.8em;
+  color: #cacaca;
+  float: left;
+  text-transform: uppercase;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.6em;
+  letter-spacing: 0px;
+  font-weight: 300;
+}
+/* line 567, ../sass/parts/_global.scss */
+.xp-lists .xp dl dd.for a {
+  color: #cacaca;
+  text-decoration: none;
+}
+/* line 570, ../sass/parts/_global.scss */
+.xp-lists .xp dl dd.for a:hover {
+  color: #34abdd;
+}
+/* line 575, ../sass/parts/_global.scss */
+.xp-lists .xp dl dd.role {
+  clear: both;
+  display: block;
+  font-size: 0.75em;
+  padding-top: 5px;
+  line-height: 1.5;
+  color: #5c5a5b;
+}
+
+/* line 588, ../sass/parts/_global.scss */
+#skills {
+  margin: 20px auto 20px auto;
+}
+/* line 590, ../sass/parts/_global.scss */
+#skills .ask {
+  margin-bottom: 20px;
+}
+/* line 593, ../sass/parts/_global.scss */
+#skills .entry {
+  text-align: center;
+  margin: 5px 0px 10px 0px;
+}
+/* line 596, ../sass/parts/_global.scss */
+#skills .entry img {
+  width: 80%;
+  max-width: 70px;
+  margin: 0 auto;
+}
+/* line 601, ../sass/parts/_global.scss */
+#skills .entry h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 0px;
+  font-weight: 300;
+  color: #5c5a5b;
+}
+
+/* line 610, ../sass/parts/_global.scss */
+.sitemap {
+  padding-left: 20px;
+}
+/* line 612, ../sass/parts/_global.scss */
+.sitemap li {
+  padding: 0px 0px 0px 10px;
+  list-style-image: url("../images/skills/dot.png");
+}
+/* line 615, ../sass/parts/_global.scss */
+.sitemap li a {
+  font-size: 0.8em;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+/* line 618, ../sass/parts/_global.scss */
+.sitemap li a:hover {
+  color: #cacaca;
+  text-decoration: underline;
 }
 
 /* line 5, ../sass/parts/_fonts.scss */
@@ -626,68 +798,108 @@ p a:hover {
 /* line 25, ../sass/parts/_fonts.scss */
 .intro p {
   line-height: 2.1em;
-  font-size: 0.96em;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.9em;
   letter-spacing: 0px;
+  font-weight: 300;
 }
-/* line 30, ../sass/parts/_fonts.scss */
+/* line 29, ../sass/parts/_fonts.scss */
 .intro.smaller {
   padding: 30px 0px 20px 0px;
 }
-/* line 32, ../sass/parts/_fonts.scss */
+/* line 31, ../sass/parts/_fonts.scss */
 .intro.smaller p {
-  font-size: 0.75em;
+  font-size: 0.71em;
+}
+/* line 36, ../sass/parts/_fonts.scss */
+.intro.center .title, .intro.center p {
+  text-align: center !important;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+  display: block;
 }
 
-/* line 38, ../sass/parts/_fonts.scss */
+/* line 46, ../sass/parts/_fonts.scss */
 .weak {
   color: #5c5a5b;
 }
 
-/* line 41, ../sass/parts/_fonts.scss */
+/* line 49, ../sass/parts/_fonts.scss */
 .strong {
   color: #34abdd;
 }
 
-/* line 47, ../sass/parts/_fonts.scss */
+/* line 55, ../sass/parts/_fonts.scss */
 .title {
-  font-family: "Romanesco", cursive;
+  font-family: "Arapey", cursive;
   font-size: 85px;
-  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -3px;
   font-weight: normal;
   margin: 10px 0px 30px 0px;
   line-height: 32px;
   color: #34abdd;
 }
-/* line 53, ../sass/parts/_fonts.scss */
+/* line 61, ../sass/parts/_fonts.scss */
 .title.small {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 2.5em;
   letter-spacing: 1px;
   font-weight: 300;
-  font-family: "Romanesco", cursive;
+  font-family: "Arapey", cursive;
   color: #34abdd;
   display: inline-block;
   padding: 5px;
 }
-/* line 60, ../sass/parts/_fonts.scss */
+/* line 68, ../sass/parts/_fonts.scss */
 .title.center {
   text-align: center;
   display: block;
 }
 
-/* line 67, ../sass/parts/_fonts.scss */
+/* line 73, ../sass/parts/_fonts.scss */
+.hello {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0px auto 20px auto;
+  color: #5c5a5b;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* line 83, ../sass/parts/_fonts.scss */
 .copy .title.small {
   padding: 0px;
   margin: 0px 0px 10px 0px;
 }
 
-/* line 75, ../sass/parts/_fonts.scss */
+/* line 91, ../sass/parts/_fonts.scss */
 .skill h2 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 0.96em;
   letter-spacing: 0px;
   font-weight: 300;
   color: #5c5a5b;
+}
+
+/* line 99, ../sass/parts/_fonts.scss */
+.bio .copy p {
+  line-height: 2.5;
+}
+/* line 102, ../sass/parts/_fonts.scss */
+.bio .copy .ask {
+  font-family: "Arapey", cursive;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #34abdd;
+  margin: 0px 0px 10px 0px;
 }
 
 /* line 3, ../sass/parts/_header.scss */

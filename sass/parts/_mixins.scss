@@ -57,11 +57,13 @@
 
 	// Fonts
 
-		$cursive: 'Romanesco', cursive;
+		$cursive: 'Arapey', cursive;
 		$sans-serif: 'Merriweather Sans', sans-serif;
 		@mixin cursive($size: 11px, $spacing: 1px){
-			font-family: 'Romanesco', cursive;
+			font-family: 'Arapey', cursive;
 			font-size:$size;
+			font-style:italic;
+			font-weight:400;
 			letter-spacing:$spacing;
 		}
 		@mixin sans-serif($size: 11px, $spacing: 1px, $weight: 300){

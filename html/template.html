@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/normalize.css" />
 	<!--[if lt IE 8]> <link rel="stylesheet" href="stylesheets/ie8-grid-foundation-4.css" /> 	<![endif]-->
 	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/app.css" />
-	<link href='http://fonts.googleapis.com/css?family=Romanesco|Merriweather+Sans:300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400|Merriweather+Sans:300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/styles.css" />
 	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/responsive.css" />
  
@@ -40,8 +40,8 @@
 	
 	<footer id="footer">
 		<div class="row">
-			<div class="small-12">
-				<p>This stuff is all mine | <a href="sitemap.html">Sitemap</a> | <a href="#quickContact" data-target="#quickContact" class="collapse">Contact</a> | <a href="liens.html">Liens</a></p>
+			<div class="small-12 columns local">
+				<p>This stuff is all mine | <a href="<?php if(isset($path)){ echo $path;} ?>sitemap.html">Sitemap</a> | <a href="#quickContact" data-target="<?php if(isset($path)){ echo $path;} ?>#quickContact" class="collapse">Contact</a> | <a href="liens.html">Liens</a></p>
 			</div>
 		</div>
 	</footer>
@@ -67,6 +67,7 @@
 	<script src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/parsley.js"></script>
 	<script src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/Chart.min.js"></script>
 	<script src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/filterDis.jquery.js"></script>
+	<script src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
 
 	<script src="<?php if(isset($path)){ echo $path; } ?>javascripts/app.js"></script>
 

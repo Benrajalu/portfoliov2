@@ -3,10 +3,22 @@
 	.show-for-very-small{
 		display:block;
 	}
+	.hide-for-very-small{
+		display:none;
+	}
 	.killPad{
 		padding:0px !important;
 		.title{
 			padding-left:15px;
+		}
+		&.xp{
+			padding:10px 0px !important;
+			&.lvl{
+				padding:10px 0.9375em !important;
+			}
+		}
+		&.xp-lists{
+			margin:20px 0px;
 		}
 	}
 	.project.copy{
@@ -49,6 +61,8 @@
 		.links{
 			left:80%;
 			width:20%;
+			border-radius:0px;
+			-webkit-border-radius:0px;
 			.leftShadow{
 				display:none;
 			}
@@ -141,6 +155,26 @@
 					}
 				}
 			}
+		}
+
+	// Experiences
+		.xp-lists{
+			border-right:0px !important;
+			border-left:0px !important;
+			.xp{
+				dl{
+					dd{
+						&.role{
+							display:none;
+						}
+					}
+				}	
+			}
+		}
+		.hello{
+			@include sans-serif(0.9em, 1px);
+			line-height:1.3;
+			margin:0px auto 20px auto;
 		}
 }
 
@@ -325,7 +359,54 @@
 			}
 		}
 
-}
+	// Experiences
+		.xp-lists{
+			position:relative;
+			border-right:1px solid #e7e7e7;
+			border-left:1px solid #e7e7e7;
+			background-color:#fff;
+			.dropShadow.top{
+				position:absolute;
+				top:-1px;
+				left:0px;
+				width:100%;
+				z-index:9;
+			}
+			.upShadow{
+				position:absolute;
+				left:0px;
+				width:100%;
+				z-index:9;
+				bottom:-0px;
+			}
+			.xp{
+				margin-bottom:0px;
+				padding:10px 0.9375em 10px 0px;
+				border-bottom:1px solid #e7e7e7;
+				&.last{
+					border-bottom:none;
+				}
+				.visual{
+					width:14%;
+				}
+				&.lvl{
+					margin-bottom:0px;
+				}
+				dl{
+					width:86%;
+					dd, dt{
+						margin:6px 0px;
+						line-height:1;
+					}
+					dt{
+						@include sans-serif(1em, 0px);
+						color:$main-color;
+						margin:0;
+					}
+				}
+			}
+		}
+	}
 
 @media only screen and (max-width: 939px) {
 

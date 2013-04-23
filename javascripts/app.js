@@ -2,7 +2,6 @@
 // Initiates foundation scripts
 	$(document).foundation();
 
-
 // Quick Contact
 	$(".collapse").click(function(){
 		event.preventDefault();
@@ -42,6 +41,7 @@
 		}
 	});
 	$(".close").click(function(){
+		event.preventDefault();
 		var target = $(this).attr("data-target");
 		$(target).slideUp(400);
 		window.collapsed="closed";
@@ -117,7 +117,6 @@
 	};
 	drawChart();
 	
-
 // Switch
 	$("#switch").on("click", function(){
 		var state = $(this).children("a").children(".text").html();
@@ -130,7 +129,6 @@
 		
 	});
 	
-
 // Filtering
 	
 
@@ -143,3 +141,17 @@
 		$(this).parent("dd").siblings().removeClass("active");
 		$(this).parent("dd").addClass("active");
 	})
+
+// Local scroll 
+
+	$(".local a").click(function(){
+		var goTo = $(this).attr('href').split("");
+		
+		if(goTo[0] === "#"){
+			$.scrollTo( this.hash, 800);
+			return false;
+		}
+		else{
+			window.location=$(this).attr('href');
+		}
+	}); 
