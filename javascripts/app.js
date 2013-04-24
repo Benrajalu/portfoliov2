@@ -61,6 +61,7 @@
 	    if( $('form#springContact').parsley('validate') )
 	    {
 	    	console.log('Congratulations on validating that fiend of a form, sir.');
+	    	$("#springContact #csubmit").attr("disabled", "disabled");
 
 			var request = $.ajax({
 				url: post_url,
@@ -72,7 +73,8 @@
 				$("#springContact p.message").html( successMessage );
 			});
 					 
-			request.fail(function(jqXHR, textStatus) {
+			request.fail(function() {
+				$("#springContact #csubmit").removeAttr("disabled");
 				$("#springContact p.message").html( errorMessage );
 			});
 	    }

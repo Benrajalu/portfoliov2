@@ -7,7 +7,7 @@
        // Création d'un tableau de variable pour gérer les titres de pages
        
        $tab_title=array("index"=>"Intégrateur web à Rennes, Nantes",
-                        "projets"=>"Intégrateur web et developpeur front-end",
+                        "projets"=>"Intégrateur web et développeur front-end",
                         "bio"=>"CV - Intégrateur web dans l'Ouest de la France",
                         "cheiguei"=>"Cheguei Paris - Intégration responsive",
                         "foley"=>"Morning by Foley - Intégration responsive sur CMS Wordpress",
@@ -25,6 +25,7 @@
                         "aln"=>"Arts London News - Rédaction, journalisme et édition web pour l'Université des Arts de Londres",
                         "tamgvoz"=>"Compagnie Tamara Gvozdenovic - Rédaction, édition et stratégie de communication",
                         "sitemap"=>"Retrouvez votre chemin.",
+                        "liens"=>"Quelques liens utiles",
                         "404"=>"Cette page n'existe pas !");
        $tab_description=array("index"=>"Benoit Rajalu est un Intégrateur web et developpeur front-end. Vous travaillez à Nantes ou à Rennes ? Faisons connaissance !",
                         "projets"=>"L'intégration et le développement front-end de ces projets ont été réalisés par les mains curieuses et parsemée de sucre de Benoit Rajalu",
@@ -38,16 +39,17 @@
                         "mktnews"=>"Pendant un stage réalisé à l'agence MKT Lines, à Rennes, j'ai pu proposer cette démo de newsletter responsive",
                         "jenfu"=>"L'intégration du portfolio de Jen Fu est de mon fait. Toute la direction artistique était déjà en place, il n'y a donc que l'exécution qui me revienne",
                         "lightscream"=>"Webdesign, rédaction, développement back et intégration : un projet entièrement réalisé par mes petits doigts débutants.",
-                        "pmm"=>"Pour nos premières passes d'arme ensemble, l'équipe de PMM m'a confié quelque tâches d'intégration sur leur site vitrine",
-                        "kindle"=>"L'occasion de faire mes premières dents sur les animation en javascript, et un peu de photographie pour le web",
+                        "pmm"=>"Pour nos premières passes d'arme ensemble, l'équipe de PMM m'a confié quelques tâches d'intégration sur leur site vitrine",
+                        "kindle"=>"L'occasion de faire mes premières dents sur les animations en javascript, et un peu de photographie pour le web",
                         "henrimichel"=>"L'intégration d'un site réalisé par MKT Lines lors de mon stage à leurs côtés",
-                        "optimiis"=>"L'intégration et un petit peu de développement javascript pour MKT Lines, lors d'un stage à leurs cotés",
+                        "optimiis"=>"Intégration et un petit peu de développement javascript pour MKT Lines, lors d'un stage à leurs cotés",
                         "aln"=>"La joie des études de journalisme à Londres, et deux ans d'écrits, de mises en pages et d'éditions réalisés pour le journal de l'université",
-                        "tamgvoz"=>"Mes travaux de communication et de relation presse, pour le compte d'une jeune compagnie de danse contemporaine",
+                        "tamgvoz"=>"Mes travaux de communication et de relations presse, pour le compte d'une jeune compagnie de danse contemporaine",
                         "sitemap"=>"Retrouvez votre chemin. Cette sitemap ne peut être tenue responsable d'un quelconque trésor découvert, ou non, sur ce site.",
+                        "liens"=>"Quelques liens utiles",
                         "404"=>"Oups. Cette page n'existe pas. Un lutin est sûrement en cause.");
                     
-       $setPages=array("index", "projets", "bio", "sitemap", "links");
+       $setPages=array("index", "projets", "bio", "sitemap", "liens");
        $setProjects=array("cheiguei", "foley", "villagraslin", "protectas", "mywebbox", "speederlan", "mktnews", "jenfu", "lightscream", "pmm", "kindle", "henrimichel", "optimiis", "aln", "tamgvoz");
        
        $proj_array=array(
@@ -67,8 +69,8 @@
                         "gestion"         => array("url" => "http://www.perpetualmotionmachine.fr/", "name" => "Perpetual Motion Machine"),
                         "gestion2"        => array("url" => "http://www.thequest.fr/", "name" => "The Quest"),
                         "design"          => array("url" => "http://www.todologue.com/", "name" => "Bénédicte Coudreau"),
-                        "copy1"           => "<p>Chei Guei Paris est un site moderne, au style épuré mais raffiné. J'ai pu y réaliser quelques développements spécifiques nécessaires pour accommoder les problématiques d'un site responsive et d'une mise en page précise demandée par le client.</p>
-                                              <p>J'étais l'intégrateur web et le développeur front-end pour ce projet. L'ensemble de la réalisation graphique a été réalisée par Bénédicte Coudreau. Le développement back-end et la gestion de projet technique est au credit de Perpetual Motion Machine. La direction commerciale revient à The Quest.</p>",
+                        "copy1"           => "<p>CheGuei Paris est un site moderne, au style épuré mais raffiné. J'ai pu y réaliser quelques développements spécifiques nécessaires pour accommoder les problématiques d'un site responsive et d'une mise en page précise demandée par le client.</p>
+                                              <p>J'étais l'intégrateur web et le développeur front-end pour ce projet. L'ensemble de la réalisation graphique a été réalisée par Bénédicte Coudreau. Le développement back-end et la gestion de projet technique est au crédit de Perpetual Motion Machine. La direction commerciale revient à The Quest.</p>",
                         "image1"          => array(
                                                 "large"  => "cheiguei-full2.png",
                                                 "medium" => "cheiguei-full1.png",
@@ -76,7 +78,7 @@
                                                 ),
                         "copy2"           => array(
                                                 "title" => "Développement spécifique",
-                                                "text"  => "<p>La page d'accueil de CheGuei Paris utilise un carousel. Seulement, celui-ci ne devait pas fonctionner sur les écrans mobiles : à la place, chacune des diapositive devait se réordonner sur une même colonne. La menoeuve n'étant pas réalisable de façon optimal seulement au travers du CSS, c'est un plugin jQuery développé pour l'occasion qui s'en charge.</p>",
+                                                "text"  => "<p>La page d'accueil de CheGuei Paris utilise un carrousel. Seulement, celui-ci ne devait pas fonctionner sur les écrans mobiles : à la place, chacune des diapositives devait se réordonner sur une même colonne. La manœuvre n'étant pas réalisable de façon optimale seulement au travers du CSS, c'est un plugin jQuery développé pour l'occasion qui s'en charge.</p>",
                                                 ),
                         "image2"          => array(
                                                 1 => array("large"  => "cheiguei-showcase2.png",
@@ -100,8 +102,8 @@
                         "type"            => array("Intégration responsive", "Blog Wordpress"),
                         "gestion"         => array("url" => "http://www.perpetualmotionmachine.fr/", "name" => "Perpetual Motion Machine"),
                         "design"          => array("url" => "http://www.morning-by-foley.com/", "name" => "Foley"),
-                        "copy1"           => "<p>Ce site responsive est à la base une refonte du visuel et des contenus de l'entreprise. Le webdesign simple et clair répond aux demandes du client, et l'utilisation du framework Foundation ont fait de ce site vitrine un projet efficace et économique.</p>
-                                              <p>La gestion de projet et le logo sont au crédit de Speederlan SIII. L'intégration responsive, le webdesign et la rédaction web furent à ma charge.</p>",
+                        "copy1"           => "<p>Un blog sous wordpress, avec l'avantage d'être responsive. Les lecteurs de Foley sont mobiles, et leurs écrans ne le sont pas moins. Cette expérience mêle donc intégration responsive et CMS open-source.</p>
+                                              <p>Le design est au crédit de Foley elle-même. La gestion de projet revient à l'agence Perpetual Motion Machine. L'intégration web responsive sous Wordpress est à mon crédit.</p>",
                         "image1"          => array(
                                                 "large"  => "foley-full2.png",
                                                 "medium" => "foley-full1.png",
@@ -124,8 +126,8 @@
                         "gestion"         => array("url" => "http://www.speederlan.eu/", "name" => "Speederlan"),
                         "design"          => array("url" => "http://www.benrajalu.net/", "name" => "Benoit Rajalu"),
                         "design2"         => array("url" => "http://www.speederlan.eu/", "name" => "Speederlan"),
-                        "copy1"           => "<p>Ce site responsive est à la base une refonte du visuel et des contenus de l'entreprise. Le webdesign simple et clair répond aux demandes du client, et l'utilisation du framework Foundation ont fait de ce site vitrine un projet efficace et économique.</p>
-                                              <p>La gestion de projet et le logo sont au crédit de Speederlan SIII. L'intégration responsive, le webdesign et la rédaction web furent à ma charge.</p>",
+                        "copy1"           => "<p>Site vitrine et évènementiel responsive, Villa Graslin peut être un bon exemple de ce qu'il est possible de faire pour un petit budget et des besoins simples. Malgré ces contraintes, le site reste entièrement sur-mesure afin de correspondre aux demandes du client.
+                                              <p>La gestion de projet et la direction artistique sont au crédit de l'agence SIII. L'intégration responsive est à ma charge. La rédaction web est fournie par le client.</p>",
                         "image1"          => array(
                                                 "large"  => "graslin-full2.png",
                                                 "medium" => "graslin-full1.png",
@@ -145,7 +147,7 @@
                                                             "small"  => "graslin-showcase3b.jpg",
                                                             ),
                                                 ),
-                        "copy3"           => "<p>Cette intégration bénéficiait d'une carte interactive Google Maps entièrement personnalisée pour correspondre au code couleur imposé. Une autre partie du dévéloppement spécifique final se retrouve dans le formulaire de contact, utilisant Ajax.</p>",
+                        "copy3"           => "<p>Cette intégration bénéficiait d'une carte interactive Google Maps entièrement personnalisée pour correspondre au code couleur imposé. Une autre partie du développement spécifique final se retrouve dans le formulaire de contact, utilisant Ajax.</p>",
                   ),
                   "protectas" => array(
                         "route"           => "protectas",
@@ -162,7 +164,7 @@
                         "type"            => array("Intégration responsive", "Rédaction", "Webdesign"),
                         "gestion"         => array("url" => "http://www.speederlan.eu/", "name" => "Speederlan"),
                         "design"          => array("url" => "http://www.benrajalu.net/", "name" => "Benoit Rajalu"),
-                        "copy1"           => "<p>Ce site responsive est à la base une refonte du visuel et des contenus de l'entreprise. Le webdesign simple et clair répond aux demandes du client, et l'utilisation du framework Foundation ont fait de ce site vitrine un projet efficace et économique.</p>
+                        "copy1"           => "<p>Ce site responsive est à la base une refonte du visuel et des contenus du site de l'entreprise. Le webdesign simple et clair répond aux demandes du client, et l'utilisation du framework Foundation a fait de ce site vitrine un projet efficace et économique.</p>
                                               <p>La gestion de projet et le logo sont au crédit de Speederlan SIII. L'intégration responsive, le webdesign et la rédaction web furent à ma charge.</p>",
                         "image1"          => array(
                                                 "large"  => "protectas-full2.png",
@@ -185,8 +187,8 @@
                         "type"            => array("Intégration responsive", "SEO"),
                         "gestion"         => array("url" => "http://www.perpetualmotionmachine.fr/", "name" => "Perpetual Motion Machine"),
                         "design"          => array("url" => "http://www.perpetualmotionmachine.fr/", "name" => "Perpetual Motion Machine"),
-                        "copy1"           => "<p>Une nouvelle agence officiant sur tout l'Ouest, SIII cherchait à compléter l'intégration de son site web responsive, ainsi qu'un rédacteur web pour ses contenus. Cette expérience m'a apporté l'opportunité de travailler sur une structure PHP sur-mesure.</p>
-                                              <p>La gestion de projet et la direction artistique, ainsi que le développement back-end reviennent à l'agence SIII. Mon travail est concentré sur l'intégration et la rédaction web.</p>",
+                        "copy1"           => "<p>Ce projet \"bac à sable\" représentait l'opportunité d'adapter un template à une grille responsive faite maison, ainsi que d'expérimenter plusieurs techniques de minification. L'objectif était de réaliser un site stable et extrêmement rapide au chargement.</p>
+                                              <p>La gestion de projet revient à l'agence Perpetual Motion Machine, ainsi qu'une partie de la rédaction web. L'autre partie ainsi que la gestion SEO, l'intégration et le développement du champ de formulaire est à mon crédit.</p>",
                         "image1"          => array(
                                                 "large"  => "mywebbox-full2.png",
                                                 "medium" => "mywebbox-full1.png",
@@ -231,7 +233,7 @@
                         "type"            => array("Intégration responsive", "Webdesign"),
                         "gestion"         => array("url" => "http://www.mktlines.com/", "name" => "MKT Lines"),
                         "design"          => array("url" => "http://www.benrajalu.net/", "name" => "Benoit Rajalu"),
-                        "copy1"           => "<p>Une newsletter responsive, MKT News était un prototype pour l'agence MKT Lines. Partant du principe que les abonnée reçoivent leurs emails sur divers supports, il semblait pertinent de leur proposer un outil qu'il s'y adapte.</p>
+                        "copy1"           => "<p>Une newsletter responsive, MKT News était un prototype pour l'agence MKT Lines. Partant du principe que les abonnés reçoivent leurs emails sur divers supports, il semblait pertinent de leur proposer un outil qui s'y adapte.</p>
                                               <p>La direction artistique est celle de MKT Lines puisque ce site reprend les codes de leur site principal. Le concept et l'intégration web responsive sont à mon crédit.</p>",
                         "image1"          => array(
                                                 "large"  => "mkt-full2.png",
@@ -254,7 +256,7 @@
                         "type"            => array("Intégration"),
                         "gestion"         => array("url" => "http://www.benrajalu.net/", "name" => "Benoit Rajalu"),
                         "design"          => array("url" => "http://www.jenfu.co.uk/", "name" => "Jen Fu"),
-                        "copy1"           => "<p>Jen Fu est une directrice artistique basée à Londres. Je venais de compléter mon portfolio lorsqu'elle m'a demandé de travailler sur le sien. Très décidée sur l'aspect visuel de son site, elle m'a laissé réaliser l'intégralité du travail technique nécéssaire pour y parvenir. Le site bénéficie également d'une pointe de reponsive pour les tablettes.</p>
+                        "copy1"           => "<p>Jen Fu est une directrice artistique basée à Londres. Je venais de compléter mon portfolio lorsqu'elle m'a demandé de travailler sur le sien. Très décidée sur l'aspect visuel de son site, elle m'a laissé réaliser l'intégralité du travail technique nécessaire pour y parvenir. Le site bénéficie également d'une pointe de reponsive pour les tablettes.</p>
                                               <p>La direction artistique et le webdesign ont donc été réalisés par Jen Fu elle-même, tandis que je me suis chargé de l'intégration web et du développement php basique de son portfolio.</p>",
                         "image1"          => array(
                                                 "large"  => "jenfu-full2.png",
@@ -278,7 +280,7 @@
                         "gestion"         => array("url" => "http://www.benrajalu.net/", "name" => "Benoit Rajalu"),
                         "design"          => array("url" => "http://www.benrajalu.net/", "name" => "Benoit Rajalu"),
                         "design2"         => array("url" => "http://www.cie-tg.ch/", "name" => "Tamara Gvozdenovic"),
-                        "copy1"           => "<p>Je travaille en tant que bénévole pour la compagnie Tamara Gvozdenovic depuis 2010. En cours de formation, j'ai pu réaliser ce site dynamique pour l'une des pièces de la chorégraphe. Ce projet m'a permis d'apréhender les problématiques de développement back-end, l'intégration, la création d'un site mobile ainsi que le webdesign. C'est donc un projet très complet, réalisé en autonomie.</p>
+                        "copy1"           => "<p>Je travaille en tant que bénévole pour la compagnie Tamara Gvozdenovic depuis 2010. En cours de formation, j'ai pu réaliser ce site dynamique pour l'une des pièces de la chorégraphe. Ce projet m'a permis d'appréhender les problématiques de développement back-end, l'intégration, la création d'un site mobile ainsi que le webdesign. C'est donc un projet très complet, réalisé en autonomie.</p>
                                               <p>La direction artistique revient cependant à la compagnie Tamara Gvozdenovic. J'ai réalisé le développement web, l'intégration, la rédaction des contenus et le webdesign.</p>",
                         "image1"          => array(
                                                 "large"  => "lightscream-full2.png",
@@ -287,8 +289,8 @@
                                                 ),
                         "copy2"           => array(
                                                 "title" => "Site mobile",
-                                                "text"  => "<p>Parfois, le responsive design ne suffit pas, ou n'est pas pertinant. Ici, il était surtout un peu tôt pour l'utiliser correctement. C'est donc grâce à un script de détection de l'appareil visiteur que les utilisateurs d'appareils mobiles se verront proposé une version mobile du site .</p>
-                                                            <p>Depuis le back-office sur-mesure, l'administrateur peut controller à la fois le site \"standard\" et ce second support, très simplement.</p>",
+                                                "text"  => "<p>Parfois, le responsive design ne suffit pas, ou n'est pas pertinent. Ici, il était surtout un peu tôt pour l'utiliser correctement. C'est donc grâce à un script de détection de l'appareil visiteur que les utilisateurs d'appareils mobiles se verront proposer une version mobile du site.</p>
+                                                            <p>Depuis le back-office sur-mesure, l'administrateur peut contrôler à la fois le site \"standard\" et ce second support, très simplement.</p>",
                                                 ),
                         "image2"          => array(
                                                 1 => array("large"  => "lightscream-showcase2.png",
@@ -312,7 +314,7 @@
                         "type"            => array("Intégration"),
                         "gestion"         => array("url" => "http://www.perpetualmotionmachine.fr/", "name" => "Perpetual Motion Machine"),
                         "design"          => array("url" => "http://www.perpetualmotionmachine.fr/", "name" => "Perpetual Motion Machine"),
-                        "copy1"           => "<p>Au début de ma coopération avec l'agence Perpetual Motion Machine, l'équipe m'a laissé participer à l'intégration de leur site vitrine. L'utilisation des sprites, le debuggage et les tests de compatibilité fûrent au coeur de mon travail, sans oublier quelques tâches d'intégration.</p>
+                        "copy1"           => "<p>Au début de ma coopération avec l'agence Perpetual Motion Machine, l'équipe m'a laissé participer à l'intégration de leur site vitrine. L'utilisation des sprites, le debuggage et les tests de compatibilité furent au cœur de mon travail, sans oublier quelques tâches d'intégration.</p>
                                               <p>La direction artistique, la gestion de projet et la rédaction web sont toutes au crédit de l'agence. Mon travail s'est limité donc à l'intégration.</p>",
                         "image1"          => array(
                                                 "large"  => "pmm-full2.png",
@@ -335,7 +337,7 @@
                         "type"            => array("Intégration", "Webdesign", "Développement front-end"),
                         "gestion"         => array("url" => "http://www.benrajalu.net/", "name" => "Benoit Rajalu"),
                         "design"          => array("url" => "http://www.benrajalu.net/", "name" => "Benoit Rajalu"),
-                        "copy1"           => "<p>Un projet personnel m'ayant permis de développer mes compétences en javascript et jQuery. L'objectif était de présenter un site graphiquement cohérent qui saurait engager l'utilisateur de part son interactivité.</p>
+                        "copy1"           => "<p>Un projet personnel m'ayant permis de développer mes compétences en javascript et jQuery. L'objectif était de présenter un site graphiquement cohérent qui saurait engager l'utilisateur de par son interactivité.</p>
                                               <p>J'ai donc réalisé le développement spécifique, l'intégration, la charte graphique et la photographie.</p>",
                         "image1"          => array(
                                                 "large"  => "kindle-full2.png",
@@ -344,8 +346,7 @@
                                                 ),
                         "copy2"           => array(
                                                 "title" => "Animation",
-                                                "text"  => "<p>Un projet personnel m'ayant permis de développer mes compétences en javascript et jQuery. L'objectif était de présenter un site graphiquement cohérent qui saurait engager l'utilisateur de part son interactivité.</p>
-                                                            <p>J'ai donc réalisé le développement spécifique, l'intégration, la charte graphique et la photographie.</p>",
+                                                "text"  => "<p>Ce projet était l'occasion de découvrir les joies de l'animation avec jQuery et Javascript. L'utilisateur était invité, à la pression d'un bouton, à déclencher une \"imprimante e-ink\" qui venait reproduire un ouvrage papier.</p>",
                                                 ),
                         "image2"          => array(
                                                 1 => array("large"  => "kinde-showcase2.jpg",
@@ -373,7 +374,7 @@
                         "type"            => array("Intégration"),
                         "gestion"         => array("url" => "http://www.mktlines.com/", "name" => "MKT Lines"),
                         "design"          => array("url" => "http://www.graphisweet.com/", "name" => "GraphiSweet"),
-                        "copy1"           => "<p>Lors d'un stage au sein de l'agence MKT Lines à Rennes, j'ai pu excercer mes premières intégrations à partir d'une maquette Photoshop fournie. Ce site est donc issu de l'unes de ces intégration.</p>
+                        "copy1"           => "<p>Lors d'un stage au sein de l'agence MKT Lines à Rennes, j'ai pu exercer mes premières intégrations à partir d'une maquette Photoshop fournie. Ce site est donc issu de l'une de ces intégrations.</p>
                                               <p>La gestion de projet, le développement dynamique et la SEO ont été assurés par l'agence MKT Line. Le webdesign, par l'agence GraphiSweet. Je me suis chargé de l'intégration.</p>",
                         "image1"          => array(
                                                 "large"  => "henrimichel-full2.png",
@@ -396,8 +397,8 @@
                         "type"            => array("Intégration"),
                         "gestion"         => array("url" => "http://www.mktlines.com/", "name" => "MKT Lines"),
                         "design"          => array("url" => "http://www.graphisweet.com/", "name" => "GraphiSweet"),
-                        "copy1"           => "<p>Second site réalisé sous la direction de l'agence MKT Lines. Là encore, le développement back-end et tout le webdesign m'ont été fournis. Cependant, ce projet m'a permis de proposer quelques solutions spécifiques pour le front-end, nottement au niveau du menu secondaire animé en page d'accueil.</p>
-                                              <p>La gestion de projet, le graphisme et le développement back-end font été réalisés par les agences MKT Lines et GraphiSweet. J'étais chargé du développement front-end et de l'intégration.</p>",
+                        "copy1"           => "<p>Second site réalisé sous la direction de l'agence MKT Lines. Là encore, le développement back-end et tout le webdesign m'ont été fournis. Cependant, ce projet m'a permis de proposer quelques solutions spécifiques pour le front-end, notamment au niveau du menu secondaire animé en page d'accueil.</p>
+                                              <p>La gestion de projet, le graphisme et le développement back-end ont été réalisés par les agences MKT Lines et GraphiSweet. J'étais chargé du développement front-end et de l'intégration.</p>",
                         "image1"          => array(
                                                 "large"  => "optimiis-full2.png",
                                                 "medium" => "optimiis-full1.png",
@@ -418,8 +419,8 @@
                         "date"            => "2008 -2010",
                         "type"            => array("Print & Web", "Rédaction", "Édition"),
                         "author"          => array("link" => "www.benrajalu.net", "name" => "Benoit Rajalu"),
-                        "copy1"           => "<p>Arts London News est le journal de l'université des Arts de Londres. Écrit et édité par les étudiants en journalisme, ce journal s'adresse à l'ensemble des étudiants et du personnel de l'une des plus grandes Universités d'Europe. Afin de maximiser l'intéret formateur, les étudiants en journalisme y assument des rôles très proches de ceux qu'ils seront amenés à endosser en entreprise.</p>
-                                              <p>Ma première mission à Arts London News était en tant que rédacteur d'articles de type \"features\" et de news. Au sein d'une petite équipe, j'ai pu proposer et rédiger différents articles de fond sur des thèmes imposés. J'ai ensuité été nommé rédacteur en chef pour artslondon­news.co.uk, un rôle qui m'a ammené à gérer une équipe de 20 personnes ainsi qu'à prendre en charge le contenu d'un site d'information continue.</p>
+                        "copy1"           => "<p>Arts London News est le journal de l'université des Arts de Londres. Écrit et édité par les étudiants en journalisme, ce journal s'adresse à l'ensemble des étudiants et du personnel de l'une des plus grandes Universités d'Europe. Afin de maximiser l'intérêt formateur, les étudiants en journalisme y assument des rôles très proches de ceux qu'ils seront amenés à endosser en entreprise.</p>
+                                              <p>Ma première mission à Arts London News était en tant que rédacteur d'articles de type \"features\" et de news. Au sein d'une petite équipe, j'ai pu proposer et rédiger différents articles de fond sur des thèmes imposés. J'ai ensuite été nommé rédacteur en chef pour artslondon­news.co.uk, un rôle qui m'a amené à gérer une équipe de 20 personnes ainsi qu'à prendre en charge le contenu d'un site d'information continue.</p>
                                               <p>Selon mon poste, j'ai été amené à réaliser différents articles et news. J'ai conçu des vidéos. J'ai pu créer des maquettes et des mises en pages. Dans le cadre de mon travail de rédacteur en chef, j'ai participé à la formation de mes collègues. Certains de mes travaux sont disponibles en ligne sur Arts London News.</p>"
                   ),
                   "tamgvoz" => array(
@@ -436,9 +437,9 @@
                         "date"            => "2009 -2013",
                         "type"            => array("Print & Web", "Rédaction", "Édition"),
                         "author"          => array("link" => "www.benrajalu.net", "name" => "Benoit Rajalu"),
-                        "copy1"           => "<p>La jeune compagnie Tamara Gvozdenovic est une ambitieuse formation de danse contemporaine. Dans le cadre de sa création et du début de son activité, j'ai été amené à proposer et à concevoir la stratégie marketing de cet association, ainsi que les élements de communications qui en découlent. En collaboration constante avec Tamara, chorégraphe et créatrice de la compagnie, j'assume au gré des demandes le rôle de chargé de communication pour cette compagnie.</p>
-                              <p>Selon les demandes de la compagnie, je peux être amené à réaliser divers supports. La nature de l'activité de l'association rend cette mission largement ponctuelle, et focalisée sur l'information des divers individus succeptibles de faire vivre la compagnie : public, presse, théâtres, institutions... En ce sens, la majeure partie des travaux réalisés sont des documents appropriés à une diffusion presse.</p>
-                              <p>Après la conception d'une stratégie marketing durable, la compagnie m'a chargé de produire différents supports favorisant son fonctionnement et à son developpement. J'ai été ammené à rédiger divers dossiers de presse en Anglais et en Français, ainsi que des communiqués de presse. Dernièrement, j'ai developpé et publié un <a href=\"projets/lightscream.html\">site</a> pour l'une des pièces de la compagnie.</p>"
+                        "copy1"           => "<p>La jeune compagnie Tamara Gvozdenovic est une ambitieuse formation de danse contemporaine. Dans le cadre de sa création et du début de son activité, j'ai été amené à proposer et à concevoir la stratégie marketing de cette association, ainsi que les éléments de communications qui en découlent. En collaboration constante avec Tamara, chorégraphe et créatrice de la compagnie, j'assume au gré des demandes le rôle de chargé de communication pour cette compagnie.</p>
+                              <p>Selon les demandes de la compagnie, je peux être amené à réaliser divers supports. La nature de l'activité de l'association rend cette mission largement ponctuelle, et focalisée sur l'information des divers individus susceptibles de faire vivre la compagnie : public, presse, théâtres, institutions... En ce sens, la majeure partie des travaux réalisés sont des documents appropriés à une diffusion presse.</p>
+                              <p>Après la conception d'une stratégie marketing durable, la compagnie m'a chargé de produire différents supports favorisant son fonctionnement et à son développement. J'ai été amené à rédiger divers dossiers de presse en anglais et en français, ainsi que des communiqués de presse. Dernièrement, j'ai développé et publié un <a href=\"projets/lightscream.html\">site</a> pour l'une des pièces de la compagnie.</p>"
                   ),
             );
 

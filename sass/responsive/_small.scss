@@ -40,7 +40,7 @@
 		}
 		.leftShadow{
 			position:absolute;
-			top:0px;
+			top:6px;
 			left:-7px;
 		}
 		.custom{
@@ -140,7 +140,7 @@
 					text-align:center;
 					color:$main-color;
 					width:80%;
-					max-width:170px;
+					max-width:220px;
 					margin:0 auto 15px auto;
 					background-color:#fff;
 					padding:10px 0px;
@@ -175,6 +175,11 @@
 			@include sans-serif(0.9em, 1px);
 			line-height:1.3;
 			margin:0px auto 20px auto;
+		}
+
+	// Lists
+		.sitemap{
+			padding-top:30px;
 		}
 }
 

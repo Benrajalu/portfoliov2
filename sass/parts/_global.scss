@@ -408,7 +408,7 @@
 
 		#footer{
 			position: relative;
-			margin-top: -30px; /* negative value of footer height */
+			margin-top: -32px; /* negative value of footer height */
 			height: 30px;
 			clear:both;
 			p{
@@ -612,12 +612,18 @@
 		li{
 			padding:0px 0px 0px 10px;
 			list-style-image:url("../images/skills/dot.png");
+			font-size:0.8em;
+			color:$normal-font;
 			a{
-				font-size:0.8em;
 				@include transAll();
 				&:hover{
 					color:$weak-font;
 					text-decoration:underline;
+				}
+			}
+			ul{
+				li{
+					font-size:0.9em;
 				}
 			}
 		}
