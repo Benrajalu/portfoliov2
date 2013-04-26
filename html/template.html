@@ -1,23 +1,22 @@
 
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<meta name="viewport" content="width=device-width" />
 	<title>Benoit Rajalu - <?php if(isset($title)){echo $title;}else{echo "Intégrateur web à Rennes, Nantes - CSS3 / HTML5 / jQuery / Javascript / Twig / SASS";}?></title>
 	<meta name="description" content="<?php if(isset($description)){echo $description;}else{echo "Benoit Rajalu est un Intégrateur web et développeur front-end. Vous travaillez à Nantes ou à Rennes ? Faisons connaissance !";}?>">
 	
 	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/normalize.css" />
-	<!--[if lt IE 8]> <link rel="stylesheet" href="stylesheets/ie8-grid-foundation-4.css" /> 	<![endif]-->
 	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/app.css" />
 	<link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400|Merriweather+Sans:300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/styles.css" />
 	<link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/responsive.css" />
+	<!--[if lt IE 9]> <link rel="stylesheet" href="<?php if(isset($path)){echo $path;} ?>stylesheets/ie8-grid-foundation-4.css" /> 	<![endif]-->
  
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/custom.modernizr.js"></script>
+	<script src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/custom.modernizr.js"></script>
 </head>
 
 <body>
@@ -42,22 +41,23 @@
 	<footer id="footer">
 		<div class="row">
 			<div class="small-12 columns local">
-				<p>This stuff is all mine | <a href="<?php if(isset($path)){ echo $path;} ?>sitemap.html">Sitemap</a> | <a href="#quickContact" data-target="#quickContact" class="collapse">Contact</a> | <a href="<?php if(isset($path)){ echo $path;} ?>liens.html">Liens</a></p>
+				<p>This stuff is all mine | <a href="<?php if(isset($path)){ echo $path;} ?>map">Sitemap</a> | <a href="#quickContact" data-target="#quickContact" class="collapse">Contact</a> | <a href="<?php if(isset($path)){ echo $path;} ?>liens">Liens</a></p>
 			</div>
 		</div>
 	</footer>
 
 
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/jquery.js"></script>
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/foundation.min.js"></script>
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/matchmedia.js"></script>
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/picturefill.js"></script>
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/parsley.js"></script>
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/Chart.min.js"></script>
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/filterDis.jquery.js"></script>
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/jquery.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/foundation.min.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/matchmedia.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/picturefill.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/parsley.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/Chart.min.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/filterDis.jquery.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/tardis.jquery.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
 
-	<script asynch src="<?php if(isset($path)){ echo $path; } ?>javascripts/app.js"></script>
+	<script defer src="<?php if(isset($path)){ echo $path; } ?>javascripts/app.js"></script>
 
 	<!-- Include G.Analytics here-->
 	  <script type="text/javascript">

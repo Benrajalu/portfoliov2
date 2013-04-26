@@ -1,9 +1,9 @@
 	<nav id="mainMenu">
-	  <h1><a href="<?php if(isset($path)){echo $path;} ?>index.html">Benoit Rajalu - Intégration web</a></h1>
+	  <h1><a href="<?php if(isset($path)){echo $path;} ?>home">Benoit Rajalu - Intégration web</a></h1>
 	  <section>
 	    <ul>
-	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="bio"){ echo "class=\"active\"";} ?>><a href="<?php if(isset($path)){echo $path;} ?>bio.html"><span>CV</span></a></li>
-	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="projets"||isset($_GET['pr'])){ echo "class=\"active\"";} ?>><a href="<?php if(isset($path)){echo $path;} ?>projets.html"><span>Projets</span></a></li>
+	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="bio"){ echo "class=\"active\"";} ?>><a href="<?php if(isset($path)){echo $path;} ?>bio"><span>CV</span></a></li>
+	      <li <?php if(isset($_GET["p"])&&$_GET["p"]==="projets"||isset($_GET['pr'])){ echo "class=\"active\"";} ?>><a href="<?php if(isset($path)){echo $path;} ?>projets"><span>Projets</span></a></li>
 	      <li><a href="#" data-target="#quickContact" class="collapse"><span>Contact</span></a></li>
 	    </ul>
 	  </section>

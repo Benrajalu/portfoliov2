@@ -10,7 +10,7 @@
 	      $.extend( settings, options );
 	    }
 
-	    $(this).find('a').click(function(){
+	    $(this).find('a').click(function(event){
 	    	event.preventDefault();
 	    	var tag = $(this).attr("href");
 	    	

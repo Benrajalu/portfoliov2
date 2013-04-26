@@ -34,20 +34,20 @@
 				foreach ($spotLight as $key => $value){ echo 
 					"<div class=\"large-6 small-12 columns killPad\">\n
 						<article class=\"project web\" data-tags=\"" . $spotLight[$key]["tags"] . "\">\n
-							<a href=\"projets/" . $spotLight[$key]["route"] . ".html\">\n
+							<a href=\"projets/" . $spotLight[$key]["route"] . "\">\n
 								<div class=\"dynamicImages\" data-picture data-alt=\"" . $spotLight[$key]["name"] . "\">\n
 									<div data-src=\"images/projets/" . $spotLight[$key]["cover"]["large"] . "\"></div>\n
 									<div data-src=\"images/projets/" . $spotLight[$key]["cover"]["small"] . "\" data-media=\"(min-width:0px)\"></div>\n
 									<div data-src=\"images/projets/" . $spotLight[$key]["cover"]["medium"] . "\" data-media=\"(min-width:421px)\"></div>\n
 								    <div data-src=\"images/projets/" . $spotLight[$key]["cover"]["large"] . "\" data-media=\"(min-width:767px)\"></div>\n
 								    <noscript>\n
-								        <a href=\"projets/" . $spotLight[$key]["route"] . ".html\"><img src=\"images/projets/" . $spotLight[$key]["cover"]["large"] . "\" alt=\"" . $spotLight[$key]["name"] . "\"></a>\n
+								        <img src=\"images/projets/" . $spotLight[$key]["cover"]["large"] . "\" alt=\"" . $spotLight[$key]["name"] . "\">\n
 								    </noscript>\n
 								</div>\n
 							</a>\n
 							<section class=\"links\">\n
 								<h2>" . $spotLight[$key]["name"] . "</h2>\n
-								<a href=\"projets/" . $spotLight[$key]["route"] . ".html\" class=\"internal\"><span class=\"icon\"></span><span class=\"text\">Infos</span></a>\n
+								<a href=\"projets/" . $spotLight[$key]["route"] . "\" class=\"internal\"><span class=\"icon\"></span><span class=\"text\">Infos</span></a>\n
 								<a href=\"http://" . $spotLight[$key]["url"]. "\" class=\"external\" target=\"_blank\"><span class=\"text\">Site</span><span class=\"icon\"></span></a>\n
 								<hr class=\"rightPoint\"/>\n
 								<hr class=\"leftShadow\"/>\n
@@ -64,20 +64,20 @@
 					foreach ($archive as $key => $value){ echo 
 						"<div class=\"large-6 small-12 columns killPad\">\n
 							<article class=\"project web\" data-tags=\"" . $archive[$key]["tags"] . "\">\n
-								<a href=\"projets/" . $archive[$key]["route"] . ".html\">\n
+								<a href=\"projets/" . $archive[$key]["route"] . "\">\n
 									<div class=\"dynamicImages\" data-picture data-alt=\"" . $archive[$key]["name"] . "\">\n
 										<div data-src=\"images/projets/" . $archive[$key]["cover"]["large"] . "\"></div>\n
 										<div data-src=\"images/projets/" . $archive[$key]["cover"]["small"] . "\" data-media=\"(min-width:0px)\"></div>\n
 										<div data-src=\"images/projets/" . $archive[$key]["cover"]["medium"] . "\" data-media=\"(min-width:421px)\"></div>\n
 									    <div data-src=\"images/projets/" . $archive[$key]["cover"]["large"] . "\" data-media=\"(min-width:767px)\"></div>\n
 									    <noscript>\n
-									        <a href=\"projets/" . $archive[$key]["route"] . ".html\"><img src=\"images/projets/" . $archive[$key]["cover"]["large"] . "\" alt=\"" . $archive[$key]["name"] . "\"></a>\n
+									        <img src=\"images/projets/" . $archive[$key]["cover"]["large"] . "\" alt=\"" . $archive[$key]["name"] . "\">\n
 									    </noscript>\n
 									</div>\n
 								</a>\n
 								<section class=\"links\">\n
 									<h2>" . $archive[$key]["name"] . "</h2>\n
-									<a href=\"projets/" . $archive[$key]["route"] . ".html\" class=\"internal\"><span class=\"icon\"></span><span class=\"text\">Infos</span></a>\n
+									<a href=\"projets/" . $archive[$key]["route"] . "\" class=\"internal\"><span class=\"icon\"></span><span class=\"text\">Infos</span></a>\n
 									<a href=\"http://" . $archive[$key]["url"]. "\" class=\"external\" target=\"_blank\"><span class=\"text\">Site</span><span class=\"icon\"></span></a>\n
 									<hr class=\"rightPoint\"/>\n
 									<hr class=\"leftShadow\"/>\n
@@ -97,5 +97,4 @@
 			</div>
 
 		</div>
-	</div>
 <!-- End of Work section -->

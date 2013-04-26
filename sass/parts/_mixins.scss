@@ -57,10 +57,10 @@
 
 	// Fonts
 
-		$cursive: 'Arapey', cursive;
+		$cursive: 'Arapey', serif;
 		$sans-serif: 'Merriweather Sans', sans-serif;
 		@mixin cursive($size: 11px, $spacing: 1px){
-			font-family: 'Arapey', cursive;
+			font-family: 'Arapey', serif;
 			font-size:$size;
 			font-style:italic;
 			font-weight:400;

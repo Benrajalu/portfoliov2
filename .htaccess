@@ -1,4 +1,4 @@
-ErrorDocument 404 /portfoliov2/html/index.php?p=sitemap&error=true
+ErrorDocument 404 /portfoliov2/html/index.php?p=404&error=true
 
 AddType video/ogg  .ogv
 AddType video/mp4  .mp4
@@ -19,6 +19,6 @@ RewriteEngine on
 # Règles de réécriture d'URL :
 #--------------------------------------------------
 
-RewriteRule ^index.html$    html/index.php [L]
-RewriteRule ^([a-zA-Z0-9_-]+)\.html$    html/index.php?p=$1 [L]
-RewriteRule ^projets/([a-zA-Z0-9_-]+)\.html$    html/index.php?pr=$1 [L]
+RewriteRule ^home$    html/index.php [L]
+RewriteRule ^([a-zA-Z0-9_-]+)$    html/index.php?p=$1 [L]
+RewriteRule ^projets/([a-zA-Z0-9_-]+)$    html/index.php?pr=$1 [L]

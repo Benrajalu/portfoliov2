@@ -6,7 +6,7 @@
              
        // Création d'un tableau de variable pour gérer les titres de pages
        
-       $tab_title=array("index"=>"Intégrateur web à Rennes, Nantes",
+       $tab_title=array("home"=>"Intégrateur web à Rennes, Nantes",
                         "projets"=>"Intégrateur web et développeur front-end",
                         "bio"=>"CV - Intégrateur web dans l'Ouest de la France",
                         "cheiguei"=>"Cheguei Paris - Intégration responsive",
@@ -24,10 +24,10 @@
                         "optimiis"=>"Optmiis - Intégration web pour MKT Lines",
                         "aln"=>"Arts London News - Rédaction, journalisme et édition web pour l'Université des Arts de Londres",
                         "tamgvoz"=>"Compagnie Tamara Gvozdenovic - Rédaction, édition et stratégie de communication",
-                        "sitemap"=>"Retrouvez votre chemin.",
+                        "map"=>"Retrouvez votre chemin.",
                         "liens"=>"Quelques liens utiles",
                         "404"=>"Cette page n'existe pas !");
-       $tab_description=array("index"=>"Benoit Rajalu est un Intégrateur web et developpeur front-end. Vous travaillez à Nantes ou à Rennes ? Faisons connaissance !",
+       $tab_description=array("home"=>"Benoit Rajalu est un Intégrateur web et developpeur front-end. Vous travaillez à Nantes ou à Rennes ? Faisons connaissance !",
                         "projets"=>"L'intégration et le développement front-end de ces projets ont été réalisés par les mains curieuses et parsemée de sucre de Benoit Rajalu",
                         "bio"=>"Voici la liste des ingrédients nécéssaire à la fabrication de Benoit Rajalu. Résultats non-garantis.",
                         "cheiguei"=>"Ce site responsive a été intégré par Benoit Rajalu. Mais toute la gloire revient à The Quest et PMM", 
@@ -45,11 +45,11 @@
                         "optimiis"=>"Intégration et un petit peu de développement javascript pour MKT Lines, lors d'un stage à leurs cotés",
                         "aln"=>"La joie des études de journalisme à Londres, et deux ans d'écrits, de mises en pages et d'éditions réalisés pour le journal de l'université",
                         "tamgvoz"=>"Mes travaux de communication et de relations presse, pour le compte d'une jeune compagnie de danse contemporaine",
-                        "sitemap"=>"Retrouvez votre chemin. Cette sitemap ne peut être tenue responsable d'un quelconque trésor découvert, ou non, sur ce site.",
+                        "map"=>"Retrouvez votre chemin. Cette sitemap ne peut être tenue responsable d'un quelconque trésor découvert, ou non, sur ce site.",
                         "liens"=>"Quelques liens utiles",
                         "404"=>"Oups. Cette page n'existe pas. Un lutin est sûrement en cause.");
                     
-       $setPages=array("index", "projets", "bio", "sitemap", "liens");
+       $setPages=array("home", "projets", "bio", "map", "liens", "404");
        $setProjects=array("cheiguei", "foley", "villagraslin", "protectas", "mywebbox", "speederlan", "mktnews", "jenfu", "lightscream", "pmm", "kindle", "henrimichel", "optimiis", "aln", "tamgvoz");
        
        $proj_array=array(
@@ -453,7 +453,8 @@
             } 
             else{
                    header('HTTP/1.0 404 Not Found');
-                   header("Location: sitemap.html");
+                   $_GET['error'] = true;
+                   header("Location: 404");
             }                                  
        }
        elseif(isset($_GET['pr']))
@@ -467,22 +468,23 @@
             } 
             else{
                    header('HTTP/1.0 404 Not Found');
-                   header("Location: sitemap.html");
+                   $_GET['error'] = true;
+                   header("Location: 404");
             }  
        }
        else{
-                  $_GET['p']="index";
-                  $content="index.html";
-                  $title=$tab_title["index"];
-                  $description=$tab_description["index"];
+                  $_GET['p']="home";
+                  $content="home.html";
+                  $title=$tab_title["home"];
+                  $description=$tab_description["home"];
        }
        
 
        if(!isset($_GET['p']) && !isset($_GET['pr']))
        {
-                  $content="index" . ".html"; 
-                  $title=$tab_title["index"];
-                  $description=$tab_description["index"];
+                  $content="home" . ".html"; 
+                  $title=$tab_title["home"];
+                  $description=$tab_description["home"];
        }
       
       // FIN DE LA REDIRECTION GÉNÉRALE POUR LES PAGES

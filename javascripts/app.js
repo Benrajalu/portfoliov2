@@ -3,7 +3,7 @@
 	$(document).foundation();
 
 // Quick Contact
-	$(".collapse").click(function(){
+	$(".collapse").click(function(event){
 		event.preventDefault();
 		var target= $(this).attr("data-target");
 
@@ -40,7 +40,7 @@
 			return(false);
 		}
 	});
-	$(".close").click(function(){
+	$(".close").click(function(event){
 		event.preventDefault();
 		var target = $(this).attr("data-target");
 		$(target).slideUp(400);
@@ -139,7 +139,8 @@
 		items : ".project",
 	});
 
-	$("#filters").find("a").click(function(){
+	$("#filters").find("a").click(function(event){
+		event.preventDefault();
 		$(this).parent("dd").siblings().removeClass("active");
 		$(this).parent("dd").addClass("active");
 	})
@@ -157,3 +158,7 @@
 			window.location=$(this).attr('href');
 		}
 	}); 
+
+// Tardis
+
+	$(document).tardis();

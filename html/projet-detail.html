@@ -1,7 +1,7 @@
 	<div class="row">
 		<nav class="project-nav small-12 columns">
 			<ul>
-				<li><a href="<?php if(isset($path)){echo $path;} ?>projets.html" class="return"><span class="text">Retour</span><span class="icon"></span></a></li>
+				<li><a href="<?php if(isset($path)){echo $path;} ?>projets" class="return"><span class="text">Retour</span><span class="icon"></span></a></li>
 				<li><a href="http://<?php echo $proj_array[$project]["url"] ?>" target="_blank" class="site"><span class="text">Voir le site</span><span class="icon"></span></a></li>
 			</ul>
 		</nav>
@@ -67,7 +67,7 @@
 							<div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image1"]["large"] . "\" data-media=\"(min-width:421px)\"></div>\n
 						    <div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image1"]["medium"] . "\" data-media=\"(min-width:767px)\"></div>\n
 						    <noscript>\n
-						        <a href=\"projets/" . $_GET["pr"] . ".html\"" . $path . "images/projets/" . $proj_array[$project]["image1"]["large"] . "\" alt=\"" . $proj_array[$project]["name"] . "\"></a>\n
+						       <img src=\"" . $path . "images/projets/" . $proj_array[$project]["image1"]["large"] . "\" alt=\"" . $proj_array[$project]["name"] . "\">\n
 						    </noscript>\n
 						</div>\n
 						<hr class=\"clearfix\" />\n
@@ -91,7 +91,7 @@
 							<div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image2"][$i + 1]["large"] . "\" data-media=\"(min-width:421px)\"></div>\n
 						    <div data-src=\"" . $path . "images/projets/" . $proj_array[$project]["image2"][$i + 1]["medium"] . "\" data-media=\"(min-width:767px)\"></div>\n
 						    <noscript>\n
-						        <a href=\"projets/" . $_GET["pr"] . ".html\"" . $path . "images/projets/" . $proj_array[$project]["image2"][$i +1]["large"] . "\" alt=\"" . $proj_array[$project]["name"] . "\"></a>\n
+						       <img src=\"" . $path . "images/projets/" . $proj_array[$project]["image2"][$i +1]["large"] . "\" alt=\"" . $proj_array[$project]["name"] . "\">\n
 						    </noscript>\n
 						</div>\n
 						<hr class=\"clearfix\" />\n

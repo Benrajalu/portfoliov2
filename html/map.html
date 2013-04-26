@@ -1,8 +1,8 @@
 	<div class="row welcome">
 		<div class="large-7 push-5 small-12 columns">
 			<article class="intro smaller">
-				<h2 class="title">832 - 428 ?</h2>
-				<p>La page que vous cherchez n'existe pas ! Seriez-vous perdu ? Retrouvez ici l'ensemble des pages disponibles sur ce modeste portfolio. Je vous donnerais bien une boussole, mais j'ai peur que vous le preniez mal.</p>
+				<h2 class="title"><?php if(isset($_GET['error'])){ echo "832 - 428 ?";}else{echo "Vous êtes ici !";}?></h2>
+				<p><?php if(isset($_GET['error'])){ echo "La page que vous cherchez n'existe pas ! ";} ?>Seriez-vous perdu ? Retrouvez ici l'ensemble des pages disponibles sur ce modeste portfolio. Je vous donnerais bien une boussole, mais j'ai peur que vous le preniez mal.</p>
 				<hr class="downPoint show-for-very-small" />
 			</article>
 		</div>
